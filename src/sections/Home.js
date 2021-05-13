@@ -52,7 +52,7 @@ const Home = () => {
         <Paragraph>
           Hello, my name is Kevin. After working in software engineering and web
           development for near-on 20 years, I've come to the conclusion that
-          it's time I had a website website.
+          it's time I had a website.
         </Paragraph>
       </Content>
     </Container>
