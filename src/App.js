@@ -23,7 +23,7 @@ const Title = styled.h1`
 
 const App = () => (
   <Container>
-    <Title>kevinpaxton.dev</Title>
+    <Title>kevinpaxton.com</Title>
   </Container>
 );
 
