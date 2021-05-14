@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 const StyledContent = styled.div`
   max-width: 70rem;
+  margin: 0 auto;
   text-align: ${({ align }) => align};
   ${space}
 `;

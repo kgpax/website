@@ -2,7 +2,9 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const StyledSection = styled.section`
-  padding: ${({ theme }) => theme.space[4]};
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   background: linear-gradient(
     ${({ bgAngle }) => `${bgAngle}deg`},
     ${({ bg, bg1, bg2, bgSplit }) =>
