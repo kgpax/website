@@ -12,12 +12,19 @@ const SiteBuild001 = () => (
       </Paragraph>
       <Paragraph>
         I wasn't sure what I would put on a site... in fact at the time of
-        writing this, I'm still not sure. I'm a bit of an oddball in that I'm
-        self confident whilst also being quite shy and humble, and I find it
-        hard to put myself or my ideas out there in such a public space. I'd
-        been given suggestions about making a blog, or a portfolio site, or even
-        just having a space to do some side projects and little fun hacks; all
-        of which are good ideas.
+        writing this I'm still not sure. I'm a bit of an odd person &mdash; some
+        would say stop the sentence there &mdash; in that I'm confident and have
+        a lot of self-belief whilst simultaneously being quite shy, humble and
+        self-effacing about putting myself or the work I produce out there in
+        such a public space; I'm not entirely sure{' '}
+        <ExternalLink href="https://en.wikipedia.org/wiki/Impostor_syndrome">
+          why this is
+        </ExternalLink>
+        , but putting this website out there is a way to try and fight those
+        demons. I'd been given suggestions about making a blog, or a portfolio
+        site, or even just having a space to do some side projects and little
+        fun hacks; all of which are good ideas, and all of which might make
+        their way into it at some point.
       </Paragraph>
       <Paragraph>
         I figured that for my opening gambit, I could write about my experience
@@ -127,14 +134,12 @@ const SiteBuild001 = () => (
         tried to go it alone with my painfully limited DNS knowledge, but in the
         end - here we are.
       </Paragraph>
-      <Paragraph>
-        The start has been made. Now I've got to keep it up.
-      </Paragraph>
+      <Paragraph>A start has been made. Now I've got to keep it up.</Paragraph>
     </Segment>
 
     <Segment heading="Next steps">
       <Paragraph>
-        I'm going to try an make this a regular section to my updates, where I
+        I'm going to try and make this a regular section to my updates, where I
         list bits I want to go after next. I won't hold myself to getting
         everything done, but it will serve as an interesting retrospective for
         my journey.
