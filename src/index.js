@@ -32,9 +32,12 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     font-weight: normal;
   }
-  p {
+  body, a {
+    color: #131317;
+  }
+  p, div, span {
+    line-height: 1.9em;
     margin: 0;
-    line-height: 1.5em;
   }
   button, textarea, select {
     font: inherit;

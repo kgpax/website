@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
-const StyledParagraph = styled.p``;
+const StyledParagraph = styled.p`
+  & + & {
+    margin-top: ${({ theme }) => theme.space[3]};
+  }
+`;
 
 const Paragraph = (props) => <StyledParagraph {...props} />;
 Paragraph.propTypes = {};

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import { Section, Content, Paragraph } from '../components';
+import { pickColorPair } from '../utils/colors';
+import { Section, Content, Paragraph, LinkButton } from '../components';
 
 const Container = styled(Section)`
   display: flex;
@@ -33,15 +34,6 @@ const SubTitle = styled.h2`
   font-weight: 300;
 `;
 
-const pairs = [
-  ['#D7F2BA', '#BDE4A8'],
-  ['#FFF200', '#FFD300'],
-  ['#97D2FB', '#83BCFF'],
-  ['#FFBE85', '#FF9B42'],
-];
-
-const pickColorPair = () => pairs[Math.floor(Math.random() * pairs.length)];
-
 const Home = () => {
   const [bg1, bg2] = pickColorPair();
   return (
@@ -54,6 +46,22 @@ const Home = () => {
           development for near-on 20 years, I've come to the conclusion that
           it's time I had a website.
         </Paragraph>
+        <Paragraph>
+          In an attempt to get the creative juices flowing with what to put on
+          this part of the cloud, I figured that I'd docuemnt the process of
+          getting this site up and built to a level I'm happy with, which will
+          be it's own challange but more on that later.
+        </Paragraph>
+        <Paragraph>
+          This will be a huge brain dump of the technical and creative thought
+          process, and will arrive in stages alongside the general updates to
+          the site.
+        </Paragraph>
+      </Content>
+      <Content mt={4} align="center">
+        <LinkButton href="/site-build-001">
+          Let's get started, shall we? &rarr;
+        </LinkButton>
       </Content>
     </Container>
   );
