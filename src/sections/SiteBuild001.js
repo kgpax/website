@@ -144,28 +144,25 @@ const SiteBuild001 = () => (
         everything done, but it will serve as an interesting retrospective for
         my journey.
       </Paragraph>
-      <Paragraph>
-        Here's what I hope to put up next time:
-        <ul>
-          <li>
-            Put some motion on the landing page - I love a bit of subtle
-            animation, me
-          </li>
-          <li>
-            Work on the page backgrounds - change those straight lines to
-            curves?
-          </li>
-          <li>Favicon and early browser and device testing</li>
-          <li>Think about the navigation structure of the site</li>
-        </ul>
-        Stretch goals:
-        <ul>
-          <li>
-            Get some illustrations and imagery in place - this is far too text
-            heavy, I want to fix that
-          </li>
-        </ul>
-      </Paragraph>
+      <Paragraph>Here's what I hope to put up next time:</Paragraph>
+      <ul>
+        <li>
+          Put some motion on the landing page - I love a bit of subtle
+          animation, me
+        </li>
+        <li>
+          Work on the page backgrounds - change those straight lines to curves?
+        </li>
+        <li>Favicon and early browser and device testing</li>
+        <li>Think about the navigation structure of the site</li>
+      </ul>
+      <Paragraph>Stretch goals:</Paragraph>
+      <ul>
+        <li>
+          Get some illustrations and imagery in place - this is far too text
+          heavy, I want to fix that
+        </li>
+      </ul>
     </Segment>
   </Page>
 );

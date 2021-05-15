@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { space } from 'styled-system';
 import PropTypes from 'prop-types';
 
 const StyledSection = styled.section`
@@ -10,6 +11,8 @@ const StyledSection = styled.section`
     ${({ bg, bg1, bg2, bgSplit }) =>
       `${bg1 || bg} ${bgSplit}%, ${bg2 || bg} ${bgSplit}%`}
   );
+  ${space};
+  padding: ${({ theme }) => theme.space[4]};
 `;
 
 const Section = (props) => <StyledSection {...props} />;

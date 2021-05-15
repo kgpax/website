@@ -1,6 +1,8 @@
 import styled from 'styled-components';
+import { space } from 'styled-system';
 import { pickColorPair } from '../utils/colors';
 import {
+  Title,
   Section,
   Content,
   Paragraph,
@@ -9,17 +11,14 @@ import {
 } from '../components';
 
 const Container = styled(Section)`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  text-align: center;
 `;
 
-const Title = styled.h1`
+const StyledTitle = styled(Title)`
   font-size: 6vw;
   color: rgba(0, 0, 0, 0.8);
   font-weight: 400;
+  ${space}
   &::before,
   &::after {
     color: rgba(0, 0, 0, 0.2);
@@ -34,17 +33,16 @@ const Title = styled.h1`
 
 const SubTitle = styled.h2`
   font-family: 'Clicker Script', cursive;
-  font-style: italic;
-  font-size: 5vw;
+  font-size: 8vw;
   color: rgba(0, 0, 0, 0.6);
-  font-weight: 300;
+  font-weight: 400;
 `;
 
 const Home = () => {
   const [bg1, bg2] = pickColorPair();
   return (
-    <Container bg1={bg1} bg2={bg2}>
-      <Title>kevinpaxton.com</Title>
+    <Container py={4} bg1={bg1} bg2={bg2}>
+      <StyledTitle>kevinpaxton.com</StyledTitle>
       <SubTitle>my little bit of the internet</SubTitle>
       <Content mt={4} align="center">
         <Paragraph>

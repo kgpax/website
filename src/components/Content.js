@@ -7,6 +7,10 @@ const StyledContent = styled.div`
   margin: 0 auto;
   text-align: ${({ align }) => align};
   ${space}
+
+  @media only screen and (max-width: 900px) {
+    max-width: 65rem;
+  }
 `;
 
 const Content = (props) => <StyledContent {...props} />;

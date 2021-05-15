@@ -4,7 +4,7 @@ const StyledTitle = styled.h1`
   font-size: 4rem;
   font-weight: 900;
   text-align: center;
-  margin-bottom: ${({ theme }) => theme.space[3]};
+  margin-bottom: ${({ theme }) => theme.space[2]};
 `;
 
 const Title = (props) => <StyledTitle {...props} />;
