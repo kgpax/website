@@ -12,9 +12,7 @@ const StyledSection = styled.section`
       `${bg1 || bg} ${bgSplit}%, ${bg2 || bg} ${bgSplit}%`}
   );
   ${space};
-  @media only screen and (max-width: 768px) {
-    padding: ${({ theme }) => theme.space[4]};
-  }
+  padding: ${({ theme }) => theme.space[4]};
 `;
 
 const Section = (props) => <StyledSection {...props} />;

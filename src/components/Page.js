@@ -11,7 +11,7 @@ import Footer from './Footer';
 const TopHeader = styled(Header)`
   flex: 0 0 auto;
   text-align: center;
-  padding: ${({ theme }) => theme.space[4]};
+  padding-bottom: ${({ theme }) => theme.space[4]};
   color: rgba(0, 0, 0, 0.5);
 `;
 const FullContent = styled(Content)`
@@ -20,7 +20,7 @@ const FullContent = styled(Content)`
 const BottomFooter = styled(Footer)`
   flex: 0 0 auto;
   text-align: center;
-  padding: ${({ theme }) => theme.space[4]};
+  padding-top: ${({ theme }) => theme.space[4]};
   color: rgba(0, 0, 0, 0.5);
 `;
 
