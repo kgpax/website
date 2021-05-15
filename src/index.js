@@ -11,6 +11,9 @@ const GlobalStyles = createGlobalStyle`
   }
   html {
     font-size: 10px;
+    @media only screen and (max-width: 768px) {
+      font-size: 8px;
+    }
   }
   html, body, #root {
     height: 100%;
@@ -32,7 +35,7 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     font-weight: normal;
   }
-  body, a {
+  body {
     color: #131317;
   }
   p, div, span {

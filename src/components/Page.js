@@ -1,16 +1,18 @@
 import styled from 'styled-components';
-import { Link } from 'wouter';
 import { pickColorPair } from '../utils/colors';
 import Header from './Header';
+import Link from './Link';
 import Section from './Section';
 import Content from './Content';
 import Title from './Title';
+import Paragraph from './Paragraph';
 import Footer from './Footer';
 
 const TopHeader = styled(Header)`
   flex: 0 0 auto;
   text-align: center;
-  padding: ${({ theme }) => theme.space[3]};
+  padding: ${({ theme }) => theme.space[4]};
+  color: rgba(0, 0, 0, 0.5);
 `;
 const FullContent = styled(Content)`
   flex: 1 1 auto;
@@ -18,7 +20,8 @@ const FullContent = styled(Content)`
 const BottomFooter = styled(Footer)`
   flex: 0 0 auto;
   text-align: center;
-  padding: ${({ theme }) => theme.space[3]};
+  padding: ${({ theme }) => theme.space[4]};
+  color: rgba(0, 0, 0, 0.5);
 `;
 
 const Page = ({ title, children }) => {
@@ -26,13 +29,18 @@ const Page = ({ title, children }) => {
   return (
     <Section bg1={bg1} bg2={bg2}>
       <TopHeader>
-        <Link href="/">kevinpaxton.com</Link>
+        &larr; <Link href="/">kevinpaxton.com</Link>
       </TopHeader>
       <FullContent>
         {title && <Title>{title}</Title>}
         {children}
       </FullContent>
-      <BottomFooter>&copy; Kevin Paxton</BottomFooter>
+      <BottomFooter>
+        <Paragraph>
+          &larr; <Link href="/">back</Link>
+        </Paragraph>
+        &copy; Kevin Paxton
+      </BottomFooter>
     </Section>
   );
 };
