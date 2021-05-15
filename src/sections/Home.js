@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { space } from 'styled-system';
 import { pickColorPair } from '../utils/colors';
+import { usePageTitle, useScrollToTop } from '../hooks';
 import {
   Title,
   Section,
@@ -39,6 +40,8 @@ const SubTitle = styled.h2`
 `;
 
 const Home = () => {
+  usePageTitle();
+  useScrollToTop();
   const [bg1, bg2] = pickColorPair();
   return (
     <Container py={4} bg1={bg1} bg2={bg2}>

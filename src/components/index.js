@@ -1,12 +1,14 @@
 export { default as Page } from './Page';
 export { default as Header } from './Header';
 export { default as Footer } from './Footer';
+export { default as PrevNextNav } from './PrevNextNav';
 export { default as Title } from './Title';
 export { default as Section } from './Section';
 export { default as Content } from './Content';
 export { default as Segment } from './Segment';
 export { default as Heading } from './Heading';
 export { default as Paragraph } from './Paragraph';
+export { default as Date } from './Date';
 export { default as Code } from './Code';
 export { default as Link } from './Link';
 export { default as ExternalLink } from './ExternalLink';

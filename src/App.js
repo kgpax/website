@@ -1,15 +1,13 @@
 import { Route } from 'wouter';
-import Home from './sections/Home';
-import SiteBuild001 from './sections/SiteBuild001';
+import { navigation } from './site';
 
 const App = () => (
   <>
-    <Route path="/">
-      <Home />
-    </Route>
-    <Route path="/site-build-001">
-      <SiteBuild001 />
-    </Route>
+    {navigation.map(({ path, Component, ...props }) => (
+      <Route key={path} path={path}>
+        <Component {...props} />
+      </Route>
+    ))}
   </>
 );
 

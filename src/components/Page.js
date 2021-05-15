@@ -1,12 +1,14 @@
 import styled from 'styled-components';
+import dayjs from 'dayjs';
+import advancedFormat from 'dayjs/plugin/advancedFormat';
 import { pickColorPair } from '../utils/colors';
+import { usePageTitle, useScrollToTop } from '../hooks';
+import { Title, Date, Section, Link, PrevNextNav } from '.';
 import Header from './Header';
-import Link from './Link';
-import Section from './Section';
 import Content from './Content';
-import Title from './Title';
-import Paragraph from './Paragraph';
 import Footer from './Footer';
+
+dayjs.extend(advancedFormat);
 
 const TopHeader = styled(Header)`
   flex: 0 0 auto;
@@ -23,23 +25,29 @@ const BottomFooter = styled(Footer)`
   padding-top: ${({ theme }) => theme.space[4]};
   color: rgba(0, 0, 0, 0.5);
 `;
+const Copyright = styled.span`
+  font-size: 1.3rem;
+`;
 
-const Page = ({ title, children }) => {
+const Page = ({ title, date, prev, next, children }) => {
+  usePageTitle(title);
+  useScrollToTop();
   const [bg1, bg2] = pickColorPair();
   return (
     <Section bg1={bg1} bg2={bg2}>
-      <TopHeader>
+      <TopHeader bg={bg1} border={bg2}>
         &larr; <Link href="/">kevinpaxton.com</Link>
       </TopHeader>
       <FullContent>
         {title && <Title>{title}</Title>}
+        {date && (
+          <Date dateTime={date}>{dayjs(date).format('Do MMM YYYY')}</Date>
+        )}
         {children}
       </FullContent>
-      <BottomFooter>
-        <Paragraph>
-          &larr; <Link href="/">back</Link>
-        </Paragraph>
-        &copy; Kevin Paxton
+      <BottomFooter bg={bg1} border={bg2}>
+        <PrevNextNav prev={prev} next={next} />
+        <Copyright>&copy; {dayjs().format('YYYY')} Kevin Paxton</Copyright>
       </BottomFooter>
     </Section>
   );

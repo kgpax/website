@@ -1,0 +1,32 @@
+{
+	"Segment": {
+		"scope": "javascript,typescript",
+		"prefix": "seg",
+		"body": [
+			"<Segment heading=\"$1\">",
+			"  <Paragraph>",
+			"    $2",
+			"  </Paragraph>",
+			"</Segment>"
+		],
+		"description": "A segment with a paragraph"
+	},
+	"Paragraph": {
+		"scope": "javascript,typescript",
+		"prefix": "para",
+		"body": [
+			"<Paragraph>",
+			"  $1",
+			"</Paragraph>",
+		],
+		"description": "A paragraph"
+	},
+	"Link": {
+		"scope": "javascript,typescript",
+		"prefix": "elnk",
+		"body": [
+			"<ExternalLink href=\"$1\">$2</ExternalLink>",
+		],
+		"description": "An external link"
+	}
+}

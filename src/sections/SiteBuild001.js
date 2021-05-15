@@ -1,7 +1,7 @@
 import { Page, Segment, Paragraph, Code, ExternalLink } from '../components';
 
-const SiteBuild001 = () => (
-  <Page title="Building the site : part one">
+const SiteBuild001 = (props) => (
+  <Page {...props}>
     <Segment heading="Motivation">
       <Paragraph>
         I'd been toying with the idea of having my own website for a while. I'm
