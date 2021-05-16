@@ -22,7 +22,7 @@ nav.push({
   path: '/site-build-002',
   title: 'Building the site : part two',
   shortTitle: 'Part two',
-  date: null,
+  date: '2021-05-17',
   Component: SiteBuild002,
   prev: reference('/site-build-001'),
   next: null,
@@ -33,7 +33,7 @@ export const buildOrderedNavigation = () => {
   const sortedPosts = posts.sort((a, b) => {
     const dateA = dayjs(a.date || undefined);
     const dateB = dayjs(b.date || undefined);
-    return dateA.diff(dateB, 'day');
+    return dateB.diff(dateA, 'day');
   });
   return sortedPosts;
 };

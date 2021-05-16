@@ -30,9 +30,6 @@ const BottomFooter = styled(Footer)`
   padding-top: ${({ theme }) => theme.space.xl};
   color: rgba(0, 0, 0, 0.5);
 `;
-const Copyright = styled.span`
-  font-size: 1.3rem;
-`;
 
 const Page = ({ title, date, prev, next, children }) => {
   usePageTitle(title);
@@ -53,7 +50,6 @@ const Page = ({ title, date, prev, next, children }) => {
       </FullContent>
       <BottomFooter bg={bg1} border={bg2}>
         <PrevNextNav prev={prev} next={next} />
-        <Copyright>&copy; {dayjs().format('YYYY')} Kevin Paxton</Copyright>
       </BottomFooter>
     </Section>
   );

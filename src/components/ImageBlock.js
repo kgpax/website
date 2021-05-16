@@ -4,6 +4,7 @@ import { Paragraph, Image } from '.';
 
 const StyledParagraph = styled(Paragraph)`
   max-width: 80%;
+  width: ${({ width }) => width};
   margin: 0 auto;
 
   img {
@@ -20,14 +21,16 @@ const Figure = styled.figure`
 `;
 
 const Caption = styled.figcaption`
+  margin-top: ${({ theme }) => theme.space.md};
   font-size: 1.3rem;
+  line-height: 2.4rem;
   text-align: center;
 `;
 
 const ImageBlock = ({ src, alt, caption, ...props }) => (
   <StyledParagraph {...props}>
     <Figure>
-      <Image src={src} alt={alt} />
+      <Image src={src} alt={alt || caption} />
       {caption && <Caption>{caption}</Caption>}
     </Figure>
   </StyledParagraph>
@@ -36,6 +39,10 @@ ImageBlock.propTypes = {
   src: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
   caption: PropTypes.string,
+  width: PropTypes.string,
+};
+ImageBlock.defaultProps = {
+  width: '100%',
 };
 
 export default ImageBlock;

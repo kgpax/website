@@ -125,6 +125,7 @@ const SiteBuild002 = (props) => (
       </Paragraph>
       <ImageBlock
         src="site-build-002/faviconio.png"
+        alt="Screenshot of the faviconio website"
         caption="using favicon.io to create a favicon from text"
       />
       <Paragraph>
@@ -135,6 +136,7 @@ const SiteBuild002 = (props) => (
       </Paragraph>{' '}
       <ImageBlock
         src="site-build-002/faviconio2.png"
+        alt="Screenshot of my final favicon design"
         caption="playing with the options to get my preferred icon"
       />
       <Paragraph>
@@ -187,13 +189,21 @@ const SiteBuild002 = (props) => (
         guidelines and even gave fine-grain control of curves. Fantastic! I
         traced the lettering as good as I was going to get it in the brief
         window that my youngest was having a nap and subtracted it from the
-        background. I was able to export to drawing as an SVG &mdash;
-        thankfully! I hadn't checked whether that was something I could do
-        without using a paid version of the tool &mdash; and then ran that SVG
-        through another favicon generator to generate all of the different
-        shapes and sizes expected by the various modern browsers. I then took
-        the largest of these and used it as the logo on my homepage, and I was
-        pleased that I persevered with it.
+        background.
+      </Paragraph>
+      <ImageBlock
+        src="site-build-002/vectr.png"
+        alt="Screenshot of using vectr to create the favicon"
+        caption="a work in progress, showing the clipping path for the letter P"
+      />
+      <Paragraph>
+        I was able to export to drawing as an SVG &mdash; thankfully! I hadn't
+        checked whether that was something I could do without using a paid
+        version of the tool &mdash; and then ran that SVG through another
+        favicon generator to generate all of the different shapes and sizes
+        expected by the various modern browsers. I then took the largest of
+        these and used it as the logo on my homepage, and I was pleased that I
+        persevered with it.
       </Paragraph>
     </Segment>
     <Segment heading="Backgrounds and motion">
@@ -218,43 +228,36 @@ const SiteBuild002 = (props) => (
         opportunity for me to <strong>(a)</strong> turn that frown upside down,
         and <strong>(b)</strong> see if it could work for my background.
       </Paragraph>
+      <Paragraph>
+        However, since the majority of the things I've worked on for this update
+        are either fixes to things I did wrong or slight enhancements that I'd
+        like to be there as early as possible, I've decided to bump the
+        background and motion work to my next update.
+      </Paragraph>
     </Segment>
     <Segment heading="Next steps">
       <Paragraph>
-        Looking at what I actually implemented from my last todo list:
-      </Paragraph>
-      <ul>
-        <li>
-          <strong>Put some motion on the landing page.</strong>
-          <br />I decided to put this one on hold for a bit. My ideas were
-          around having the main heading and sub heading transition in when the
-          page loads, and then having some parallax effect when scrolling to
-          display the content below. I haven't quite figured out how I'd like
-          that to look, and to be honest I don't think it suits the current
-          content and layout very well. **(TODO - cross icon)
-        </li>
-        <li>
-          <strong>Work on the page backgrounds.</strong>
-          <br />
-          words words words. <E alt="check">✓</E>
-        </li>
-        <li>
-          <strong>Favicon and early browser and device testing.</strong>
-          <br />
-          Built my self a basic favicon and am now trying it out as a "logo" for
-          my site. <E alt="check">✓</E>
-        </li>
-        <li>
-          <strong>Think about the navigation structure of the site.</strong>
-          <br />
-          The navigation is rudimentary at the moment, but to be fair there
-          isn't much yet to navigate to. I'll let this one evolve as the site
-          does. <E alt="check">✓</E>
-        </li>
-      </ul>
-      <Paragraph>
         For the next update, I want to focus on the following:
       </Paragraph>
+      <ul>
+        <li>Focus on the page backgrounds and try make them purr.</li>
+        <li>
+          Look at some of the visual features I added in this iteration &mdash;
+          images, code blocks, etc. &mdash; and see if there are any tweaks that
+          can be done to improve them.
+        </li>
+        <li>
+          Add a build step to auto-generate the <C>_redirects</C> file.
+        </li>
+        <li>Decide on my browser testing strategy and tooling.</li>
+      </ul>
+      <Paragraph>Stretch goals:</Paragraph>
+      <ul>
+        <li>
+          Unit tests. I've been very naughty and have neglected unit testing for
+          the functionality that I'm writing. I need to sort that.
+        </li>
+      </ul>
     </Segment>
   </Page>
 );

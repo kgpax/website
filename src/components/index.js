@@ -1,6 +1,7 @@
 export { default as Page } from './Page';
 export { default as Header } from './Header';
 export { default as Footer } from './Footer';
+export { default as PostNav } from './PostNav';
 export { default as PrevNextNav } from './PrevNextNav';
 export { default as Title } from './Title';
 export { default as Section } from './Section';

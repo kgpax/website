@@ -7,9 +7,11 @@ import {
   Section,
   Content,
   Paragraph,
+  InfoBlock,
+  PostNav,
+  Footer,
   Image as I,
-  ExternalLink,
-  LinkButton,
+  ExternalLink as EL,
 } from '../components';
 
 const Container = styled(Section)`
@@ -47,20 +49,16 @@ const Home = () => {
   return (
     <Container py={4} bg1={bg1} bg2={bg2}>
       <StyledTitle>
-        <Logo src="logo.png" alt="kevinpaxton.com logo" />
+        <Logo src="logo.svg" alt="kevinpaxton.com logo" />
         kevinpaxton.com
       </StyledTitle>
       <SubTitle>my little bit of the internet</SubTitle>
-      <Content mt={4} align="center">
-        <Paragraph>
-          Hello, I'm{' '}
-          <ExternalLink href="https://twitter.com/kevinpaxton82">
-            Kevin
-          </ExternalLink>
-          . After working in software engineering and web development for
-          near-on 20 years, I've come to the conclusion that it's time I had a
-          website.
-        </Paragraph>
+      <Content mt={4}>
+        <InfoBlock icon="wave.svg" iconAlt="Waving hand">
+          Hello, I'm <EL href="https://twitter.com/kevinpaxton82">Kevin</EL>.
+          After working in software engineering and web development for near-on
+          20 years, I've come to the conclusion that it's time I had a website.
+        </InfoBlock>
         <Paragraph>
           In an attempt to get the creative juices flowing with what to put on
           this part of the cloud, I figured that I'd document the process of
@@ -72,12 +70,9 @@ const Home = () => {
           process, and will arrive in stages alongside the general updates to
           the site.
         </Paragraph>
+        <PostNav />
       </Content>
-      <Content mt={4} align="center">
-        <LinkButton href="/site-build-001">
-          Let's get started, shall we? &rarr;
-        </LinkButton>
-      </Content>
+      <Footer />
     </Container>
   );
 };
