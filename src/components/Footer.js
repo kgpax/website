@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import dayjs from 'dayjs';
+import { Link } from '.';
 
 const StyledFooter = styled.footer``;
 
@@ -10,7 +11,9 @@ const Copyright = styled.span`
 const Footer = ({ children, ...props }) => (
   <StyledFooter {...props}>
     {children}
-    <Copyright>&copy; {dayjs().format('YYYY')} Kevin Paxton</Copyright>
+    <Copyright>
+      &copy; {dayjs().format('YYYY')} <Link href="/">Kevin Paxton</Link>
+    </Copyright>
   </StyledFooter>
 );
 

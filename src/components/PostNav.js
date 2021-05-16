@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import dayjs from 'dayjs';
 import { buildOrderedNavigation } from '../site';
-import { Paragraph, Link } from '.';
+import { Link } from '.';
 
 const StyledPostNav = styled.nav``;
 

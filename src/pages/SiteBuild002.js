@@ -47,9 +47,9 @@ const SiteBuild002 = (props) => (
           special file
         </EL>{' '}
         to force all requests to go to the <C>index.html</C> page, and allow
-        routing to handle all of the requests. It seems that putting a{' '}
-        <C>_redirects</C> file in the root of the publication folder with the
-        following content in does the trick:
+        routing to handle it all. It seems that putting a <C>_redirects</C> file
+        in the root of the publication folder with the following content in does
+        the trick:
       </Paragraph>
       <CodeBlock
         language="text"
@@ -93,10 +93,10 @@ const SiteBuild002 = (props) => (
         links at the end of each article to allow the content to naturally flow.
         A link back to the homepage will be present at the top of each page and
         I'm not looking to make that more prominent just yet since the homepage
-        doesn't serve up much other than directing you to reading the first
-        post. It's all a bit rudimentary at the moment, but to be fair there
-        isn't much yet to navigate to, so I'll let this one evolve as the site
-        does.
+        doesn't serve up much other than directing you to the individual parts
+        of the story. It's all a bit rudimentary at the moment, but to be fair
+        there isn't much yet to navigate to, so I'll let this one evolve as the
+        site does.
       </Paragraph>
       <Paragraph>
         I also put a bit more effort into the HTML structure of the pages since
@@ -108,12 +108,13 @@ const SiteBuild002 = (props) => (
     </Segment>
     <Segment heading="Favicon">
       <Paragraph>
-        One of the low hanging fruit I wanted to pick up as soon as possible was
-        giving my site a favicon to avoid being stuck with the default which
-        ships with <C>create-react-app</C>. I genuinely hadn't given any thought
-        as to what I'd want my favicon to be, but I had the spontaneous idea of
-        seeing if somebody on the internet had developed a tool to create on
-        from text. Of course they had - this is the internet!
+        One of the low hanging fruit I wanted to tackle as soon as possible was
+        giving my site a favicon to avoid being stuck with the default React
+        icon which ships with <C>create-react-app</C>. I genuinely hadn't given
+        any thought as to what I'd want my favicon to be, but I had the
+        spontaneous idea of seeing if somebody on the internet had developed a
+        tool to create one from text. Of course they had - this is the internet!{' '}
+        <E alt="celebration emoji">🎉</E>
       </Paragraph>
       <Paragraph>
         The first result in my search led me to{' '}
@@ -161,16 +162,16 @@ const SiteBuild002 = (props) => (
       </Paragraph>
       <Paragraph>
         My next thought was to try and create a vector-based version of this
-        logo, where the lettering was a path cut-out from the background box.
+        logo, where the lettering was a path cut out from the background box.
         Again, the internet delivered in the form of an online vector drawing
         package called <EL href="https://vectr.com/">Vectr</EL>, which dutifully
         follows the commandment that all modern web applications can only use
-        one vowel. It is a very simple online drawing package, although
-        thankfully it came fully loaded with a bunch of Google fonts including
-        the one that I had chosen on my favicon generator. I create a square
-        with rounded edges and then added the text layer to match my design.
-        Then came the sticking point. It didn't seem possible to "subtract" one
-        layer from another. Reading their{' '}
+        one vowel in their name. It is a very simple online drawing package,
+        although thankfully it came fully loaded with a bunch of Google fonts
+        including the one that I had chosen on my favicon generator. I create a
+        square with rounded edges and then added the text layer to match my
+        design. Then came the sticking point. It didn't seem possible to
+        "subtract" one layer from another. Reading their{' '}
         <EL href="https://vectr.com/user-guide/workspace/workspace-tools/#geometry-tools">
           docs
         </EL>

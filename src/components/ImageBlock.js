@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { Paragraph, Image } from '.';
+import { Image } from '.';
 
-const StyledParagraph = styled(Paragraph)`
+const Container = styled.div`
   max-width: 80%;
   width: ${({ width }) => width};
-  margin: 0 auto;
+  margin: ${({ theme }) => theme.space.lg} auto;
 
   img {
     width: 100%;
@@ -28,16 +28,16 @@ const Caption = styled.figcaption`
 `;
 
 const ImageBlock = ({ src, alt, caption, ...props }) => (
-  <StyledParagraph {...props}>
+  <Container {...props}>
     <Figure>
       <Image src={src} alt={alt || caption} />
       {caption && <Caption>{caption}</Caption>}
     </Figure>
-  </StyledParagraph>
+  </Container>
 );
 ImageBlock.propTypes = {
   src: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
+  alt: PropTypes.string,
   caption: PropTypes.string,
   width: PropTypes.string,
 };
