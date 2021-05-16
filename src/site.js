@@ -33,7 +33,7 @@ export const buildOrderedNavigation = () => {
   const sortedPosts = posts.sort((a, b) => {
     const dateA = dayjs(a.date || undefined);
     const dateB = dayjs(b.date || undefined);
-    return dateB.diff(dateA, 'day');
+    return dateA.diff(dateB, 'day');
   });
   return sortedPosts;
 };
