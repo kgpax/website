@@ -6,14 +6,15 @@ const StyledInfoBlock = styled(Paragraph)`
   display: flex;
   flex-direction: row;
   align-items: start;
-  padding: ${({ theme }) => theme.space[3]};
+  padding: ${({ theme }) => theme.space.lg};
   background: rgba(0, 0, 0, 0.05);
   border-radius: 1rem;
 
   & img {
+    width: ${({ size }) => size};
     flex: 0 0 ${({ size }) => size};
-    padding-top: ${({ theme }) => theme.space[1]};
-    padding-right: ${({ theme }) => theme.space[3]};
+    padding-top: ${({ theme }) => theme.space.sm};
+    padding-right: ${({ theme }) => theme.space.lg};
   }
 
   & span {

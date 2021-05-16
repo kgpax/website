@@ -2,6 +2,9 @@ import {
   Page,
   Segment,
   Paragraph,
+  CodeBlock,
+  ImageBlock,
+  Link as L,
   ExternalLink as EL,
   Code as C,
   Emoji as E,
@@ -41,13 +44,33 @@ const SiteBuild002 = (props) => (
         currently routes rather than files, so I discovered that I needed to
         include a{' '}
         <EL href="https://www.netlify.com/blog/2019/01/16/redirect-rules-for-all-how-to-configure-redirects-for-your-static-site/#the-redirects-file">
-          special <C>_redirects</C> file
+          special file
         </EL>{' '}
         to force all requests to go to the <C>index.html</C> page, and allow
-        routing to handle all of the requests.
+        routing to handle all of the requests. It seems that putting a{' '}
+        <C>_redirects</C> file in the root of the publication folder with the
+        following content in does the trick:
+      </Paragraph>
+      <CodeBlock
+        language="text"
+        showLineNumbers={false}
+        code={`/* /index.html 200`}
+      />
+      <Paragraph>
+        ...however, this leaves a new problem dangling in that now all paths
+        respond with a <C>HTTP 200</C> &mdash; even requests of invalid pages
+        &mdash; which is still not what I want. However, it seems that if I want
+        to have my pages and routes correct I've got to be a little more
+        explicit in my
+        <C>_redirects</C> file. This would be a pain to maintain, so I'm tempted
+        to make it a part of the build process to generate this file based on
+        the site navigation; alternatively I could bite the bullet earlier than
+        expected and look to move to a static site generator for my content,
+        doing away with the problem of virtual pages altogether.
       </Paragraph>
       <Paragraph>
-        I'd also noticed some things in my content which in hindsight I wasn't
+        Finally, I had noticed some things in the content of my{' '}
+        <L href="/site-build-001">first post</L> which in hindsight I wasn't
         happy about. I'd used the phrase "I toyed with..." three separate times,
         which made me wish I had proof-read it sooner and been a bit more varied
         with my language. However, that made me decide to set myself a rule for
@@ -81,6 +104,96 @@ const SiteBuild002 = (props) => (
         semantic elements for the content of the page; <C>article</C>,{' '}
         <C>section</C>, etc. &mdash; I even managed to squeeze in what must be
         my first ever use of the <C>time</C> element for the date of each post.
+      </Paragraph>
+    </Segment>
+    <Segment heading="Favicon">
+      <Paragraph>
+        One of the low hanging fruit I wanted to pick up as soon as possible was
+        giving my site a favicon to avoid being stuck with the default which
+        ships with <C>create-react-app</C>. I genuinely hadn't given any thought
+        as to what I'd want my favicon to be, but I had the spontaneous idea of
+        seeing if somebody on the internet had developed a tool to create on
+        from text. Of course they had - this is the internet!
+      </Paragraph>
+      <Paragraph>
+        The first result in my search led me to{' '}
+        <EL href="https://favicon.io/">favicon.io</EL>. It's a pretty
+        uncomplicated tool which lets you create a favicon set from image, text
+        or emoji. I opted for text just to see what a favicon of my initials
+        would look like, and much to my own surprise I was pretty sold on it
+        straight away.
+      </Paragraph>
+      <ImageBlock
+        src="site-build-002/faviconio.png"
+        caption="using favicon.io to create a favicon from text"
+      />
+      <Paragraph>
+        I played around with some of the fonts and colours and after kicking the
+        font size around a bit I settled on something which took the lettering
+        to the edges of the background box, which I though gave it an
+        interesting look.
+      </Paragraph>{' '}
+      <ImageBlock
+        src="site-build-002/faviconio2.png"
+        caption="playing with the options to get my preferred icon"
+      />
+      <Paragraph>
+        I downloaded that and added it to my site and was happy with the result
+        sitting there in my chrome tab, so much so that I decided to see if it
+        would hold its own as a bit of a "logo" on my homepage in place of the
+        literal <C>&lt;h1&gt;&lt;/h1&gt;</C> surrounding my domain.
+      </Paragraph>
+      <ImageBlock
+        src="site-build-002/sitelogo.png"
+        caption="the homepage title with the favicon as a logo"
+      />
+      <Paragraph>
+        It didn't look quite right. I mean, the logo itself seemed fine and I
+        had all but settled on keeping it, but what bothered me was the white
+        lettering. It looked good against a white background because it gave the
+        illusion of a cut-out from the background box. I wanted to keep that
+        aesthetic whatever the background colour, but it seemed that there was
+        no way to do that through the favicon generator I was using, since it
+        would always render a solid foreground colour against a solid background
+        colour.
+      </Paragraph>
+      <Paragraph>
+        My next thought was to try and create a vector-based version of this
+        logo, where the lettering was a path cut-out from the background box.
+        Again, the internet delivered in the form of an online vector drawing
+        package called <EL href="https://vectr.com/">Vectr</EL>, which dutifully
+        follows the commandment that all modern web applications can only use
+        one vowel. It is a very simple online drawing package, although
+        thankfully it came fully loaded with a bunch of Google fonts including
+        the one that I had chosen on my favicon generator. I create a square
+        with rounded edges and then added the text layer to match my design.
+        Then came the sticking point. It didn't seem possible to "subtract" one
+        layer from another. Reading their{' '}
+        <EL href="https://vectr.com/user-guide/workspace/workspace-tools/#geometry-tools">
+          docs
+        </EL>
+        , it seems that the application does support this feature, but not if
+        one of your layers is text. Damn!
+      </Paragraph>
+      <Paragraph>
+        I was about to go back to square one and look for alternative
+        applications hoping that they had the same font which by this point I
+        was fully invested in, but just before leaving I caught a glimpse of the
+        "path" tool. This would allow me to draw arbitrary shapes which would be
+        valid to subtract from the background. I set to work tracing the
+        lettering as a new path layer, expecting to find the process a bit too
+        difficult to accomplish on my MacBook's trackpad, but to be fair the
+        application was really good at snapping to relevant edges and implicit
+        guidelines and even gave fine-grain control of curves. Fantastic! I
+        traced the lettering as good as I was going to get it in the brief
+        window that my youngest was having a nap and subtracted it from the
+        background. I was able to export to drawing as an SVG &mdash;
+        thankfully! I hadn't checked whether that was something I could do
+        without using a paid version of the tool &mdash; and then ran that SVG
+        through another favicon generator to generate all of the different
+        shapes and sizes expected by the various modern browsers. I then took
+        the largest of these and used it as the logo on my homepage, and I was
+        pleased that I persevered with it.
       </Paragraph>
     </Segment>
     <Segment heading="Backgrounds and motion">
@@ -129,9 +242,7 @@ const SiteBuild002 = (props) => (
           <strong>Favicon and early browser and device testing.</strong>
           <br />
           Built my self a basic favicon and am now trying it out as a "logo" for
-          my site. When I get a bit of time, I'd like to make it so that the
-          lettering is a cut-out of the background, rather than a solid colour.
-          <E alt="check">✓</E>
+          my site. <E alt="check">✓</E>
         </li>
         <li>
           <strong>Think about the navigation structure of the site.</strong>

@@ -11,9 +11,14 @@ import Footer from './Footer';
 dayjs.extend(advancedFormat);
 
 const TopHeader = styled(Header)`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: ${({ theme }) => theme.font.title};
   flex: 0 0 auto;
   text-align: center;
-  padding-bottom: ${({ theme }) => theme.space[4]};
+  padding-bottom: ${({ theme }) => theme.space.xl};
   color: rgba(0, 0, 0, 0.5);
 `;
 const FullContent = styled(Content)`
@@ -22,7 +27,7 @@ const FullContent = styled(Content)`
 const BottomFooter = styled(Footer)`
   flex: 0 0 auto;
   text-align: center;
-  padding-top: ${({ theme }) => theme.space[4]};
+  padding-top: ${({ theme }) => theme.space.xl};
   color: rgba(0, 0, 0, 0.5);
 `;
 const Copyright = styled.span`
@@ -36,7 +41,8 @@ const Page = ({ title, date, prev, next, children }) => {
   return (
     <Section bg1={bg1} bg2={bg2}>
       <TopHeader bg={bg1} border={bg2}>
-        &uarr; <Link href="/">kevinpaxton.com</Link>
+        &uarr;
+        <Link href="/">kevinpaxton.com</Link>
       </TopHeader>
       <FullContent>
         {title && <Title>{title}</Title>}

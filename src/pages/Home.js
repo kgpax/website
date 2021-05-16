@@ -17,11 +17,12 @@ const Container = styled(Section)`
 `;
 
 const StyledTitle = styled(Title)`
+  font-family: ${({ theme }) => theme.font.title};
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: 6vw;
+  font-size: 9vw;
   color: rgba(0, 0, 0, 0.9);
   font-weight: 400;
   ${space}
@@ -29,14 +30,13 @@ const StyledTitle = styled(Title)`
 
 const Logo = styled(I)`
   display: inline-block;
-  height: 1.6em;
-  padding-right: ${({ theme }) => theme.space[3]};
+  height: 1.2em;
+  margin-right: ${({ theme }) => theme.space.lg};
 `;
 
 const SubTitle = styled.h2`
-  font-family: 'Clicker Script', cursive;
+  font-family: ${({ theme }) => theme.font.cursive};
   font-size: 8vw;
-  color: rgba(0, 0, 0, 0.6);
   font-weight: 400;
 `;
 

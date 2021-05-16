@@ -5,12 +5,12 @@ const StyledPrevNextNav = styled.nav`
   & ul {
     list-style-type: none;
     margin: 0;
-    padding: ${({ theme }) => theme.space[2]};
+    padding: ${({ theme }) => theme.space.md};
   }
   & li {
     display: inline-block;
     margin: 0;
-    padding: 0 ${({ theme }) => theme.space[2]};
+    padding: 0 ${({ theme }) => theme.space.md};
 
     & + li {
       border-left: 1px solid rgba(0, 0, 0, 0.3);
