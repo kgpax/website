@@ -7,6 +7,7 @@ import {
   Section,
   Content,
   Paragraph,
+  Image as I,
   ExternalLink,
   LinkButton,
 } from '../components';
@@ -16,20 +17,20 @@ const Container = styled(Section)`
 `;
 
 const StyledTitle = styled(Title)`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   font-size: 6vw;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.9);
   font-weight: 400;
   ${space}
-  &::before,
-  &::after {
-    color: rgba(0, 0, 0, 0.2);
-  }
-  &::before {
-    content: '<h1>';
-  }
-  &::after {
-    content: '</h1>';
-  }
+`;
+
+const Logo = styled(I)`
+  display: inline-block;
+  height: 1.6em;
+  padding-right: ${({ theme }) => theme.space[3]};
 `;
 
 const SubTitle = styled.h2`
@@ -45,7 +46,10 @@ const Home = () => {
   const [bg1, bg2] = pickColorPair();
   return (
     <Container py={4} bg1={bg1} bg2={bg2}>
-      <StyledTitle>kevinpaxton.com</StyledTitle>
+      <StyledTitle>
+        <Logo src="logo.png" alt="kevinpaxton.com logo" />
+        kevinpaxton.com
+      </StyledTitle>
       <SubTitle>my little bit of the internet</SubTitle>
       <Content mt={4} align="center">
         <Paragraph>

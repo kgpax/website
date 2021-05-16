@@ -1,6 +1,6 @@
-import Home from './sections/Home';
-import SiteBuild001 from './sections/SiteBuild001';
-import SiteBuild002 from './sections/SiteBuild002';
+import Home from './pages/Home';
+import SiteBuild001 from './pages/SiteBuild001';
+import SiteBuild002 from './pages/SiteBuild002';
 
 const nav = [];
 const reference = (path) => () => [nav.find((x) => x.path === path)];

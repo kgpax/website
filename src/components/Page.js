@@ -36,13 +36,13 @@ const Page = ({ title, date, prev, next, children }) => {
   return (
     <Section bg1={bg1} bg2={bg2}>
       <TopHeader bg={bg1} border={bg2}>
-        &larr; <Link href="/">kevinpaxton.com</Link>
+        &uarr; <Link href="/">kevinpaxton.com</Link>
       </TopHeader>
       <FullContent>
         {title && <Title>{title}</Title>}
-        {date && (
+        {(date && (
           <Date dateTime={date}>{dayjs(date).format('Do MMM YYYY')}</Date>
-        )}
+        )) || <Date>Publish date TBC</Date>}
         {children}
       </FullContent>
       <BottomFooter bg={bg1} border={bg2}>

@@ -38,9 +38,13 @@ const GlobalStyles = createGlobalStyle`
   body {
     color: #131317;
   }
-  p, div, span {
+  p, div, span, li {
     line-height: 1.9em;
     margin: 0;
+  }
+  li {
+    margin-bottom: 1em;
+    list-style-type: square;
   }
   button, textarea, select {
     font: inherit;
