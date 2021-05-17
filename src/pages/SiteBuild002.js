@@ -76,6 +76,7 @@ const SiteBuild002 = (props) => (
         page whenever the path changes.
       </Paragraph>
       <CodeBlock
+        showLineNumbers={false}
         code={`import { useEffect } from 'react';
 import { useLocation } from 'wouter';
 
