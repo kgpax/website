@@ -1,13 +1,17 @@
 import styled from 'styled-components';
 import { space } from 'styled-system';
 import { pickColorPair } from '../utils/colors';
+import { usePageTitle, useScrollToTop } from '../hooks';
 import {
   Title,
   Section,
   Content,
   Paragraph,
-  ExternalLink,
-  LinkButton,
+  InfoBlock,
+  PostNav,
+  Footer,
+  Image as I,
+  ExternalLink as EL,
 } from '../components';
 
 const Container = styled(Section)`
@@ -15,45 +19,46 @@ const Container = styled(Section)`
 `;
 
 const StyledTitle = styled(Title)`
-  font-size: 6vw;
-  color: rgba(0, 0, 0, 0.8);
+  font-family: ${({ theme }) => theme.font.title};
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 9vw;
+  color: rgba(0, 0, 0, 0.9);
   font-weight: 400;
   ${space}
-  &::before,
-  &::after {
-    color: rgba(0, 0, 0, 0.2);
-  }
-  &::before {
-    content: '<h1>';
-  }
-  &::after {
-    content: '</h1>';
-  }
+`;
+
+const Logo = styled(I)`
+  display: inline-block;
+  height: 1.2em;
+  margin-right: ${({ theme }) => theme.space.lg};
 `;
 
 const SubTitle = styled.h2`
-  font-family: 'Clicker Script', cursive;
+  font-family: ${({ theme }) => theme.font.cursive};
   font-size: 8vw;
-  color: rgba(0, 0, 0, 0.6);
   font-weight: 400;
 `;
 
 const Home = () => {
+  usePageTitle();
+  useScrollToTop();
   const [bg1, bg2] = pickColorPair();
   return (
     <Container py={4} bg1={bg1} bg2={bg2}>
-      <StyledTitle>kevinpaxton.com</StyledTitle>
+      <StyledTitle>
+        <Logo src="logo.svg" alt="kevinpaxton.com logo" />
+        kevinpaxton.com
+      </StyledTitle>
       <SubTitle>my little bit of the internet</SubTitle>
-      <Content mt={4} align="center">
-        <Paragraph>
-          Hello, I'm{' '}
-          <ExternalLink href="https://twitter.com/kevinpaxton82">
-            Kevin
-          </ExternalLink>
-          . After working in software engineering and web development for
-          near-on 20 years, I've come to the conclusion that it's time I had a
-          website.
-        </Paragraph>
+      <Content mt={4}>
+        <InfoBlock icon="wave.svg" iconAlt="Waving hand">
+          Hello, I'm <EL href="https://twitter.com/kevinpaxton82">Kevin</EL>.
+          After working in software engineering and web development for near-on
+          20 years, I've come to the conclusion that it's time I had a website.
+        </InfoBlock>
         <Paragraph>
           In an attempt to get the creative juices flowing with what to put on
           this part of the cloud, I figured that I'd document the process of
@@ -65,12 +70,9 @@ const Home = () => {
           process, and will arrive in stages alongside the general updates to
           the site.
         </Paragraph>
+        <PostNav />
       </Content>
-      <Content mt={4} align="center">
-        <LinkButton href="/site-build-001">
-          Let's get started, shall we? &rarr;
-        </LinkButton>
-      </Content>
+      <Footer />
     </Container>
   );
 };

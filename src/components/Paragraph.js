@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const StyledParagraph = styled.p`
   & + & {
-    margin-top: ${({ theme }) => theme.space[3]};
+    margin-top: ${({ theme }) => theme.space.lg};
   }
 `;
 

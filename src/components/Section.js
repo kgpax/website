@@ -12,7 +12,7 @@ const StyledSection = styled.section`
       `${bg1 || bg} ${bgSplit}%, ${bg2 || bg} ${bgSplit}%`}
   );
   ${space};
-  padding: ${({ theme }) => theme.space[4]};
+  padding: ${({ theme }) => theme.space.xl};
 `;
 
 const Section = (props) => <StyledSection {...props} />;

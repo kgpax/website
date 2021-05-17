@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import Heading from './Heading';
 
-const StyledSegment = styled.div`
-  margin: ${({ theme }) => theme.space[4]} 0 0 0;
+const StyledSegment = styled.section`
+  margin: ${({ theme }) => theme.space.xl} 0 0 0;
 `;
 
 const Segment = ({ heading, children, ...props }) => (

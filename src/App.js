@@ -1,16 +1,18 @@
-import { Route } from 'wouter';
-import Home from './sections/Home';
-import SiteBuild001 from './sections/SiteBuild001';
+import { Switch, Route } from 'wouter';
+import { navigation } from './site';
+import FourOhFour from './pages/extra/FourOhFour';
 
 const App = () => (
-  <>
-    <Route path="/">
-      <Home />
+  <Switch>
+    {navigation.map(({ path, Component, ...props }) => (
+      <Route key={path} path={path}>
+        <Component {...props} />
+      </Route>
+    ))}
+    <Route>
+      <FourOhFour />
     </Route>
-    <Route path="/site-build-001">
-      <SiteBuild001 />
-    </Route>
-  </>
+  </Switch>
 );
 
 export default App;
