@@ -12,7 +12,7 @@ const Container = styled.div`
   margin: ${({ theme }) => theme.space.lg} 0;
   padding: 0 ${({ theme }) => theme.space.xl};
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 767px) {
     padding: 0;
   }
 `;
