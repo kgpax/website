@@ -4,12 +4,12 @@ import {
   CodeBlock as ReactCodeBlock,
   monokai as codeTheme,
 } from 'react-code-blocks';
-import { Paragraph } from '.';
 
-const StyledParagraph = styled(Paragraph)`
+const Container = styled.div`
+  position: relative;
   font-family: ${({ theme }) => theme.font.code};
   font-weight: 600;
-  line-height: 1rem;
+  margin: ${({ theme }) => theme.space.lg} 0;
   padding: 0 ${({ theme }) => theme.space.xl};
 
   @media only screen and (max-width: 900px) {
@@ -18,14 +18,14 @@ const StyledParagraph = styled(Paragraph)`
 `;
 
 const CodeBlock = ({ language, showLineNumbers, code }) => (
-  <StyledParagraph>
+  <Container>
     <ReactCodeBlock
       text={code}
       language={language}
       showLineNumbers={showLineNumbers}
       theme={codeTheme}
     />
-  </StyledParagraph>
+  </Container>
 );
 CodeBlock.propTypes = {
   language: PropTypes.string.isRequired,
