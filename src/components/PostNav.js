@@ -15,7 +15,7 @@ const PostNav = (props) => {
           return (
             <li key={x.path}>
               <Link href={x.path}>
-                {date} &rarr; {x.title}
+                <strong>{date}</strong> &rarr; {x.title}
               </Link>
             </li>
           );

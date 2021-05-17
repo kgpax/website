@@ -5,7 +5,7 @@ const StyledCode = styled.code`
   font-size: 0.9em;
   font-weight: 700;
   background: rgba(255, 255, 255, 0.3);
-  padding: ${({ theme }) => `${theme.space.sm} ${theme.space.md}`};
+  padding: ${({ theme }) => `0.4rem ${theme.space.md}`};
   border-radius: ${({ theme }) => theme.space.sm};
 `;
 
