@@ -58,7 +58,7 @@ const SiteBuild002 = (props) => (
       />
       <Paragraph>
         ...however, this leaves a new problem dangling in that now all paths
-        respond with a <C>HTTP 200</C> &mdash; even requests of invalid pages
+        respond with a <C>HTTP 200</C> &mdash; even requests for invalid pages
         &mdash; which is still not what I want. However, it seems that if I want
         to have my pages and routes correct I've got to be a little more
         explicit in my
@@ -68,6 +68,26 @@ const SiteBuild002 = (props) => (
         expected and look to move to a static site generator for my content,
         doing away with the problem of virtual pages altogether.
       </Paragraph>
+      <Paragraph>
+        Another problem with the SPA route-based approach was that navigating
+        between pages would retain scroll position, meaning that you could jump
+        from part one to part two and start some two thirds down the article. To
+        correct that, I created a custom React hook to scroll to the top of the
+        page whenever the path changes.
+      </Paragraph>
+      <CodeBlock
+        code={`import { useEffect } from 'react';
+import { useLocation } from 'wouter';
+
+const useScrollToTop = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+};
+
+export default useScrollToTop;`}
+      />
       <Paragraph>
         Finally, I had noticed some things in the content of my{' '}
         <L href="/site-build-001">first post</L> which in hindsight I wasn't
@@ -89,9 +109,9 @@ const SiteBuild002 = (props) => (
       <Paragraph>
         Now that I've got a couple of pages of content, I wanted to allow
         navigation between them. For now, given that my site has just one story
-        with multiple parts, I've gone down the route of a simple prev/next
-        links at the end of each article to allow the content to naturally flow.
-        A link back to the homepage will be present at the top of each page and
+        with multiple parts, I've gone down the route of simple prev/next links
+        at the end of each article to allow the content to naturally flow. A
+        link back to the homepage will be present at the top of each page and
         I'm not looking to make that more prominent just yet since the homepage
         doesn't serve up much other than directing you to the individual parts
         of the story. It's all a bit rudimentary at the moment, but to be fair
@@ -113,8 +133,8 @@ const SiteBuild002 = (props) => (
         icon which ships with <C>create-react-app</C>. I genuinely hadn't given
         any thought as to what I'd want my favicon to be, but I had the
         spontaneous idea of seeing if somebody on the internet had developed a
-        tool to create one from text. Of course they had - this is the internet!{' '}
-        <E alt="celebration emoji">🎉</E>
+        tool to create one from text. Of course they had &mdash; this is the
+        internet! <E alt="celebration emoji">🎉</E>
       </Paragraph>
       <Paragraph>
         The first result in my search led me to{' '}
@@ -132,7 +152,7 @@ const SiteBuild002 = (props) => (
       <Paragraph>
         I played around with some of the fonts and colours and after kicking the
         font size around a bit I settled on something which took the lettering
-        to the edges of the background box, which I though gave it an
+        to the edges of the background box, which I thought gave it an
         interesting look.
       </Paragraph>{' '}
       <ImageBlock
@@ -154,11 +174,12 @@ const SiteBuild002 = (props) => (
         It didn't look quite right. I mean, the logo itself seemed fine and I
         had all but settled on keeping it, but what bothered me was the white
         lettering. It looked good against a white background because it gave the
-        illusion of a cut-out from the background box. I wanted to keep that
-        aesthetic whatever the background colour, but it seemed that there was
-        no way to do that through the favicon generator I was using, since it
-        would always render a solid foreground colour against a solid background
-        colour.
+        illusion of a cut-out from the background box, but against any other
+        background that extra colour felt like a third wheel. I wanted to keep
+        the cut-out aesthetic whatever the background colour, but it seemed that
+        there was no way to do that through the favicon generator I was using,
+        since it would always render a solid foreground colour against a solid
+        background colour.
       </Paragraph>
       <Paragraph>
         My next thought was to try and create a vector-based version of this
@@ -168,7 +189,7 @@ const SiteBuild002 = (props) => (
         follows the commandment that all modern web applications can only use
         one vowel in their name. It is a very simple online drawing package,
         although thankfully it came fully loaded with a bunch of Google fonts
-        including the one that I had chosen on my favicon generator. I create a
+        including the one that I had chosen on my favicon generator. I created a
         square with rounded edges and then added the text layer to match my
         design. Then came the sticking point. It didn't seem possible to
         "subtract" one layer from another. Reading their{' '}
@@ -241,7 +262,7 @@ const SiteBuild002 = (props) => (
         For the next update, I want to focus on the following:
       </Paragraph>
       <ul>
-        <li>Focus on the page backgrounds and try make them purr.</li>
+        <li>Focus on the page backgrounds and try to make them purr.</li>
         <li>
           Look at some of the visual features I added in this iteration &mdash;
           images, code blocks, etc. &mdash; and see if there are any tweaks that

@@ -9,6 +9,7 @@ import { Paragraph } from '.';
 const StyledParagraph = styled(Paragraph)`
   font-family: ${({ theme }) => theme.font.code};
   font-weight: 600;
+  line-height: 1rem;
   padding: 0 ${({ theme }) => theme.space.xl};
 
   @media only screen and (max-width: 900px) {
