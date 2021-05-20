@@ -28,7 +28,7 @@ const wave3animation = keyframes`
 
 const Container = styled.div`
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
   min-height: 100%;
   background: linear-gradient(
     180deg,

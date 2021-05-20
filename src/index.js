@@ -36,6 +36,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-weight: normal;
+    line-height: 1em;
   }
   body {
     color: #131317;
