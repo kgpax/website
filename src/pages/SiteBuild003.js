@@ -363,7 +363,15 @@ const Background = () => (
       </Paragraph>
     </Segment>
     <Segment heading="Testing">
-      <Paragraph>Blah blah blah...</Paragraph>
+      <Paragraph>
+        Some of the other things that I said I would look into last time revolve
+        around testing - both device and browser testing as well as unit
+        testing. I'm going to make them the primary focus of my next update,
+        because this one is probably already a bit too long and I want to start
+        afresh with my documentation on the testing approach. I've got a few
+        ideas and have been pointed to a few tools, so the next update will give
+        them a spin.
+      </Paragraph>
     </Segment>
     <Segment heading="Next steps">
       <Paragraph>
@@ -371,15 +379,16 @@ const Background = () => (
         be:
       </Paragraph>
       <ul>
-        <li>Step.</li>
-        <li>Step.</li>
-        <li>Step.</li>
-        <li>Step.</li>
+        <li>Testing.</li>
+        <li>Testing.</li>
+        <li>A bit more testing.</li>
       </ul>
-      <Paragraph>Stretch goals:</Paragraph>
-      <ul>
-        <li>Step</li>
-      </ul>
+      <Paragraph>
+        I hope to get a test approach defined and make automated testing a part
+        of my build &amp; publish process. I'll also look into manual browser
+        testing and visual regression testing tools to see what I can benefit
+        from.
+      </Paragraph>
     </Segment>
   </Page>
 );

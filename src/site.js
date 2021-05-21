@@ -33,7 +33,7 @@ nav.push({
   path: '/site-build-003',
   title: 'Building the site : part three',
   shortTitle: 'Part three',
-  date: null,
+  date: '2021-15-22',
   Component: SiteBuild003,
   prev: reference('/site-build-002'),
   next: null,
