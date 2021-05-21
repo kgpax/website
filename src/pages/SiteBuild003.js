@@ -4,6 +4,7 @@ import {
   Paragraph,
   CodeBlock,
   ImageBlock,
+  Link as L,
   ExternalLink as EL,
   Code as C,
   Emoji as E,
@@ -277,18 +278,35 @@ const Background = () => (
         animation, and use CSS to determine which of these to display based on
         whether reduced motion was preferred.
       </Paragraph>
+      <Paragraph>
+        My ambition from the{' '}
+        <L href="/site-build-002#next-steps">last update</L> was to "Focus on
+        the page backgrounds and try to make them purr", and whilst it's
+        probably quite subjective whether there is any "purring" going on there,
+        I'm pretty happy with the result and it matches the vision I had. As
+        always though, there's room for improvement so this might not be the end
+        of the work on the background.
+      </Paragraph>
     </Segment>
     <Segment heading="Bonus motion">
       <Paragraph>
-        Another good friend of mine made a suggestion that I could have the hand
-        icon on my homepage do a little wave, and since I was looking for an
-        opportunity to introduce subtle motion to the landing page I thought it
-        was a great idea and had a go at implementing it.
+        Another friend of mine made a great suggestion that I could have the
+        hand icon on my homepage do a little wave, and since I was looking for
+        an opportunity to introduce subtle motion to the landing page, I had a
+        go at implementing it. Thanks for the idea, Tiff!
       </Paragraph>
       <Paragraph>
         This was a much simpler animation task than the waves in the background,
         as I could use native CSS animation properties to make the hand rotate
         back and forth a few times, a short while after the page had loaded.
+      </Paragraph>
+      <Paragraph>
+        Right now, the animation is slightly crude and looks a bit unnatural; it
+        might be something I'd look to improve in the future to make the waving
+        animation look more authentic, although I suspect that might require
+        having a more dynamic SVG to make the palm and fingers a little less
+        rigid... one for me to consider if I ever decide to get ultra-creative
+        with SVG animation, which to be fair I would like to do at some point.
       </Paragraph>
     </Segment>
     <Segment heading="Proper 404s">
@@ -343,6 +361,25 @@ const Background = () => (
         added a <C>postbuild</C> script to <C>package.json</C> which ran the
         script to generate the file.
       </Paragraph>
+    </Segment>
+    <Segment heading="Testing">
+      <Paragraph>Blah blah blah...</Paragraph>
+    </Segment>
+    <Segment heading="Next steps">
+      <Paragraph>
+        I think that's enough for this update, time to publish. Next steps would
+        be:
+      </Paragraph>
+      <ul>
+        <li>Step.</li>
+        <li>Step.</li>
+        <li>Step.</li>
+        <li>Step.</li>
+      </ul>
+      <Paragraph>Stretch goals:</Paragraph>
+      <ul>
+        <li>Step</li>
+      </ul>
     </Segment>
   </Page>
 );

@@ -81,7 +81,7 @@ const SiteBuild002 = (props) => (
 import { useLocation } from 'wouter';
 
 const useScrollToTop = () => {
-  const { pathname } = useLocation();
+  const [pathname] = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
