@@ -178,12 +178,9 @@ const Background = () => (
 </svg>`}
       />
       <Paragraph>
-        Even though I was convinced this was a{' '}
-        <EL href="https://theagileadmin.com/2013/09/16/is-it-a-bug-or-a-feature-who-cares/">
-          bug-come-feature
-        </EL>
-        , I wasn't going to complain because it meant that I now had an
-        achievable way to animate an SVG path using native CSS animation:
+        Even though I was convinced this was a bug-come-feature, I wasn't going
+        to complain because it meant that I now had an achievable way to animate
+        an SVG path using native CSS animation:
       </Paragraph>
       <CodeBlock
         showLineNumbers={false}
@@ -220,11 +217,11 @@ const Background = () => (
       <Paragraph>
         The next thing I thought I could try was to add more <C>&lt;path&gt;</C>{' '}
         elements to the existing SVG and set slightly different opacities to
-        each one, giving the visual appearance of waves overlaying each other.
-        By doing this and animating them all with slightly different timings,
-        paths and keyframe offsets, I was able to achieve what I think looks
-        like a nice natural "wave" aesthetic to transition the page background
-        colours.
+        each one, giving the visual appearance of numerous waves overlaying each
+        other. By doing this and animating them all with slightly different
+        timings, paths and keyframe offsets, I was able to achieve what I think
+        looks like a nice natural "wave" aesthetic to transition the page
+        background colours...
       </Paragraph>
       <Paragraph>
         <E alt="crying emoji">😭</E> ...but alas, my glee was short-lived.{' '}
@@ -252,21 +249,21 @@ const Background = () => (
   <path>
     <animate
       attributeName="d"
-      values="<wave path 1>; <wave path 2>; <wave path 3>; <wave path 1>;"
+      values="<wave path 1>;<wave path 2>;<wave path 3>;<wave path 1>;"
       keyTimes="0; 0.3; 0.7; 1"
       dur="30s"
       calcMode="splines"
-      keySplines="0.42, 0.0, 0.58, 1.0; 0.42, 0.0, 0.58, 1.0; 0.42, 0.0, 0.58, 1.0;"
+      keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
     />
   </path>
   ...
 </svg>`}
       />
       <Paragraph>
-        The <C>calcMode</C> and <C>keySplines</C> here is a cubic bezier to make
-        the animation use an <C>ease-in-out</C> timing function. I fired that up
-        in numerous browsers and devices and thankfully it seemed to work
-        everywhere. Phew!
+        The <C>calcMode</C> and <C>keySplines</C> here represent a cubic bezier
+        timing function similar to the CSS animation <C>ease-in-out</C>{' '}
+        function. I fired that up in numerous browsers and devices and
+        thankfully it seemed to work everywhere. Phew!
       </Paragraph>
       <Paragraph>
         The finishing touch for this was to acknowledge that not everybody wants
