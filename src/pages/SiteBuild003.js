@@ -193,7 +193,7 @@ const Background = () => (
   100% { d: path('<end path>'); }
 }
 .drawMeWithCss {
-  animation: wave 10s infinite alternate;
+  animation: wave 30s infinite alternate;
 }`}
       />
       <Paragraph>
@@ -204,6 +204,19 @@ const Background = () => (
         forward direction, starting and ending on the same wave rather than
         bouncing back and forth since that looked less natural.
       </Paragraph>
+      <CodeBlock
+        showLineNumbers={false}
+        language="css"
+        code={`@keyframes wave {
+  0%   { d: path('<wave path 1>'); }
+  30%  { d: path('<wave path 2>'); }
+  70%  { d: path('<wave path 3>'); }
+  100% { d: path('<wave path 1>'); }
+}
+.drawMeWithCss {
+  animation: wave 30s ease-in-out infinite;
+}`}
+      />
       <Paragraph>
         The next thing I thought I could try was to add more <C>&lt;path&gt;</C>{' '}
         elements to the existing SVG and set slightly different opacities to
@@ -214,11 +227,58 @@ const Background = () => (
         colours.
       </Paragraph>
       <Paragraph>
+        <E alt="crying emoji">😭</E> ...but alas, my glee was short-lived.{' '}
+        <E alt="still crying emoji">😭</E>
+      </Paragraph>
+      <Paragraph>
+        It turns out that the ability to use CSS to define and animate SVG paths{' '}
+        <EL href="https://stackoverflow.com/questions/46454102/css-d-path-attribute-doesnt-work-in-safari-firefox/46467444#46467444">
+          only works in Chromium based browsers
+        </EL>{' '}
+        &mdash; it was a good thing that I checked and I suppose it demonstrates
+        my lesson learned around about publishing without testing on different
+        browsers and devices.
+      </Paragraph>
+      <Paragraph>
+        I did some more checking and came across the SVG <C>animate</C> element,
+        which can be used as a child of an SVG shape element to define multiple
+        values to animate between. It looked like it supported the same
+        animation properties that I had used in CSS, and so I refactored my SVG
+        to use that element inside each of the <C>path</C> elements instead:
+      </Paragraph>
+      <CodeBlock
+        showLineNumbers={false}
+        code={`<svg>
+  <path>
+    <animate
+      attributeName="d"
+      values="<wave path 1>; <wave path 2>; <wave path 3>; <wave path 1>;"
+      keyTimes="0; 0.3; 0.7; 1"
+      dur="30s"
+      calcMode="splines"
+      keySplines="0.42, 0.0, 0.58, 1.0; 0.42, 0.0, 0.58, 1.0; 0.42, 0.0, 0.58, 1.0;"
+    />
+  </path>
+  ...
+</svg>`}
+      />
+      <Paragraph>
+        The <C>calcMode</C> and <C>keySplines</C> here is a cubic bezier to make
+        the animation use an <C>ease-in-out</C> timing function. I fired that up
+        in numerous browsers and devices and thankfully it seemed to work
+        everywhere. Phew!
+      </Paragraph>
+      <Paragraph>
         The finishing touch for this was to acknowledge that not everybody wants
         motion in their site, and so using the relatively modern CSS media
-        feature <C>@media (prefers-reduced-motion)</C> I could set the animation
-        states to be paused, thereby leaving a static wave for those with that
-        preference.
+        feature <C>@media (prefers-reduced-motion)</C> to turn off the animation
+        when that preference is set. Whilst this would have been easy if the
+        animation was done in CSS like it was initially, this proved to be less
+        obvious for the SVG <C>animate</C> element approach since there seemed
+        to be no way to control that animation from CSS. The solution I settled
+        for in the end was to add duplicate paths, one with and one without
+        animation, and use CSS to determine which of these to display based on
+        whether reduced motion was preferred.
       </Paragraph>
     </Segment>
     <Segment heading="Proper 404s">
