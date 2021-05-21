@@ -13,6 +13,7 @@ import {
   Image as I,
   ExternalLink as EL,
 } from '../components';
+import { WavingHand } from '../icons';
 
 const Container = styled(Section)`
   text-align: center;
@@ -54,7 +55,10 @@ const Home = () => {
         </StyledTitle>
         <SubTitle>my little bit of the internet</SubTitle>
         <Content mt={4}>
-          <InfoBlock icon="wave.svg" iconAlt="Waving hand">
+          <InfoBlock
+            iconComponent={<WavingHand animate />}
+            iconAlt="Waving hand"
+          >
             Hello, I'm <EL href="https://twitter.com/kevinpaxton82">Kevin</EL>.
             After working in software engineering and web development for
             near-on 20 years, I've come to the conclusion that it's time I had a

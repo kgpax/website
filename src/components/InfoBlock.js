@@ -10,7 +10,8 @@ const StyledInfoBlock = styled(Paragraph)`
   background: rgba(0, 0, 0, 0.05);
   border-radius: 1rem;
 
-  & img {
+  & img,
+  svg {
     width: ${({ size }) => size};
     flex: 0 0 ${({ size }) => size};
     padding-top: ${({ theme }) => theme.space.sm};
@@ -22,14 +23,16 @@ const StyledInfoBlock = styled(Paragraph)`
   }
 `;
 
-const InfoBlock = ({ icon, iconAlt, children, ...props }) => (
+const InfoBlock = ({ icon, iconComponent, iconAlt, children, ...props }) => (
   <StyledInfoBlock {...props}>
     {icon && <Image src={icon} alt={iconAlt} />}
+    {iconComponent}
     <span>{children}</span>
   </StyledInfoBlock>
 );
 InfoBlock.propTypes = {
   icon: PropTypes.string,
+  iconComponent: PropTypes.element,
   iconAlt: PropTypes.string,
   size: PropTypes.string.isRequired,
 };

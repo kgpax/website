@@ -278,6 +278,19 @@ const Background = () => (
         whether reduced motion was preferred.
       </Paragraph>
     </Segment>
+    <Segment heading="Bonus motion">
+      <Paragraph>
+        Another good friend of mine made a suggestion that I could have the hand
+        icon on my homepage do a little wave, and since I was looking for an
+        opportunity to introduce subtle motion to the landing page I thought it
+        was a great idea and had a go at implementing it.
+      </Paragraph>
+      <Paragraph>
+        This was a much simpler animation task than the waves in the background,
+        as I could use native CSS animation properties to make the hand rotate
+        back and forth a few times, a short while after the page had loaded.
+      </Paragraph>
+    </Segment>
     <Segment heading="Proper 404s">
       <Paragraph>
         I mentioned in my last update that I had found a way to prevent unwanted{' '}
