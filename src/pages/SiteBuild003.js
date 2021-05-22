@@ -50,12 +50,11 @@ const SiteBuild002 = (props) => (
         For reference, this is what the SVG code for a wave can look like:
       </Paragraph>
       <CodeBlock
-        showLineNumbers={false}
+        language="html"
         code={`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
   <path fill="#0099ff" fill-opacity="1"
         d="M0,96L48,90.7C96,85,192,75,288,101.3C384,128,480,192,576,213.3C672,235,768,213,864,192C960,171,1056,149,1152,138.7C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-</svg>
-`}
+</svg>`}
       />
       <Paragraph>
         Good luck understanding what's going on in that{' '}
@@ -106,7 +105,6 @@ const SiteBuild002 = (props) => (
         background under the lot; something like this:
       </Paragraph>
       <CodeBlock
-        showLineNumbers={false}
         code={`const Container = styled.div\`
   position: relative;
   background: linear-gradient(...);
@@ -161,14 +159,14 @@ const Background = () => (
         doesn't make much sense, but in essence:
       </Paragraph>
       <CodeBlock
-        showLineNumbers={false}
+        language="html"
         code={`<svg viewBox="0 0 10 10">
   <path d="M2,2 L8,8" />
 </svg>`}
       />
       <Paragraph>...can also be achieved with:</Paragraph>
       <CodeBlock
-        showLineNumbers={false}
+        language="html"
         code={`<style>
   .drawMeWithCss {
     d: path('M2,2 L8,8');
@@ -184,7 +182,6 @@ const Background = () => (
         animate an SVG path using native CSS animation:
       </Paragraph>
       <CodeBlock
-        showLineNumbers={false}
         language="css"
         code={`@keyframes wave {
   0%   { d: path('<wave path 1>'); }
@@ -203,7 +200,6 @@ const Background = () => (
         bouncing back and forth since that looked less natural.
       </Paragraph>
       <CodeBlock
-        showLineNumbers={false}
         language="css"
         code={`@keyframes wave {
   0%   { d: path('<wave path 1>'); }
@@ -244,7 +240,7 @@ const Background = () => (
         to use that element inside each of the <C>path</C> elements instead:
       </Paragraph>
       <CodeBlock
-        showLineNumbers={false}
+        language="html"
         code={`<svg>
   <path>
     <animate
@@ -338,7 +334,6 @@ const Background = () => (
         everything else. The final output would look something like this:
       </Paragraph>
       <CodeBlock
-        showLineNumbers={false}
         language="text"
         code={`/ /index.html 200
 /site-build-001 /index.html 200

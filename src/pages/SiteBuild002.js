@@ -51,11 +51,7 @@ const SiteBuild002 = (props) => (
         in the root of the publication folder with the following content in does
         the trick:
       </Paragraph>
-      <CodeBlock
-        language="text"
-        showLineNumbers={false}
-        code={`/* /index.html 200`}
-      />
+      <CodeBlock language="text" code={`/* /index.html 200`} />
       <Paragraph>
         ...however, this leaves a new problem dangling in that now all paths
         respond with a <C>HTTP 200</C> &mdash; even requests for invalid pages
@@ -76,7 +72,6 @@ const SiteBuild002 = (props) => (
         page whenever the path changes.
       </Paragraph>
       <CodeBlock
-        showLineNumbers={false}
         code={`import { useEffect } from 'react';
 import { useLocation } from 'wouter';
 
