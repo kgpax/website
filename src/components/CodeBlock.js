@@ -11,9 +11,11 @@ const Container = styled.div`
   font-weight: 600;
   margin: ${({ theme }) => theme.space.lg} 0;
   padding: 0 ${({ theme }) => theme.space.xl};
+  font-size: 1.7rem;
 
   @media only screen and (max-width: 767px) {
     padding: 0;
+    font-size: 1.3rem;
   }
 `;
 

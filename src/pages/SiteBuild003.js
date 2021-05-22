@@ -14,8 +14,8 @@ const SiteBuild002 = (props) => (
   <Page {...props}>
     <Segment heading="Background and motion">
       <Paragraph>
-        I finally got around the making the page background look like I was
-        thinking, replacing that sharp diagonal line with some oscillating waves
+        I finally got around to making the page background look how I had
+        imagined, replacing that sharp diagonal line with some animating waves
         at the half-way point of the page. I did wonder whether I should fix the
         background position independent of scroll position so that the wave is
         always visible at the midpoint of the viewport, but I decided against it
@@ -85,7 +85,7 @@ const SiteBuild002 = (props) => (
         the CSS <C>stroke</C> and <C>fill</C> properties, except you cannot
         expect it to work when the SVG is used as an image, either in an{' '}
         <C>&lt;img&gt;</C> element or as a CSS <C>background-image</C> &mdash;
-        it just doesn't seem to be possible address the SVG via CSS that way.
+        it just doesn't seem to be possible to address the SVG via CSS that way.
         The only way to allow CSS to influence an SVG in my experience is to use
         an HTML <C>&lt;svg&gt;</C> element in-line, instead of an <C>.svg</C>{' '}
         file as an image. I replicated the SVG code as a React component and
@@ -179,19 +179,19 @@ const Background = () => (
 </svg>`}
       />
       <Paragraph>
-        Even though I was convinced this was a bug-come-feature, I wasn't going
-        to complain because it meant that I now had an achievable way to animate
-        an SVG path using native CSS animation:
+        Even though I was convinced this was a bug-turned-feature, I wasn't
+        going to complain because it meant that I now had an achievable way to
+        animate an SVG path using native CSS animation:
       </Paragraph>
       <CodeBlock
         showLineNumbers={false}
         language="css"
         code={`@keyframes wave {
-  0%   { d: path('<start path>'); }
-  100% { d: path('<end path>'); }
+  0%   { d: path('<wave path 1>'); }
+  100% { d: path('<wave path 2>'); }
 }
 .drawMeWithCss {
-  animation: wave 30s infinite alternate;
+  animation: wave 30s ease-in-out infinite alternate;
 }`}
       />
       <Paragraph>
@@ -225,8 +225,7 @@ const Background = () => (
         background colours...
       </Paragraph>
       <Paragraph>
-        <E alt="crying emoji">😭</E> ...but alas, my glee was short-lived.{' '}
-        <E alt="still crying emoji">😭</E>
+        ...but alas, my glee was short-lived. <E alt="crying emoji">😭</E>
       </Paragraph>
       <Paragraph>
         It turns out that the ability to use CSS to define and animate SVG paths{' '}
@@ -234,8 +233,8 @@ const Background = () => (
           only works in Chromium based browsers
         </EL>{' '}
         &mdash; it was a good thing that I checked and I suppose it demonstrates
-        my lesson learned around about publishing without testing on different
-        browsers and devices.
+        my lesson learned about publishing without testing on different browsers
+        and devices.
       </Paragraph>
       <Paragraph>
         I did some more checking and came across the SVG <C>animate</C> element,
@@ -357,7 +356,7 @@ const Background = () => (
         time that the site was deployed, which could be achieved by making it a
         part of the build process &mdash; to happen after the build had
         completed &mdash; and to place the file into the <C>build</C> folder to
-        be published. Doing this is an <C>npm</C> based project is easy - I just
+        be published. Doing this in an <C>npm</C> based project is easy - I just
         added a <C>postbuild</C> script to <C>package.json</C> which ran the
         script to generate the file.
       </Paragraph>
