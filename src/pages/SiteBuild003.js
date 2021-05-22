@@ -246,7 +246,7 @@ const Background = () => (
     <animate
       attributeName="d"
       values="<wave path 1>;<wave path 2>;<wave path 3>;<wave path 1>;"
-      keyTimes="0; 0.3; 0.7; 1"
+      keyTimes="0;0.3;0.7;1"
       dur="30s"
       calcMode="splines"
       keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"

@@ -22,7 +22,7 @@ const CodeBlock = ({ language, showLineNumbers, code }) => (
       language={language}
       style={style}
       showLineNumbers={showLineNumbers}
-      // customStyle={{ fontFamily: 'inherit' }}
+      customStyle={{ fontFamily: 'inherit' }}
       codeTagProps={{ style: { fontFamily: 'inherit' } }}
     >
       {code}
