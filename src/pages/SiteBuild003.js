@@ -121,10 +121,10 @@ const Children = styled.div\`
   z-index: 2;
 \`
 const Background = () => (
-    <Container>
-      <Svg />
-      <Children>{children}</Children>
-    </Container>
+  <Container>
+    <Svg />
+    <Children>{children}</Children>
+  </Container>
 );`}
       />
       <Paragraph>

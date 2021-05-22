@@ -4,7 +4,7 @@ const font = {
   title: `Shanti, ${fallback}`,
   default: `Recursive, ${fallback}`,
   cursive: `'Clicker Script', cursive`,
-  code: `Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace`,
+  code: `'Cousine', 'Courier New', Courier, monospace`,
 };
 
 // space

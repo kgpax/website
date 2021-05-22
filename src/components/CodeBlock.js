@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { PrismAsyncLight as SyntaxHighlighter } from 'react-syntax-highlighter';
-import style from 'react-syntax-highlighter/dist/esm/styles/prism/dracula';
+import codeTheme from '../theme/code';
 
 const Container = styled.div`
   position: relative;
@@ -20,10 +20,8 @@ const CodeBlock = ({ language, showLineNumbers, code }) => (
   <Container>
     <SyntaxHighlighter
       language={language}
-      style={style}
+      style={codeTheme}
       showLineNumbers={showLineNumbers}
-      customStyle={{ fontFamily: 'inherit' }}
-      codeTagProps={{ style: { fontFamily: 'inherit' } }}
     >
       {code}
     </SyntaxHighlighter>
