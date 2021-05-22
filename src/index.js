@@ -10,6 +10,7 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   html {
+    height: 100%;
     font-size: 10px;
     @media only screen and (max-width: 768px) {
       font-size: 8px;
@@ -17,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
   }
   html, body, #root {
     height: 100%;
+    /* min-height: 100%; */
   }
   body {
     margin: 0;
@@ -34,6 +36,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-weight: normal;
+    line-height: 1em;
   }
   body {
     color: #131317;

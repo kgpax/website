@@ -6,12 +6,7 @@ const StyledSection = styled.section`
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background: linear-gradient(
-    ${({ bgAngle }) => `${bgAngle}deg`},
-    ${({ bg, bg1, bg2, bgSplit }) =>
-      `${bg1 || bg} ${bgSplit}%, ${bg2 || bg} ${bgSplit}%`}
-  );
-  ${space};
+  ${space}
   padding: ${({ theme }) => theme.space.xl};
 `;
 

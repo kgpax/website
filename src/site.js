@@ -2,6 +2,7 @@ import dayjs from 'dayjs';
 import Home from './pages/Home';
 import SiteBuild001 from './pages/SiteBuild001';
 import SiteBuild002 from './pages/SiteBuild002';
+import SiteBuild003 from './pages/SiteBuild003';
 
 const nav = [];
 const reference = (path) => () => [nav.find((x) => x.path === path)];
@@ -25,6 +26,16 @@ nav.push({
   date: '2021-05-17',
   Component: SiteBuild002,
   prev: reference('/site-build-001'),
+  next: reference('/site-build-003'),
+});
+nav.push({
+  type: 'post',
+  path: '/site-build-003',
+  title: 'Building the site : part three',
+  shortTitle: 'Part three',
+  date: '2021-05-22',
+  Component: SiteBuild003,
+  prev: reference('/site-build-002'),
   next: null,
 });
 

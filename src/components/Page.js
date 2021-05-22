@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 import dayjs from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
-import { pickColorPair } from '../utils/colors';
 import { usePageTitle, useScrollToTop } from '../hooks';
 import { Title, Date, Section, Link, PrevNextNav } from '.';
+import Background from './Background';
 import Header from './Header';
 import Content from './Content';
 import Footer from './Footer';
@@ -34,24 +34,25 @@ const BottomFooter = styled(Footer)`
 const Page = ({ title, date, prev, next, children }) => {
   usePageTitle(title);
   useScrollToTop();
-  const [bg1, bg2] = pickColorPair();
   return (
-    <Section bg1={bg1} bg2={bg2}>
-      <TopHeader bg={bg1} border={bg2}>
-        &uarr;
-        <Link href="/">kevinpaxton.com</Link>
-      </TopHeader>
-      <FullContent>
-        {title && <Title>{title}</Title>}
-        {(date && (
-          <Date dateTime={date}>{dayjs(date).format('Do MMM YYYY')}</Date>
-        )) || <Date>Publish date TBC</Date>}
-        {children}
-      </FullContent>
-      <BottomFooter bg={bg1} border={bg2}>
-        <PrevNextNav prev={prev} next={next} />
-      </BottomFooter>
-    </Section>
+    <Background>
+      <Section>
+        <TopHeader>
+          &uarr;
+          <Link href="/">kevinpaxton.com</Link>
+        </TopHeader>
+        <FullContent>
+          {title && <Title>{title}</Title>}
+          {(date && (
+            <Date dateTime={date}>{dayjs(date).format('Do MMM YYYY')}</Date>
+          )) || <Date>Publish date TBC</Date>}
+          {children}
+        </FullContent>
+        <BottomFooter>
+          <PrevNextNav prev={prev} next={next} />
+        </BottomFooter>
+      </Section>
+    </Background>
   );
 };
 

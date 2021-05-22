@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { pickColorPair } from '../../utils/colors';
 import { usePageTitle, useScrollToTop } from '../../hooks';
-import { LinkButton, Section } from '../../components';
+import Background from '../../components/Background';
+import { Section, Heading, Link } from '../../components';
 
 const Container = styled(Section)`
   display: flex;
@@ -12,19 +12,21 @@ const Container = styled(Section)`
 `;
 
 const BigText = styled.h2`
-  font-size: 45vw;
+  font-size: 25vw;
   font-weight: 900;
 `;
 
 const Home = () => {
   usePageTitle('404');
   useScrollToTop();
-  const [bg1, bg2] = pickColorPair();
   return (
-    <Container py={4} bg1={bg1} bg2={bg2}>
-      <BigText>404</BigText>
-      <LinkButton href="/">&uarr; Come on, let's get you home...</LinkButton>
-    </Container>
+    <Background>
+      <Container>
+        <BigText>404</BigText>
+        <Heading>This page does not exist</Heading>
+        <Link href="/">&uarr; Come on, let's get you home...</Link>
+      </Container>
+    </Background>
   );
 };
 

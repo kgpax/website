@@ -6,7 +6,7 @@ const StyledSegment = styled.section`
 `;
 
 const Segment = ({ heading, children, ...props }) => (
-  <StyledSegment {...props}>
+  <StyledSegment id={heading.toLowerCase().replace(/\s/g, '-')} {...props}>
     {heading && <Heading>{heading}</Heading>}
     {children}
   </StyledSegment>
