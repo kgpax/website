@@ -105,6 +105,7 @@ const SiteBuild002 = (props) => (
         background under the lot; something like this:
       </Paragraph>
       <CodeBlock
+        language="jsx"
         code={`const Container = styled.div\`
   position: relative;
   background: linear-gradient(...);
