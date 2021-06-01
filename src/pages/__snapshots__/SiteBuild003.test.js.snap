@@ -1,0 +1,3532 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div
+  class="sc-hKFxyN gcDctk"
+>
+  <svg
+    class="sc-dlnjwi eZHRFH sc-eCApnc hcAKMR"
+    height="320"
+    preserveAspectRatio="none"
+    viewBox="0 0 1440 320"
+    width="100%"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      class="sc-bdnxRM eMaIpy"
+      d="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      fill="#FFFFFF"
+      fill-opacity="0.35"
+    />
+    <path
+      class="sc-gtsrHT dUsYnb"
+      d="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      fill="#FFFFFF"
+      fill-opacity="0.35"
+    >
+      <animate
+        attributeName="d"
+        calcMode="spline"
+        dur="30s"
+        keySplines="0.45, 0, 0.55, 1;0.45, 0, 0.55, 1;0.45, 0, 0.55, 1"
+        keyTimes="0;0.2;0.8;1"
+        repeatCount="indefinite"
+        values="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      />
+    </path>
+    <path
+      class="sc-bdnxRM eMaIpy"
+      d="M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      fill="#FFFFFF"
+      fill-opacity="0.5"
+    />
+    <path
+      class="sc-gtsrHT dUsYnb"
+      d="M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      fill="#FFFFFF"
+      fill-opacity="0.5"
+    >
+      <animate
+        attributeName="d"
+        calcMode="spline"
+        dur="25s"
+        keySplines="0.45, 0, 0.55, 1;0.45, 0, 0.55, 1;0.45, 0, 0.55, 1"
+        keyTimes="0;0.3;0.7;1"
+        repeatCount="indefinite"
+        values="M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      />
+    </path>
+    <path
+      class="sc-bdnxRM eMaIpy"
+      d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      fill="#FFFFFF"
+      fill-opacity="1"
+    />
+    <path
+      class="sc-gtsrHT dUsYnb"
+      d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      fill="#FFFFFF"
+      fill-opacity="1"
+    >
+      <animate
+        attributeName="d"
+        calcMode="spline"
+        dur="35s"
+        keySplines="0.45, 0, 0.55, 1;0.45, 0, 0.55, 1;0.45, 0, 0.55, 1"
+        keyTimes="0;0.4;0.6;1"
+        repeatCount="indefinite"
+        values="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      />
+    </path>
+  </svg>
+  <div
+    class="sc-jSFjdj iqrXij"
+  >
+    <section
+      class="sc-bqGGPW cMYPGv"
+    >
+      <header
+        class="sc-gKAaRy sc-jrsJWt eflIJP"
+      >
+        ↑
+        <a
+          class="sc-iwajpm fEDrup"
+          href="/"
+        >
+          kevinpaxton.com
+        </a>
+      </header>
+      <article
+        class="sc-iCoGMd dSirmf sc-kEqXSa bYFfzU"
+      >
+        <time
+          class="sc-dlMDgC hgbZqc"
+        >
+          Publish date TBC
+        </time>
+        <section
+          class="sc-hBMUJo mTCpl"
+          id="background-and-motion"
+        >
+          <h2
+            class="sc-ksluID bOubR"
+          >
+            Background and motion
+          </h2>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            I finally got around to making the page background look how I had imagined, replacing that sharp diagonal line with some animating waves at the half-way point of the page. I did wonder whether I should fix the background position independent of scroll position so that the wave is always visible at the midpoint of the viewport, but I decided against it as I think it serves as a subliminal indication of progress down the page. Plus it's something to look forward to as you scroll down.
+             
+            <span
+              alt="smiling emoji"
+              aria-label="smiling emoji"
+              class="sc-bCwfaz iGlRxj"
+              role="img"
+            >
+              😄
+            </span>
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            It wasn't actually anywhere near as complicated to create as I was expecting. Of course, I couldn't have done it without my old pal Google, but it turns out I'm not actually all that original and that the idea of
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://www.google.com/search?q=animated+wave+svg"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              animated wave SVGs
+            </a>
+             
+            is pretty popular and therefore pretty easy to learn how to implement without having to remaster trigonometric ratios and the dark mystic arts of the SVG 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              path
+            </code>
+             element.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            First, I just wanted a static curved svg to see how easily I could fudge it into the background. For this, I found the beautifully relevant
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://getwaves.io/"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              getwaves.io
+            </a>
+            , which let me generate random wave patterns and copy the SVG 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              path
+            </code>
+             element which drew them.
+          </p>
+          <div
+            class="sc-bkbkJK vXpEg"
+            width="100%"
+          >
+            <figure
+              class="sc-iemWCZ dsoIPa"
+            >
+              <img
+                alt="Screenshot of the getwaves.io website"
+                class="sc-fFSPTT"
+                src="img/site-build-003/getwavesio.png"
+              />
+              <figcaption
+                class="sc-dIvrsQ bcSUwc"
+              >
+                literally making waves with getwaves.io
+              </figcaption>
+            </figure>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            For reference, this is what the SVG code for a wave can look like:
+          </p>
+          <div
+            class="sc-fKgJPI fHubgp"
+          >
+            <pre
+              style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
+            >
+              <code
+                class="language-html"
+                style="color: rgb(248, 248, 242); background: none; text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"
+              >
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  svg
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  xmlns
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  http://www.w3.org/2000/svg
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  viewBox
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  0 0 1440 320
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  path
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  fill
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  #0099ff
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  fill-opacity
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  1
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  
+
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                          
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  d
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  M0,96L48,90.7C96,85,192,75,288,101.3C384,128,480,192,576,213.3C672,235,768,213,864,192C960,171,1056,149,1152,138.7C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;/
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  path
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;/
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  svg
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+              </code>
+            </pre>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            Good luck understanding what's going on in that
+             
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              &lt;path d="..." /&gt;
+            </code>
+             attribute. I have a basic working knowledge of SVG drawing syntax, but there is no way I was making one of those on my own! Once I had generated one that I liked, I was able to save the 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              .svg
+            </code>
+             file and use that as the 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              background-image
+            </code>
+             to my site.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            Of course, that looked pants since the wave was only around 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              320px
+            </code>
+             
+            tall and so it just plonked itself there at the top of my background and left the remainder of the page blank. What I wanted was the wave to form the transition from one background colour to another at the halfway point of the page. I could use CSS properties such as
+             
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              background-position
+            </code>
+             and 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              background-size
+            </code>
+             to fine tune the placement, whilst the two-tone background could be achieved on a different element underneath the SVG background using a linear gradient with a sharp 50% horizontal split. However, the next problem was much more significant...
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            The SVG which I copied from
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://getwaves.io/"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              getwaves.io
+            </a>
+             was a fixed colour, and I needed it to match the second colour of my two-tone background to blend the transition. Changing SVG colours in CSS is pretty easy using the CSS 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              stroke
+            </code>
+             and 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              fill
+            </code>
+             properties, except you cannot expect it to work when the SVG is used as an image, either in an
+             
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              &lt;img&gt;
+            </code>
+             element or as a CSS 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              background-image
+            </code>
+             — it just doesn't seem to be possible to address the SVG via CSS that way. The only way to allow CSS to influence an SVG in my experience is to use an HTML 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              &lt;svg&gt;
+            </code>
+             element in-line, instead of an 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              .svg
+            </code>
+             
+            file as an image. I replicated the SVG code as a React component and used CSS to set the fill colour dynamically based on the random background colours being used.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            The problem now was that the wave SVG was an
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              inline-level element
+            </a>
+            , and would become a part of the page layout rather than being a part of the background. I had a solution to that, but it felt (and still feels) a bit hacky: I created a new 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              &lt;Background&gt;
+            </code>
+             React component which would have two immediate children: 
+            <strong>
+              (1)
+            </strong>
+             the SVG and 
+            <strong>
+              (2)
+            </strong>
+             the actual content, and use CSS to layer them on top of another in the right places and put the two-tone solid background under the lot; something like this:
+          </p>
+          <div
+            class="sc-fKgJPI fHubgp"
+          >
+            <pre
+              style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
+            >
+              <code
+                class="language-jsx"
+                style="color: rgb(248, 248, 242); background: none; text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"
+              >
+                <span
+                  class="token"
+                  style="color: rgb(139, 233, 253);"
+                >
+                  const
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token maybe-class-name"
+                >
+                  Container
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span>
+                   styled
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  .
+                </span>
+                <span
+                  class="token property-access"
+                >
+                  div
+                </span>
+                <span
+                  class="token template-string template-punctuation"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  \`
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                    
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  position
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                   relative
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                    
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  background
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                   
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  linear-gradient
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  ...
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+                </span>
+                <span
+                  class="token template-string template-punctuation"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  \`
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(139, 233, 253);"
+                >
+                  const
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token maybe-class-name"
+                >
+                  Svg
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span>
+                   styled
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  .
+                </span>
+                <span
+                  class="token property-access"
+                >
+                  svg
+                </span>
+                <span
+                  class="token template-string template-punctuation"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  \`
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                    
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  position
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                   absolute
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                    
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  display
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                   block
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                    
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  top
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                   
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  calc
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(189, 147, 249);"
+                >
+                  50
+                </span>
+                <span
+                  class="token template-string css language-css unit"
+                >
+                  %
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                   
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  -
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                   
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(189, 147, 249);"
+                >
+                  160
+                </span>
+                <span
+                  class="token template-string css language-css unit"
+                >
+                  px
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                   
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(98, 114, 164);"
+                >
+                  /* 160px = 1/2 SVG height */
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                    
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  left
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                   
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(189, 147, 249);"
+                >
+                  0
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                    
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  z-index
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                   
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(189, 147, 249);"
+                >
+                  1
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+                </span>
+                <span
+                  class="token template-string template-punctuation"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  \`
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(139, 233, 253);"
+                >
+                  const
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token maybe-class-name"
+                >
+                  Children
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span>
+                   styled
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  .
+                </span>
+                <span
+                  class="token property-access"
+                >
+                  div
+                </span>
+                <span
+                  class="token template-string template-punctuation"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  \`
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                    
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  position
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                   relative
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                    
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  z-index
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                   
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(189, 147, 249);"
+                >
+                  2
+                </span>
+                <span
+                  class="token template-string css language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token template-string css language-css"
+                >
+                  
+                </span>
+                <span
+                  class="token template-string template-punctuation"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  \`
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(139, 233, 253);"
+                >
+                  const
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token function-variable maybe-class-name"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  Background
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token arrow"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =&gt;
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  Container
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span
+                  class="token plain-text"
+                >
+                  
+
+                </span>
+                <span
+                  class="token plain-text"
+                >
+                      
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  Svg
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  /&gt;
+                </span>
+                <span
+                  class="token plain-text"
+                >
+                  
+
+                </span>
+                <span
+                  class="token plain-text"
+                >
+                      
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  Children
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                  children
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;/
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  Children
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span
+                  class="token plain-text"
+                >
+                  
+
+                </span>
+                <span
+                  class="token plain-text"
+                >
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;/
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  Container
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+              </code>
+            </pre>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            This worked great, although the CSS needed some tweaking from the above simplification in order to look correct on various screen widths.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            Now that I had the curved line I wanted, the next challenge was to animate it in a way that made it look like a wave, slowly undulating up and down. I expected this to be a monster of a task, requiring me to look at the SVG paths of a number of waves to try to decipher and comprehend the immense gibberish which is the SVG 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              path
+            </code>
+             
+            instructions in order to know what parts would change to achieve the desired effect. Once again, though,
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://getwaves.io/"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              getwaves.io
+            </a>
+             came to the rescue — indirectly this time.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            When you click the "dice" button on this site to generate a new wave, the wave preview transitions from one wave to another. This tipped me off to the idea that browsers can perform the transition from one SVG path to another in the same way that they can transition, say, CSS position and colour. I did a quick Google to see how that was done and
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://css-tricks.com/animate-svg-path-changes-in-css/"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              I was incredibly surprised at the answer
+            </a>
+            . It was ridiculously simple, and completely unexpected.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            It turns out, SVG paths can be described in CSS as well as in HTML. I still can't quite believe that this is correct, because on face value it doesn't make much sense, but in essence:
+          </p>
+          <div
+            class="sc-fKgJPI fHubgp"
+          >
+            <pre
+              style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
+            >
+              <code
+                class="language-html"
+                style="color: rgb(248, 248, 242); background: none; text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"
+              >
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  svg
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  viewBox
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  0 0 10 10
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  path
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  d
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  M2,2 L8,8
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  /&gt;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;/
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  svg
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+              </code>
+            </pre>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            ...can also be achieved with:
+          </p>
+          <div
+            class="sc-fKgJPI fHubgp"
+          >
+            <pre
+              style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
+            >
+              <code
+                class="language-html"
+                style="color: rgb(248, 248, 242); background: none; text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"
+              >
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  style
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span
+                  class="token style language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token style language-css"
+                >
+                    
+                </span>
+                <span
+                  class="token style language-css class"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  .drawMeWithCss
+                </span>
+                <span
+                  class="token style language-css"
+                >
+                   
+                </span>
+                <span
+                  class="token style language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span
+                  class="token style language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token style language-css"
+                >
+                      
+                </span>
+                <span
+                  class="token style language-css"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  d
+                </span>
+                <span
+                  class="token style language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span
+                  class="token style language-css"
+                >
+                   
+                </span>
+                <span
+                  class="token style language-css"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  path
+                </span>
+                <span
+                  class="token style language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token style language-css"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  'M2,2 L8,8'
+                </span>
+                <span
+                  class="token style language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token style language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span
+                  class="token style language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token style language-css"
+                >
+                    
+                </span>
+                <span
+                  class="token style language-css"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span
+                  class="token style language-css"
+                >
+                  
+
+                </span>
+                <span
+                  class="token style language-css"
+                >
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;/
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  style
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  svg
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  viewBox
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  0 0 10 10
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  path
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  class
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  drawMeWithCss
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  /&gt;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;/
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  svg
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+              </code>
+            </pre>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            Even though I was convinced this was a bug-turned-feature, I wasn't going to complain because it meant that I now had an achievable way to animate an SVG path using native CSS animation:
+          </p>
+          <div
+            class="sc-fKgJPI fHubgp"
+          >
+            <pre
+              style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
+            >
+              <code
+                class="language-css"
+                style="color: rgb(248, 248, 242); background: none; text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"
+              >
+                <span
+                  class="token rule"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  @keyframes
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                   wave
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  0%
+                </span>
+                <span>
+                     
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  d
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  path
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  '&lt;wave path 1&gt;'
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  100%
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  d
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  path
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  '&lt;wave path 2&gt;'
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token class"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  .drawMeWithCss
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  animation
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span>
+                   wave 
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(189, 147, 249);"
+                >
+                  30
+                </span>
+                <span
+                  class="token unit"
+                >
+                  s
+                </span>
+                <span>
+                   ease-in-out infinite alternate
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+              </code>
+            </pre>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            It worked! I was pretty shocked at how straightforward that was, and definitely pleased with the result. Now that I had that working, I generated a bunch of new wave SVG paths and used those to give more animation keyframes to the wave, and to make it animate in a continuous forward direction, starting and ending on the same wave rather than bouncing back and forth since that looked less natural.
+          </p>
+          <div
+            class="sc-fKgJPI fHubgp"
+          >
+            <pre
+              style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
+            >
+              <code
+                class="language-css"
+                style="color: rgb(248, 248, 242); background: none; text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"
+              >
+                <span
+                  class="token rule"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  @keyframes
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                   wave
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  0%
+                </span>
+                <span>
+                     
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  d
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  path
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  '&lt;wave path 1&gt;'
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  30%
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  d
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  path
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  '&lt;wave path 2&gt;'
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  70%
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  d
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  path
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  '&lt;wave path 3&gt;'
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  100%
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  d
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  path
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  '&lt;wave path 1&gt;'
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token class"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  .drawMeWithCss
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  animation
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  :
+                </span>
+                <span>
+                   wave 
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(189, 147, 249);"
+                >
+                  30
+                </span>
+                <span
+                  class="token unit"
+                >
+                  s
+                </span>
+                <span>
+                   ease-in-out infinite
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+              </code>
+            </pre>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            The next thing I thought I could try was to add more 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              &lt;path&gt;
+            </code>
+             
+            elements to the existing SVG and set slightly different opacities to each one, giving the visual appearance of numerous waves overlaying each other. By doing this and animating them all with slightly different timings, paths and keyframe offsets, I was able to achieve what I think looks like a nice natural "wave" aesthetic to transition the page background colours...
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            ...but alas, my glee was short-lived. 
+            <span
+              alt="crying emoji"
+              aria-label="crying emoji"
+              class="sc-bCwfaz iGlRxj"
+              role="img"
+            >
+              😭
+            </span>
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            It turns out that the ability to use CSS to define and animate SVG paths
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://stackoverflow.com/questions/46454102/css-d-path-attribute-doesnt-work-in-safari-firefox/46467444#46467444"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              only works in Chromium based browsers
+            </a>
+             
+            — it was a good thing that I checked and I suppose it demonstrates my lesson learned about publishing without testing on different browsers and devices.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            I did some more checking and came across the SVG 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              animate
+            </code>
+             element, which can be used as a child of an SVG shape element to define multiple values to animate between. It looked like it supported the same animation properties that I had used in CSS, and so I refactored my SVG to use that element inside each of the 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              path
+            </code>
+             elements instead:
+          </p>
+          <div
+            class="sc-fKgJPI fHubgp"
+          >
+            <pre
+              style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
+            >
+              <code
+                class="language-html"
+                style="color: rgb(248, 248, 242); background: none; text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"
+              >
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  svg
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  path
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                      
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  animate
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  
+
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                        
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  attributeName
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  d
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  
+
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                        
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  values
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  &lt;wave path 1&gt;;&lt;wave path 2&gt;;&lt;wave path 3&gt;;&lt;wave path 1&gt;;
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  
+
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                        
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  keyTimes
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  0;0.3;0.7;1
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  
+
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                        
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  dur
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  30s
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  
+
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                        
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  calcMode
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  splines
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  
+
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                        
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  keySplines
+                </span>
+                <span
+                  class="token attr-equals"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  "
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  
+
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                      
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  /&gt;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;/
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  path
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+                <span>
+                  
+
+                </span>
+                  ...
+
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &lt;/
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(255, 121, 198);"
+                >
+                  svg
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  &gt;
+                </span>
+              </code>
+            </pre>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            The 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              calcMode
+            </code>
+             and 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              keySplines
+            </code>
+             here represent a cubic bezier timing function similar to the CSS animation 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              ease-in-out
+            </code>
+             
+            function. I fired that up in numerous browsers and devices and thankfully it seemed to work everywhere. Phew!
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            The finishing touch for this was to acknowledge that not everybody wants motion in their site, and so using the relatively modern CSS media feature 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              @media (prefers-reduced-motion)
+            </code>
+             to turn off the animation when that preference is set. Whilst this would have been easy if the animation was done in CSS like it was initially, this proved to be less obvious for the SVG 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              animate
+            </code>
+             element approach since there seemed to be no way to control that animation from CSS. The solution I settled for in the end was to add duplicate paths, one with and one without animation, and use CSS to determine which of these to display based on whether reduced motion was preferred.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            My ambition from the
+             
+            <a
+              class="sc-iwajpm fEDrup"
+              href="/site-build-002#next-steps"
+            >
+              last update
+            </a>
+             was to "Focus on the page backgrounds and try to make them purr", and whilst it's probably quite subjective whether there is any "purring" going on there, I'm pretty happy with the result and it matches the vision I had. As always though, there's room for improvement so this might not be the end of the work on the background.
+          </p>
+        </section>
+        <section
+          class="sc-hBMUJo mTCpl"
+          id="bonus-motion"
+        >
+          <h2
+            class="sc-ksluID bOubR"
+          >
+            Bonus motion
+          </h2>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            Another friend of mine made a great suggestion that I could have the hand icon on my homepage do a little wave, and since I was looking for an opportunity to introduce subtle motion to the landing page, I had a go at implementing it. Thanks for the idea, Tiff!
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            This was a much simpler animation task than the waves in the background, as I could use native CSS animation properties to make the hand rotate back and forth a few times, a short while after the page had loaded.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            Right now, the animation is slightly crude and looks a bit unnatural; it might be something I'd look to improve in the future to make the waving animation look more authentic, although I suspect that might require having a more dynamic SVG to make the palm and fingers a little less rigid... one for me to consider if I ever decide to get ultra-creative with SVG animation, which to be fair I would like to do at some point.
+          </p>
+        </section>
+        <section
+          class="sc-hBMUJo mTCpl"
+          id="proper-404s"
+        >
+          <h2
+            class="sc-ksluID bOubR"
+          >
+            Proper 404s
+          </h2>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            I mentioned in my last update that I had found a way to prevent unwanted
+             
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              404
+            </code>
+             errors from occurring when deep-linking to a route on the site, and that the solution to that actually meant that nothing was ever a 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              404
+            </code>
+            .
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            My two thoughts at the time on how to fix that were 
+            <strong>
+              (a)
+            </strong>
+             
+            generate a dynamic 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              _redirects
+            </code>
+             file based on the actual pages of the site, and 
+            <strong>
+              (b)
+            </strong>
+             kick the
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://reactjs.org/docs/create-a-new-react-app.html"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              CRA
+            </a>
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://en.wikipedia.org/wiki/Single-page_application#:~:text=A%20single%2Dpage%20application%20(SPA,browser%20loading%20entire%20new%20pages"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              SPA
+            </a>
+             
+            into touch and migrate to a static site generator. I opted for approach
+             
+            <strong>
+              (a)
+            </strong>
+             as a short term solution because I want to look at the migration once I have built up enough of the site to have complex and interactive pages to migrate, to learn how those would be done.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            Creating the 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              _redirects
+            </code>
+             file dynamically wasn't too complicated. I already had a code-based representation of my site map as a file which I used to help with the navigational components of the site. All I needed to do was to write a script to create a new 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              _redirects
+            </code>
+             
+            file which included all of the site pages as instructions to redirect to
+             
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              index.html 200
+            </code>
+            , with a catch-all at the bottom to 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              404
+            </code>
+             
+            everything else. The final output would look something like this:
+          </p>
+          <div
+            class="sc-fKgJPI fHubgp"
+          >
+            <pre
+              style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
+            >
+              <code
+                class="language-text"
+                style="color: rgb(248, 248, 242); background: none; text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"
+              >
+                <span>
+                  / /index.html 200
+
+                </span>
+                /site-build-001 /index.html 200
+
+                /site-build-002 /index.html 200
+
+                /site-build-003 /index.html 200
+
+                /* /index.html 404
+
+              </code>
+            </pre>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            The reason that the 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              404
+            </code>
+             rule also redirects to the
+             
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              /index.html
+            </code>
+             file is so that the routing for my 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              404
+            </code>
+             page can be handled by the router for the site.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            All I needed to do now was to ensure that this file was generated every time that the site was deployed, which could be achieved by making it a part of the build process — to happen after the build had completed — and to place the file into the 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              build
+            </code>
+             folder to be published. Doing this in an 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              npm
+            </code>
+             based project is easy - I just added a 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              postbuild
+            </code>
+             script to 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              package.json
+            </code>
+             which ran the script to generate the file.
+          </p>
+        </section>
+        <section
+          class="sc-hBMUJo mTCpl"
+          id="testing"
+        >
+          <h2
+            class="sc-ksluID bOubR"
+          >
+            Testing
+          </h2>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            Some of the other things that I said I would look into last time revolve around testing - both device and browser testing as well as unit testing. I'm going to make them the primary focus of my next update, because this one is probably already a bit too long and I want to start afresh with my documentation on the testing approach. I've got a few ideas and have been pointed to a few tools, so the next update will give them a spin.
+          </p>
+        </section>
+        <section
+          class="sc-hBMUJo mTCpl"
+          id="next-steps"
+        >
+          <h2
+            class="sc-ksluID bOubR"
+          >
+            Next steps
+          </h2>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            I think that's enough for this update, time to publish. Next steps would be:
+          </p>
+          <ul>
+            <li>
+              Testing.
+            </li>
+            <li>
+              Testing.
+            </li>
+            <li>
+              A bit more testing.
+            </li>
+          </ul>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            I hope to get a test approach defined and make automated testing a part of my build & publish process. I'll also look into manual browser testing and visual regression testing tools to see what I can benefit from.
+          </p>
+        </section>
+      </article>
+      <footer
+        class="sc-fujyAs sc-iqAclL eoquod"
+      >
+        <span
+          class="sc-pNWdM PnHWI"
+        >
+          © 
+          2021
+           
+          <a
+            class="sc-iwajpm fEDrup"
+            href="/"
+          >
+            Kevin Paxton
+          </a>
+        </span>
+      </footer>
+    </section>
+  </div>
+</div>
+`;

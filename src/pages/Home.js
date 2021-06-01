@@ -2,13 +2,13 @@ import styled from 'styled-components';
 import { space } from 'styled-system';
 import { usePageTitle, useScrollToTop } from '../hooks';
 import Background from '../components/Background';
+import PostNav from '../components/PostNav';
 import {
   Title,
   Section,
   Content,
   Paragraph,
   InfoBlock,
-  PostNav,
   Footer,
   Image as I,
   ExternalLink as EL,

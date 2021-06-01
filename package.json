@@ -18,7 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "postbuild": "node ./scripts/postbuild.js",
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage",
     "eject": "react-scripts eject",
     "prepare": "husky install"
   },
@@ -47,8 +47,10 @@
     "@babel/register": "^7.13.16",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
+    "@testing-library/react-hooks": "^7.0.0",
     "@testing-library/user-event": "^12.1.10",
     "husky": "^6.0.0",
+    "jest-when": "^3.3.1",
     "prettier": "^2.3.0",
     "pretty-quick": "^3.1.0"
   }

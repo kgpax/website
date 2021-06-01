@@ -1,0 +1,1037 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div
+  class="sc-hKFxyN gcDctk"
+>
+  <svg
+    class="sc-dlnjwi eZHRFH sc-eCApnc hcAKMR"
+    height="320"
+    preserveAspectRatio="none"
+    viewBox="0 0 1440 320"
+    width="100%"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      class="sc-bdnxRM eMaIpy"
+      d="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      fill="#FFFFFF"
+      fill-opacity="0.35"
+    />
+    <path
+      class="sc-gtsrHT dUsYnb"
+      d="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      fill="#FFFFFF"
+      fill-opacity="0.35"
+    >
+      <animate
+        attributeName="d"
+        calcMode="spline"
+        dur="30s"
+        keySplines="0.45, 0, 0.55, 1;0.45, 0, 0.55, 1;0.45, 0, 0.55, 1"
+        keyTimes="0;0.2;0.8;1"
+        repeatCount="indefinite"
+        values="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      />
+    </path>
+    <path
+      class="sc-bdnxRM eMaIpy"
+      d="M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      fill="#FFFFFF"
+      fill-opacity="0.5"
+    />
+    <path
+      class="sc-gtsrHT dUsYnb"
+      d="M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      fill="#FFFFFF"
+      fill-opacity="0.5"
+    >
+      <animate
+        attributeName="d"
+        calcMode="spline"
+        dur="25s"
+        keySplines="0.45, 0, 0.55, 1;0.45, 0, 0.55, 1;0.45, 0, 0.55, 1"
+        keyTimes="0;0.3;0.7;1"
+        repeatCount="indefinite"
+        values="M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      />
+    </path>
+    <path
+      class="sc-bdnxRM eMaIpy"
+      d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      fill="#FFFFFF"
+      fill-opacity="1"
+    />
+    <path
+      class="sc-gtsrHT dUsYnb"
+      d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      fill="#FFFFFF"
+      fill-opacity="1"
+    >
+      <animate
+        attributeName="d"
+        calcMode="spline"
+        dur="35s"
+        keySplines="0.45, 0, 0.55, 1;0.45, 0, 0.55, 1;0.45, 0, 0.55, 1"
+        keyTimes="0;0.4;0.6;1"
+        repeatCount="indefinite"
+        values="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      />
+    </path>
+  </svg>
+  <div
+    class="sc-jSFjdj iqrXij"
+  >
+    <section
+      class="sc-bqGGPW cMYPGv"
+    >
+      <header
+        class="sc-gKAaRy sc-jrsJWt eflIJP"
+      >
+        ↑
+        <a
+          class="sc-iwajpm fEDrup"
+          href="/"
+        >
+          kevinpaxton.com
+        </a>
+      </header>
+      <article
+        class="sc-iCoGMd dSirmf sc-kEqXSa bYFfzU"
+      >
+        <time
+          class="sc-dlMDgC hgbZqc"
+        >
+          Publish date TBC
+        </time>
+        <section
+          class="sc-hBMUJo mTCpl"
+          id="lessons-learned"
+        >
+          <h2
+            class="sc-ksluID bOubR"
+          >
+            Lessons learned
+          </h2>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            I was probably a little hasty in putting the site live. As soon as I had notified the
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://twitter.com/kevinpaxton82/status/1393278487939670023?ref_src=twsrc%5Etfw"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              Twittersphere
+            </a>
+             
+            about my new venture, I decided to actually check for the first time how it looked on my phone.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            It wasn't good 
+            <span
+              alt="grimacing face emoji"
+              aria-label="grimacing face emoji"
+              class="sc-bCwfaz iGlRxj"
+              role="img"
+            >
+              😬
+            </span>
+            .
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            There was zero padding around the content on mobile, making it particularly bad on any device with a
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://guide.servify.in/phone-notch-design-explained/"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              notch
+            </a>
+            , and my attempt at vertically centering content on the homepage had backfired as the content itself was bigger than the viewport. For a front-end developer who claims to have an eye for design, this was all a bit of a misstep and a lesson learned about not getting carried away with the excitement of going live.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            The next facepalm moment came when I realised after the fact that Netlify doesn't appreciate my 2014-era SPA, and would 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              404
+            </code>
+             if you tried to access a page directly. Makes sense, since all pages are currently routes rather than files, so I discovered that I needed to include a
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://www.netlify.com/blog/2019/01/16/redirect-rules-for-all-how-to-configure-redirects-for-your-static-site/#the-redirects-file"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              special file
+            </a>
+             
+            to force all requests to go to the 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              index.html
+            </code>
+             page, and allow routing to handle it all. It seems that putting a 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              _redirects
+            </code>
+             file in the root of the publication folder with the following content in does the trick:
+          </p>
+          <div
+            class="sc-fKgJPI fHubgp"
+          >
+            <pre
+              style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
+            >
+              <code
+                class="language-text"
+                style="color: rgb(248, 248, 242); background: none; text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"
+              >
+                <span>
+                  /* /index.html 200
+                </span>
+              </code>
+            </pre>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            ...however, this leaves a new problem dangling in that now all paths respond with a 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              HTTP 200
+            </code>
+             — even requests for invalid pages — which is still not what I want. However, it seems that if I want to have my pages and routes correct I've got to be a little more explicit in my
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              _redirects
+            </code>
+             file. This would be a pain to maintain, so I'm tempted to make it a part of the build process to generate this file based on the site navigation; alternatively I could bite the bullet earlier than expected and look to move to a static site generator for my content, doing away with the problem of virtual pages altogether.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            Another problem with the SPA route-based approach was that navigating between pages would retain scroll position, meaning that you could jump from part one to part two and start some two thirds down the article. To correct that, I created a custom React hook to scroll to the top of the page whenever the path changes.
+          </p>
+          <div
+            class="sc-fKgJPI fHubgp"
+          >
+            <pre
+              style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
+            >
+              <code
+                class="language-js"
+                style="color: rgb(248, 248, 242); background: none; text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none;"
+              >
+                <span
+                  class="token module"
+                  style="color: rgb(139, 233, 253);"
+                >
+                  import
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token imports"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span
+                  class="token imports"
+                >
+                   useEffect 
+                </span>
+                <span
+                  class="token imports"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token module"
+                  style="color: rgb(139, 233, 253);"
+                >
+                  from
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  'react'
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token module"
+                  style="color: rgb(139, 233, 253);"
+                >
+                  import
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token imports"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span
+                  class="token imports"
+                >
+                   useLocation 
+                </span>
+                <span
+                  class="token imports"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token module"
+                  style="color: rgb(139, 233, 253);"
+                >
+                  from
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(80, 250, 123);"
+                >
+                  'wouter'
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                  
+
+                </span>
+                
+
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(139, 233, 253);"
+                >
+                  const
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token function-variable"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  useScrollToTop
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token arrow"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =&gt;
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(139, 233, 253);"
+                >
+                  const
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  [
+                </span>
+                <span>
+                  pathname
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ]
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  useLocation
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  useEffect
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token arrow"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  =&gt;
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  {
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                      
+                </span>
+                <span
+                  class="token dom"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  window
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  .
+                </span>
+                <span
+                  class="token method property-access"
+                  style="color: rgb(241, 250, 140);"
+                >
+                  scrollTo
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  (
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(189, 147, 249);"
+                >
+                  0
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ,
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(189, 147, 249);"
+                >
+                  0
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                    
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ,
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  [
+                </span>
+                <span>
+                  pathname
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ]
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  )
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                  
+
+                </span>
+                <span>
+                  
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  }
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+                <span>
+                  
+
+                </span>
+                
+
+                <span>
+                  
+                </span>
+                <span
+                  class="token module"
+                  style="color: rgb(139, 233, 253);"
+                >
+                  export
+                </span>
+                <span>
+                   
+                </span>
+                <span
+                  class="token module"
+                  style="color: rgb(139, 233, 253);"
+                >
+                  default
+                </span>
+                <span>
+                   useScrollToTop
+                </span>
+                <span
+                  class="token"
+                  style="color: rgb(248, 248, 242);"
+                >
+                  ;
+                </span>
+              </code>
+            </pre>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            Finally, I had noticed some things in the content of my
+             
+            <a
+              class="sc-iwajpm fEDrup"
+              href="/site-build-001"
+            >
+              first post
+            </a>
+             which in hindsight I wasn't happy about. I'd used the phrase "I toyed with..." three separate times, which made me wish I had proof-read it sooner and been a bit more varied with my language. However, that made me decide to set myself a rule for this website: that I will not go back and change any posts I have published, except to correct any glaring typos or broken links. The content can stay with all its warts, hairs and careless grammar, and we will see if my copywriting improves over time.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            ...and yes, for those of you just noticing, I am quite self-critical. I don't beat myself up too much, it's just my way of trying to continually improve.
+          </p>
+        </section>
+        <section
+          class="sc-hBMUJo mTCpl"
+          id="back-to-the-site"
+        >
+          <h2
+            class="sc-ksluID bOubR"
+          >
+            Back to the site
+          </h2>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            Now that I've got a couple of pages of content, I wanted to allow navigation between them. For now, given that my site has just one story with multiple parts, I've gone down the route of simple prev/next links at the end of each article to allow the content to naturally flow. A link back to the homepage will be present at the top of each page and I'm not looking to make that more prominent just yet since the homepage doesn't serve up much other than directing you to the individual parts of the story. It's all a bit rudimentary at the moment, but to be fair there isn't much yet to navigate to, so I'll let this one evolve as the site does.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            I also put a bit more effort into the HTML structure of the pages since the first release, including what I believe is the correct usage of semantic elements for the content of the page; 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              article
+            </code>
+            ,
+             
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              section
+            </code>
+            , etc. — I even managed to squeeze in what must be my first ever use of the 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              time
+            </code>
+             element for the date of each post.
+          </p>
+        </section>
+        <section
+          class="sc-hBMUJo mTCpl"
+          id="favicon"
+        >
+          <h2
+            class="sc-ksluID bOubR"
+          >
+            Favicon
+          </h2>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            One of the low hanging fruit I wanted to tackle as soon as possible was giving my site a favicon to avoid being stuck with the default React icon which ships with 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              create-react-app
+            </code>
+            . I genuinely hadn't given any thought as to what I'd want my favicon to be, but I had the spontaneous idea of seeing if somebody on the internet had developed a tool to create one from text. Of course they had — this is the internet! 
+            <span
+              alt="celebration emoji"
+              aria-label="celebration emoji"
+              class="sc-bCwfaz iGlRxj"
+              role="img"
+            >
+              🎉
+            </span>
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            The first result in my search led me to
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://favicon.io/"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              favicon.io
+            </a>
+            . It's a pretty uncomplicated tool which lets you create a favicon set from image, text or emoji. I opted for text just to see what a favicon of my initials would look like, and much to my own surprise I was pretty sold on it straight away.
+          </p>
+          <div
+            class="sc-bkbkJK vXpEg"
+            width="100%"
+          >
+            <figure
+              class="sc-iemWCZ dsoIPa"
+            >
+              <img
+                alt="Screenshot of the faviconio website"
+                class="sc-fFSPTT"
+                src="img/site-build-002/faviconio.png"
+              />
+              <figcaption
+                class="sc-dIvrsQ bcSUwc"
+              >
+                using favicon.io to create a favicon from text
+              </figcaption>
+            </figure>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            I played around with some of the fonts and colours and after kicking the font size around a bit I settled on something which took the lettering to the edges of the background box, which I thought gave it an interesting look.
+          </p>
+           
+          <div
+            class="sc-bkbkJK vXpEg"
+            width="100%"
+          >
+            <figure
+              class="sc-iemWCZ dsoIPa"
+            >
+              <img
+                alt="Screenshot of my final favicon design"
+                class="sc-fFSPTT"
+                src="img/site-build-002/faviconio2.png"
+              />
+              <figcaption
+                class="sc-dIvrsQ bcSUwc"
+              >
+                playing with the options to get my preferred icon
+              </figcaption>
+            </figure>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            I downloaded that and added it to my site and was happy with the result sitting there in my chrome tab, so much so that I decided to see if it would hold its own as a bit of a "logo" on my homepage in place of the literal 
+            <code
+              class="sc-kfYoZR ldJYzE"
+            >
+              &lt;h1&gt;&lt;/h1&gt;
+            </code>
+             surrounding my domain.
+          </p>
+          <div
+            class="sc-bkbkJK vXpEg"
+            width="100%"
+          >
+            <figure
+              class="sc-iemWCZ dsoIPa"
+            >
+              <img
+                alt="the homepage title with the favicon as a logo"
+                class="sc-fFSPTT"
+                src="img/site-build-002/sitelogo.png"
+              />
+              <figcaption
+                class="sc-dIvrsQ bcSUwc"
+              >
+                the homepage title with the favicon as a logo
+              </figcaption>
+            </figure>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            It didn't look quite right. I mean, the logo itself seemed fine and I had all but settled on keeping it, but what bothered me was the white lettering. It looked good against a white background because it gave the illusion of a cut-out from the background box, but against any other background that extra colour felt like a third wheel. I wanted to keep the cut-out aesthetic whatever the background colour, but it seemed that there was no way to do that through the favicon generator I was using, since it would always render a solid foreground colour against a solid background colour.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            My next thought was to try and create a vector-based version of this logo, where the lettering was a path cut out from the background box. Again, the internet delivered in the form of an online vector drawing package called 
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://vectr.com/"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              Vectr
+            </a>
+            , which dutifully follows the commandment that all modern web applications can only use one vowel in their name. It is a very simple online drawing package, although thankfully it came fully loaded with a bunch of Google fonts including the one that I had chosen on my favicon generator. I created a square with rounded edges and then added the text layer to match my design. Then came the sticking point. It didn't seem possible to "subtract" one layer from another. Reading their
+             
+            <a
+              class="sc-cxNHIi fsKHxE"
+              href="https://vectr.com/user-guide/workspace/workspace-tools/#geometry-tools"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+            >
+              docs
+            </a>
+            , it seems that the application does support this feature, but not if one of your layers is text. Damn!
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            I was about to go back to square one and look for alternative applications hoping that they had the same font which by this point I was fully invested in, but just before leaving I caught a glimpse of the "path" tool. This would allow me to draw arbitrary shapes which would be valid to subtract from the background. I set to work tracing the lettering as a new path layer, expecting to find the process a bit too difficult to accomplish on my MacBook's trackpad, but to be fair the application was really good at snapping to relevant edges and implicit guidelines and even gave fine-grain control of curves. Fantastic! I traced the lettering as good as I was going to get it in the brief window that my youngest was having a nap and subtracted it from the background.
+          </p>
+          <div
+            class="sc-bkbkJK vXpEg"
+            width="100%"
+          >
+            <figure
+              class="sc-iemWCZ dsoIPa"
+            >
+              <img
+                alt="Screenshot of using vectr to create the favicon"
+                class="sc-fFSPTT"
+                src="img/site-build-002/vectr.png"
+              />
+              <figcaption
+                class="sc-dIvrsQ bcSUwc"
+              >
+                a work in progress, showing the clipping path for the letter P
+              </figcaption>
+            </figure>
+          </div>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            I was able to export to drawing as an SVG — thankfully! I hadn't checked whether that was something I could do without using a paid version of the tool — and then ran that SVG through another favicon generator to generate all of the different shapes and sizes expected by the various modern browsers. I then took the largest of these and used it as the logo on my homepage, and I was pleased that I persevered with it.
+          </p>
+        </section>
+        <section
+          class="sc-hBMUJo mTCpl"
+          id="backgrounds-and-motion"
+        >
+          <h2
+            class="sc-ksluID bOubR"
+          >
+            Backgrounds and motion
+          </h2>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            I hinted briefly in my last post that I like good design and I like subtle use of animations to bring a bit of life to a page. The more observant of you may have noticed that my pages change their background colour each time you reload them; I did that as a starting point just for a bit of fun, and I think I'm going to stick with it because I quite like it — I think it offers a bit of entropy to what is currently an otherwise bog-standard site.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            In the first release, the background was a two-tone split along a diagonal line, and whilst that didn't look too bad given the minimal effort that was put into it, my ambition was for something a bit more curved with subtle undulation. Maybe my PlayStation home screen has been subliminally influencing me all these years. I've happened across a number of articles and Twitter posts discussing how to animate SVGs, all the time wishing that 
+            <em>
+              I
+            </em>
+             was somebody who got to do cool UI stuff like that — well, I figured that this might be a nice opportunity for me to 
+            <strong>
+              (a)
+            </strong>
+             turn that frown upside down, and 
+            <strong>
+              (b)
+            </strong>
+             see if it could work for my background.
+          </p>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            However, since the majority of the things I've worked on for this update are either fixes to things I did wrong or slight enhancements that I'd like to be there as early as possible, I've decided to bump the background and motion work to my next update.
+          </p>
+        </section>
+        <section
+          class="sc-hBMUJo mTCpl"
+          id="next-steps"
+        >
+          <h2
+            class="sc-ksluID bOubR"
+          >
+            Next steps
+          </h2>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            For the next update, I want to focus on the following:
+          </p>
+          <ul>
+            <li>
+              Focus on the page backgrounds and try to make them purr.
+            </li>
+            <li>
+              Look at some of the visual features I added in this iteration — images, code blocks, etc. — and see if there are any tweaks that can be done to improve them.
+            </li>
+            <li>
+              Add a build step to auto-generate the 
+              <code
+                class="sc-kfYoZR ldJYzE"
+              >
+                _redirects
+              </code>
+               file.
+            </li>
+            <li>
+              Decide on my browser testing strategy and tooling.
+            </li>
+          </ul>
+          <p
+            class="sc-fnVZcZ bWseFA"
+          >
+            Stretch goals:
+          </p>
+          <ul>
+            <li>
+              Unit tests. I've been very naughty and have neglected unit testing for the functionality that I'm writing. I need to sort that.
+            </li>
+          </ul>
+        </section>
+      </article>
+      <footer
+        class="sc-fujyAs sc-iqAclL eoquod"
+      >
+        <span
+          class="sc-pNWdM PnHWI"
+        >
+          © 
+          2021
+           
+          <a
+            class="sc-iwajpm fEDrup"
+            href="/"
+          >
+            Kevin Paxton
+          </a>
+        </span>
+      </footer>
+    </section>
+  </div>
+</div>
+`;

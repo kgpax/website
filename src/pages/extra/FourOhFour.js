@@ -16,7 +16,7 @@ const BigText = styled.h2`
   font-weight: 900;
 `;
 
-const Home = () => {
+const FourOhFour = () => {
   usePageTitle('404');
   useScrollToTop();
   return (
@@ -30,4 +30,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default FourOhFour;
