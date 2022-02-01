@@ -28,5 +28,45 @@
 			"<ExternalLink href=\"$1\">$2</ExternalLink>",
 		],
 		"description": "An external link"
+	},
+	"Page Test": {
+		"scope": "javascript,typescript",
+		"prefix": "ptest",
+		"body": [
+			"import { render } from '../../test/utils';",
+			"import ${1:${TM_FILENAME_BASE/(.*)\\..+$/$1/}} from './$1';",
+			"",
+			"const page = () => render(<$1 />);",
+			"",
+			"test('should match snapshot', () => {",
+			"  expect(page().element).toMatchSnapshot();",
+			"});",
+			""
+		]
+	},
+	"Component Test": {
+		"scope": "javascript,typescript",
+		"prefix": "ctest",
+		"body": [
+			"import { render } from '../../test/utils';",
+			"import ${1:${TM_FILENAME_BASE/(.*)\\..+$/$1/}} from './$1';",
+			"",
+			"const component = (props = {}) => render(<$1 {...props}>${3:This is some content}</$1>);",
+			"",
+			"test('should match snapshot', () => {",
+			"  expect(component().element).toMatchSnapshot();",
+			"});",
+			"",
+			"test('should be a ${2:DIV} element', () => {",
+			"  const { element } = component();",
+			"  expect(element.tagName).toBe('$2');",
+			"});",
+			"",
+			"test('should contain expected content', () => {",
+			"  const { element } = component();",
+			"  expect(element.textContent).toBe('$3');",
+			"});",
+			""
+		]
 	}
 }

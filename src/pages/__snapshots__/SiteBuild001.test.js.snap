@@ -2,10 +2,10 @@
 
 exports[`should match snapshot 1`] = `
 <div
-  class="sc-hKFxyN gcDctk"
+  class="sc-pNWdM lidcYK"
 >
   <svg
-    class="sc-dlnjwi eZHRFH sc-eCApnc hcAKMR"
+    class="sc-fujyAs eouupX sc-jrsJWt ddNTfN"
     height="320"
     preserveAspectRatio="none"
     viewBox="0 0 1440 320"
@@ -13,13 +13,13 @@ exports[`should match snapshot 1`] = `
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      class="sc-bdnxRM eMaIpy"
+      class="sc-gKAaRy drRrFq"
       d="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       fill="#FFFFFF"
       fill-opacity="0.35"
     />
     <path
-      class="sc-gtsrHT dUsYnb"
+      class="sc-iCoGMd bgPJCa"
       d="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       fill="#FFFFFF"
       fill-opacity="0.35"
@@ -35,13 +35,13 @@ exports[`should match snapshot 1`] = `
       />
     </path>
     <path
-      class="sc-bdnxRM eMaIpy"
+      class="sc-gKAaRy drRrFq"
       d="M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       fill="#FFFFFF"
       fill-opacity="0.5"
     />
     <path
-      class="sc-gtsrHT dUsYnb"
+      class="sc-iCoGMd bgPJCa"
       d="M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       fill="#FFFFFF"
       fill-opacity="0.5"
@@ -57,13 +57,13 @@ exports[`should match snapshot 1`] = `
       />
     </path>
     <path
-      class="sc-bdnxRM eMaIpy"
+      class="sc-gKAaRy drRrFq"
       d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       fill="#FFFFFF"
       fill-opacity="1"
     />
     <path
-      class="sc-gtsrHT dUsYnb"
+      class="sc-iCoGMd bgPJCa"
       d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       fill="#FFFFFF"
       fill-opacity="1"
@@ -80,46 +80,46 @@ exports[`should match snapshot 1`] = `
     </path>
   </svg>
   <div
-    class="sc-jSFjdj iqrXij"
+    class="sc-kEqXSa bSuqTt"
   >
     <section
-      class="sc-bqGGPW cMYPGv"
+      class="sc-ksluID bEKbIL"
     >
       <header
-        class="sc-gKAaRy sc-jrsJWt eflIJP"
+        class="sc-bdnxRM sc-crzoAE bwsfd"
       >
         ↑
         <a
-          class="sc-iwajpm fEDrup"
+          class="sc-gtsrHT kcixAX"
           href="/"
         >
           kevinpaxton.com
         </a>
       </header>
       <article
-        class="sc-iCoGMd dSirmf sc-kEqXSa bYFfzU"
+        class="sc-iqAclL buAPLG sc-dIsUp jSNdby"
       >
         <time
-          class="sc-dlMDgC hgbZqc"
+          class="sc-kfYoZR gnfmfG"
         >
           Publish date TBC
         </time>
         <section
-          class="sc-hBMUJo mTCpl"
+          class="sc-fnVZcZ dEjgST"
           id="motivation"
         >
           <h2
-            class="sc-ksluID bOubR"
+            class="sc-hBMUJo gDEpSe"
           >
             Motivation
           </h2>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I'd been toying with the idea of having my own website for a while. I'm pretty sure I made it a new years resolution for 2021, although when the lockdown kicked in and home-schooling (a.k.a parenting-from-work) became a thing, I'd lost any appetite I had for giving myself extra responsibility.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I wasn't sure what I would put on a site... in fact at the time of writing this I'm still not sure. I'm a bit of an odd person — some would say stop the sentence there — in that I'm confident and have a lot of self-belief whilst simultaneously being quite shy, humble and self-effacing about putting myself or the work I produce out there in such a public space; I'm not entirely sure
              
@@ -134,16 +134,16 @@ exports[`should match snapshot 1`] = `
             , but putting this website out there is a way to try and fight those demons. I'd been given suggestions about making a blog, or a portfolio site, or even just having a space to do some side projects and little fun hacks; all of which are good ideas, and all of which might make their way into it at some point.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I figured that for my opening gambit, I could write about my experience of putting this site together, and share my thought processes and decisions along the way.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA sc-hHEiqL bQzmHZ"
+            class="sc-fFSPTT fsRIWy sc-dlMDgC gfZuQR"
           >
             <img
               alt="Speech bubble, hinting at lots of talking"
-              class="sc-fFSPTT"
+              class="sc-bkbkJK"
               src="img/speech.svg"
             />
             <span>
@@ -155,16 +155,16 @@ exports[`should match snapshot 1`] = `
           </p>
         </section>
         <section
-          class="sc-hBMUJo mTCpl"
+          class="sc-fnVZcZ dEjgST"
           id="picking-the-tech-stack"
         >
           <h2
-            class="sc-ksluID bOubR"
+            class="sc-hBMUJo gDEpSe"
           >
             Picking the tech stack
           </h2>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I'm a full stack developer by trade, or at least historically I am. My passion is for front-end development and my current go-to front-end library is 
             <a
@@ -208,11 +208,11 @@ exports[`should match snapshot 1`] = `
             , or perhaps one of the many others options which I'm not really caught up with because I've been criminally out of touch with front-end tech stacks.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             In the end, I've opted to reduce the number of learning curves and just go the way of using 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               create-react-app
             </code>
@@ -230,7 +230,7 @@ exports[`should match snapshot 1`] = `
             and you'll see that I'm currently building these pages using components rather than using markdown which builds to HTML. I think that's old-school now, right?
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I'd toyed with the idea of using
              
@@ -246,16 +246,16 @@ exports[`should match snapshot 1`] = `
           </p>
         </section>
         <section
-          class="sc-hBMUJo mTCpl"
+          class="sc-fnVZcZ dEjgST"
           id="the-design"
         >
           <h2
-            class="sc-ksluID bOubR"
+            class="sc-hBMUJo gDEpSe"
           >
             The design
           </h2>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I'm quite a visually driven person. I like to think I have a good eye for design, but that doesn't necessarily translate to being
              
@@ -265,39 +265,39 @@ exports[`should match snapshot 1`] = `
              design.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I've opted to start fairly minimalist, whilst putting at least some thought into colour, typography and spacing. I plan to scour the web for inspiration on how I can enhance the aesthetics of this website, and use it as an opportunity to flex some of those UI and UX muscles which have been wasting away for too long.
           </p>
         </section>
         <section
-          class="sc-hBMUJo mTCpl"
+          class="sc-fnVZcZ dEjgST"
           id="my-first-go-live"
         >
           <h2
-            class="sc-ksluID bOubR"
+            class="sc-hBMUJo gDEpSe"
           >
             My first go-live
           </h2>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I purchased the 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               kevinpaxton.com
             </code>
              domain years ago, around the time that Google launched its 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               .dev
             </code>
              top level domains. I didn't have a concrete plan at the time, I just wanted to see if the domain was available for my name and get it whilst I could.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             Since then, it has just sat there, squatting; I've renewed it twice since then and only remembered I had it when I got the renewal emails. In fact, it's been so long out of my mind that when I deployed the first version of this site,
              
@@ -311,21 +311,21 @@ exports[`should match snapshot 1`] = `
             </a>
             , thinking I'd purchased 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               kevinpaxton.dev
             </code>
              instead of securing the
              
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               .com
             </code>
              domain.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I was recommended using 
             <a
@@ -350,27 +350,27 @@ exports[`should match snapshot 1`] = `
              and sure enough the process was really streamlined and really quite cool. I loved how once it got your permission to go to town on your repo, it just set everything up for you. I'm familiar with pipelines and whatnot integrating with GitHub, but I was still pleasantly surprised at how hands-off the process was and how when it was completed, it Just Works™. I had to do some Google-Fu to get my Google domain pointing to my Netlify app, but that's mainly because I didn't RTFM and tried to go it alone with my painfully limited DNS knowledge, but in the end - here we are.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             A start has been made. Now I've got to keep it up.
           </p>
         </section>
         <section
-          class="sc-hBMUJo mTCpl"
+          class="sc-fnVZcZ dEjgST"
           id="next-steps"
         >
           <h2
-            class="sc-ksluID bOubR"
+            class="sc-hBMUJo gDEpSe"
           >
             Next steps
           </h2>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I'm going to try and make this a regular section to my updates, where I list bits I want to go after next. I won't hold myself to getting everything done, but it will serve as an interesting retrospective for my journey.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             Here's what I hope to put up next time:
           </p>
@@ -389,7 +389,7 @@ exports[`should match snapshot 1`] = `
             </li>
           </ul>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             Stretch goals:
           </p>
@@ -401,16 +401,16 @@ exports[`should match snapshot 1`] = `
         </section>
       </article>
       <footer
-        class="sc-fujyAs sc-iqAclL eoquod"
+        class="sc-dlnjwi sc-bqGGPW cRJpdP"
       >
         <span
-          class="sc-pNWdM PnHWI"
+          class="sc-hKFxyN daezOO"
         >
           © 
-          2021
+          2022
            
           <a
-            class="sc-iwajpm fEDrup"
+            class="sc-gtsrHT kcixAX"
             href="/"
           >
             Kevin Paxton

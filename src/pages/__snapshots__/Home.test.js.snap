@@ -83,14 +83,14 @@ exports[`should match snapshot 1`] = `
     class="sc-jSFjdj iqrXij"
   >
     <section
-      class="sc-bqGGPW jywlCH sc-ezzafa gMTfKk"
+      class="sc-ksluID kIjlOP sc-ezzafa gMTfKk"
     >
       <h1
-        class="sc-dIsUp uONBt sc-bYwzuL bZfqBN"
+        class="sc-kEqXSa dIasGX sc-bYwzuL bZfqBN"
       >
         <img
           alt="kevinpaxton.com logo"
-          class="sc-fFSPTT sc-kLojOw bBdzNo"
+          class="sc-bkbkJK sc-kLojOw bBdzNo"
           src="img/logo.svg"
         />
         kevinpaxton.com
@@ -101,10 +101,10 @@ exports[`should match snapshot 1`] = `
         my little bit of the internet
       </h2>
       <article
-        class="sc-iCoGMd fxxfwM"
+        class="sc-iqAclL VpUCV"
       >
         <p
-          class="sc-fnVZcZ bWseFA sc-hHEiqL bQzmHZ"
+          class="sc-fFSPTT fsRIWy sc-dlMDgC gfZuQR"
         >
           <svg
             class="sc-giAqHp hUtNmg"
@@ -131,12 +131,12 @@ exports[`should match snapshot 1`] = `
           </span>
         </p>
         <p
-          class="sc-fnVZcZ bWseFA"
+          class="sc-fFSPTT fsRIWy"
         >
           In an attempt to get the creative juices flowing with what to put on this part of the cloud, I figured that I'd document the process of getting this site up and built to a level I'm happy with, which will be all its own challenge, but more on that later.
         </p>
         <p
-          class="sc-fnVZcZ bWseFA"
+          class="sc-fFSPTT fsRIWy"
         >
           This will be a huge brain dump of the technical and creative thought process, and will arrive in stages alongside the general updates to the site.
         </p>
@@ -146,7 +146,7 @@ exports[`should match snapshot 1`] = `
           <ul>
             <li>
               <a
-                class="sc-iwajpm fEDrup"
+                class="sc-iCoGMd dhezmS"
                 href="/site-build-001"
               >
                 <strong>
@@ -158,7 +158,7 @@ exports[`should match snapshot 1`] = `
             </li>
             <li>
               <a
-                class="sc-iwajpm fEDrup"
+                class="sc-iCoGMd dhezmS"
                 href="/site-build-002"
               >
                 <strong>
@@ -170,7 +170,7 @@ exports[`should match snapshot 1`] = `
             </li>
             <li>
               <a
-                class="sc-iwajpm fEDrup"
+                class="sc-iCoGMd dhezmS"
                 href="/site-build-003"
               >
                 <strong>
@@ -190,10 +190,10 @@ exports[`should match snapshot 1`] = `
           class="sc-pNWdM PnHWI"
         >
           © 
-          2021
+          2022
            
           <a
-            class="sc-iwajpm fEDrup"
+            class="sc-iCoGMd dhezmS"
             href="/"
           >
             Kevin Paxton

@@ -2,10 +2,10 @@
 
 exports[`should match snapshot 1`] = `
 <div
-  class="sc-hKFxyN gcDctk"
+  class="sc-pNWdM lidcYK"
 >
   <svg
-    class="sc-dlnjwi eZHRFH sc-eCApnc hcAKMR"
+    class="sc-fujyAs eouupX sc-jrsJWt ddNTfN"
     height="320"
     preserveAspectRatio="none"
     viewBox="0 0 1440 320"
@@ -13,13 +13,13 @@ exports[`should match snapshot 1`] = `
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      class="sc-bdnxRM eMaIpy"
+      class="sc-gKAaRy drRrFq"
       d="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       fill="#FFFFFF"
       fill-opacity="0.35"
     />
     <path
-      class="sc-gtsrHT dUsYnb"
+      class="sc-iCoGMd bgPJCa"
       d="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,138.7C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       fill="#FFFFFF"
       fill-opacity="0.35"
@@ -35,13 +35,13 @@ exports[`should match snapshot 1`] = `
       />
     </path>
     <path
-      class="sc-bdnxRM eMaIpy"
+      class="sc-gKAaRy drRrFq"
       d="M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       fill="#FFFFFF"
       fill-opacity="0.5"
     />
     <path
-      class="sc-gtsrHT dUsYnb"
+      class="sc-iCoGMd bgPJCa"
       d="M0,288L48,261.3C96,235,192,181,288,133.3C384,85,480,43,576,58.7C672,75,768,149,864,170.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       fill="#FFFFFF"
       fill-opacity="0.5"
@@ -57,13 +57,13 @@ exports[`should match snapshot 1`] = `
       />
     </path>
     <path
-      class="sc-bdnxRM eMaIpy"
+      class="sc-gKAaRy drRrFq"
       d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       fill="#FFFFFF"
       fill-opacity="1"
     />
     <path
-      class="sc-gtsrHT dUsYnb"
+      class="sc-iCoGMd bgPJCa"
       d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,138.7C672,96,768,64,864,48C960,32,1056,32,1152,48C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       fill="#FFFFFF"
       fill-opacity="1"
@@ -80,55 +80,55 @@ exports[`should match snapshot 1`] = `
     </path>
   </svg>
   <div
-    class="sc-jSFjdj iqrXij"
+    class="sc-kEqXSa bSuqTt"
   >
     <section
-      class="sc-bqGGPW cMYPGv"
+      class="sc-ksluID bEKbIL"
     >
       <header
-        class="sc-gKAaRy sc-jrsJWt eflIJP"
+        class="sc-bdnxRM sc-crzoAE bwsfd"
       >
         ↑
         <a
-          class="sc-iwajpm fEDrup"
+          class="sc-gtsrHT kcixAX"
           href="/"
         >
           kevinpaxton.com
         </a>
       </header>
       <article
-        class="sc-iCoGMd dSirmf sc-kEqXSa bYFfzU"
+        class="sc-iqAclL buAPLG sc-dIsUp jSNdby"
       >
         <time
-          class="sc-dlMDgC hgbZqc"
+          class="sc-kfYoZR gnfmfG"
         >
           Publish date TBC
         </time>
         <section
-          class="sc-hBMUJo mTCpl"
+          class="sc-fnVZcZ dEjgST"
           id="background-and-motion"
         >
           <h2
-            class="sc-ksluID bOubR"
+            class="sc-hBMUJo gDEpSe"
           >
             Background and motion
           </h2>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I finally got around to making the page background look how I had imagined, replacing that sharp diagonal line with some animating waves at the half-way point of the page. I did wonder whether I should fix the background position independent of scroll position so that the wave is always visible at the midpoint of the viewport, but I decided against it as I think it serves as a subliminal indication of progress down the page. Plus it's something to look forward to as you scroll down.
              
             <span
               alt="smiling emoji"
               aria-label="smiling emoji"
-              class="sc-bCwfaz iGlRxj"
+              class="sc-iwajpm jsOJpQ"
               role="img"
             >
               😄
             </span>
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             It wasn't actually anywhere near as complicated to create as I was expecting. Of course, I couldn't have done it without my old pal Google, but it turns out I'm not actually all that original and that the idea of
              
@@ -143,14 +143,14 @@ exports[`should match snapshot 1`] = `
              
             is pretty popular and therefore pretty easy to learn how to implement without having to remaster trigonometric ratios and the dark mystic arts of the SVG 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               path
             </code>
              element.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             First, I just wanted a static curved svg to see how easily I could fudge it into the background. For this, I found the beautifully relevant
              
@@ -164,38 +164,38 @@ exports[`should match snapshot 1`] = `
             </a>
             , which let me generate random wave patterns and copy the SVG 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               path
             </code>
              element which drew them.
           </p>
           <div
-            class="sc-bkbkJK vXpEg"
+            class="sc-iemWCZ itnzci"
             width="100%"
           >
             <figure
-              class="sc-iemWCZ dsoIPa"
+              class="sc-dIvrsQ hgAbgi"
             >
               <img
                 alt="Screenshot of the getwaves.io website"
-                class="sc-fFSPTT"
+                class="sc-bkbkJK"
                 src="img/site-build-003/getwavesio.png"
               />
               <figcaption
-                class="sc-dIvrsQ bcSUwc"
+                class="sc-hHEiqL geIytK"
               >
                 literally making waves with getwaves.io
               </figcaption>
             </figure>
           </div>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             For reference, this is what the SVG code for a wave can look like:
           </p>
           <div
-            class="sc-fKgJPI fHubgp"
+            class="sc-bCwfaz fFvniv"
           >
             <pre
               style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
@@ -481,35 +481,35 @@ exports[`should match snapshot 1`] = `
             </pre>
           </div>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             Good luck understanding what's going on in that
              
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               &lt;path d="..." /&gt;
             </code>
              attribute. I have a basic working knowledge of SVG drawing syntax, but there is no way I was making one of those on my own! Once I had generated one that I liked, I was able to save the 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               .svg
             </code>
              file and use that as the 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               background-image
             </code>
              to my site.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             Of course, that looked pants since the wave was only around 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               320px
             </code>
@@ -517,20 +517,20 @@ exports[`should match snapshot 1`] = `
             tall and so it just plonked itself there at the top of my background and left the remainder of the page blank. What I wanted was the wave to form the transition from one background colour to another at the halfway point of the page. I could use CSS properties such as
              
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               background-position
             </code>
              and 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               background-size
             </code>
              to fine tune the placement, whilst the two-tone background could be achieved on a different element underneath the SVG background using a linear gradient with a sharp 50% horizontal split. However, the next problem was much more significant...
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             The SVG which I copied from
              
@@ -544,38 +544,38 @@ exports[`should match snapshot 1`] = `
             </a>
              was a fixed colour, and I needed it to match the second colour of my two-tone background to blend the transition. Changing SVG colours in CSS is pretty easy using the CSS 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               stroke
             </code>
              and 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               fill
             </code>
              properties, except you cannot expect it to work when the SVG is used as an image, either in an
              
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               &lt;img&gt;
             </code>
              element or as a CSS 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               background-image
             </code>
              — it just doesn't seem to be possible to address the SVG via CSS that way. The only way to allow CSS to influence an SVG in my experience is to use an HTML 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               &lt;svg&gt;
             </code>
              element in-line, instead of an 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               .svg
             </code>
@@ -583,7 +583,7 @@ exports[`should match snapshot 1`] = `
             file as an image. I replicated the SVG code as a React component and used CSS to set the fill colour dynamically based on the random background colours being used.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             The problem now was that the wave SVG was an
              
@@ -597,7 +597,7 @@ exports[`should match snapshot 1`] = `
             </a>
             , and would become a part of the page layout rather than being a part of the background. I had a solution to that, but it felt (and still feels) a bit hacky: I created a new 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               &lt;Background&gt;
             </code>
@@ -612,7 +612,7 @@ exports[`should match snapshot 1`] = `
              the actual content, and use CSS to layer them on top of another in the right places and put the two-tone solid background under the lot; something like this:
           </p>
           <div
-            class="sc-fKgJPI fHubgp"
+            class="sc-bCwfaz fFvniv"
           >
             <pre
               style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
@@ -1479,16 +1479,16 @@ exports[`should match snapshot 1`] = `
             </pre>
           </div>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             This worked great, although the CSS needed some tweaking from the above simplification in order to look correct on various screen widths.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             Now that I had the curved line I wanted, the next challenge was to animate it in a way that made it look like a wave, slowly undulating up and down. I expected this to be a monster of a task, requiring me to look at the SVG paths of a number of waves to try to decipher and comprehend the immense gibberish which is the SVG 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               path
             </code>
@@ -1506,7 +1506,7 @@ exports[`should match snapshot 1`] = `
              came to the rescue — indirectly this time.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             When you click the "dice" button on this site to generate a new wave, the wave preview transitions from one wave to another. This tipped me off to the idea that browsers can perform the transition from one SVG path to another in the same way that they can transition, say, CSS position and colour. I did a quick Google to see how that was done and
              
@@ -1521,12 +1521,12 @@ exports[`should match snapshot 1`] = `
             . It was ridiculously simple, and completely unexpected.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             It turns out, SVG paths can be described in CSS as well as in HTML. I still can't quite believe that this is correct, because on face value it doesn't make much sense, but in essence:
           </p>
           <div
-            class="sc-fKgJPI fHubgp"
+            class="sc-bCwfaz fFvniv"
           >
             <pre
               style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
@@ -1685,12 +1685,12 @@ exports[`should match snapshot 1`] = `
             </pre>
           </div>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             ...can also be achieved with:
           </p>
           <div
-            class="sc-fKgJPI fHubgp"
+            class="sc-bCwfaz fFvniv"
           >
             <pre
               style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
@@ -2006,12 +2006,12 @@ exports[`should match snapshot 1`] = `
             </pre>
           </div>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             Even though I was convinced this was a bug-turned-feature, I wasn't going to complain because it meant that I now had an achievable way to animate an SVG path using native CSS animation:
           </p>
           <div
-            class="sc-fKgJPI fHubgp"
+            class="sc-bCwfaz fFvniv"
           >
             <pre
               style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
@@ -2293,12 +2293,12 @@ exports[`should match snapshot 1`] = `
             </pre>
           </div>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             It worked! I was pretty shocked at how straightforward that was, and definitely pleased with the result. Now that I had that working, I generated a bunch of new wave SVG paths and used those to give more animation keyframes to the wave, and to make it animate in a continuous forward direction, starting and ending on the same wave rather than bouncing back and forth since that looked less natural.
           </p>
           <div
-            class="sc-fKgJPI fHubgp"
+            class="sc-bCwfaz fFvniv"
           >
             <pre
               style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
@@ -2738,11 +2738,11 @@ exports[`should match snapshot 1`] = `
             </pre>
           </div>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             The next thing I thought I could try was to add more 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               &lt;path&gt;
             </code>
@@ -2750,20 +2750,20 @@ exports[`should match snapshot 1`] = `
             elements to the existing SVG and set slightly different opacities to each one, giving the visual appearance of numerous waves overlaying each other. By doing this and animating them all with slightly different timings, paths and keyframe offsets, I was able to achieve what I think looks like a nice natural "wave" aesthetic to transition the page background colours...
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             ...but alas, my glee was short-lived. 
             <span
               alt="crying emoji"
               aria-label="crying emoji"
-              class="sc-bCwfaz iGlRxj"
+              class="sc-iwajpm jsOJpQ"
               role="img"
             >
               😭
             </span>
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             It turns out that the ability to use CSS to define and animate SVG paths
              
@@ -2779,24 +2779,24 @@ exports[`should match snapshot 1`] = `
             — it was a good thing that I checked and I suppose it demonstrates my lesson learned about publishing without testing on different browsers and devices.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I did some more checking and came across the SVG 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               animate
             </code>
              element, which can be used as a child of an SVG shape element to define multiple values to animate between. It looked like it supported the same animation properties that I had used in CSS, and so I refactored my SVG to use that element inside each of the 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               path
             </code>
              elements instead:
           </p>
           <div
-            class="sc-fKgJPI fHubgp"
+            class="sc-bCwfaz fFvniv"
           >
             <pre
               style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
@@ -3200,23 +3200,23 @@ exports[`should match snapshot 1`] = `
             </pre>
           </div>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             The 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               calcMode
             </code>
              and 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               keySplines
             </code>
              here represent a cubic bezier timing function similar to the CSS animation 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               ease-in-out
             </code>
@@ -3224,29 +3224,29 @@ exports[`should match snapshot 1`] = `
             function. I fired that up in numerous browsers and devices and thankfully it seemed to work everywhere. Phew!
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             The finishing touch for this was to acknowledge that not everybody wants motion in their site, and so using the relatively modern CSS media feature 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               @media (prefers-reduced-motion)
             </code>
              to turn off the animation when that preference is set. Whilst this would have been easy if the animation was done in CSS like it was initially, this proved to be less obvious for the SVG 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               animate
             </code>
              element approach since there seemed to be no way to control that animation from CSS. The solution I settled for in the end was to add duplicate paths, one with and one without animation, and use CSS to determine which of these to display based on whether reduced motion was preferred.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             My ambition from the
              
             <a
-              class="sc-iwajpm fEDrup"
+              class="sc-gtsrHT kcixAX"
               href="/site-build-002#next-steps"
             >
               last update
@@ -3255,59 +3255,59 @@ exports[`should match snapshot 1`] = `
           </p>
         </section>
         <section
-          class="sc-hBMUJo mTCpl"
+          class="sc-fnVZcZ dEjgST"
           id="bonus-motion"
         >
           <h2
-            class="sc-ksluID bOubR"
+            class="sc-hBMUJo gDEpSe"
           >
             Bonus motion
           </h2>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             Another friend of mine made a great suggestion that I could have the hand icon on my homepage do a little wave, and since I was looking for an opportunity to introduce subtle motion to the landing page, I had a go at implementing it. Thanks for the idea, Tiff!
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             This was a much simpler animation task than the waves in the background, as I could use native CSS animation properties to make the hand rotate back and forth a few times, a short while after the page had loaded.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             Right now, the animation is slightly crude and looks a bit unnatural; it might be something I'd look to improve in the future to make the waving animation look more authentic, although I suspect that might require having a more dynamic SVG to make the palm and fingers a little less rigid... one for me to consider if I ever decide to get ultra-creative with SVG animation, which to be fair I would like to do at some point.
           </p>
         </section>
         <section
-          class="sc-hBMUJo mTCpl"
+          class="sc-fnVZcZ dEjgST"
           id="proper-404s"
         >
           <h2
-            class="sc-ksluID bOubR"
+            class="sc-hBMUJo gDEpSe"
           >
             Proper 404s
           </h2>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I mentioned in my last update that I had found a way to prevent unwanted
              
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               404
             </code>
              errors from occurring when deep-linking to a route on the site, and that the solution to that actually meant that nothing was ever a 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               404
             </code>
             .
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             My two thoughts at the time on how to fix that were 
             <strong>
@@ -3316,7 +3316,7 @@ exports[`should match snapshot 1`] = `
              
             generate a dynamic 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               _redirects
             </code>
@@ -3352,17 +3352,17 @@ exports[`should match snapshot 1`] = `
              as a short term solution because I want to look at the migration once I have built up enough of the site to have complex and interactive pages to migrate, to learn how those would be done.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             Creating the 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               _redirects
             </code>
              file dynamically wasn't too complicated. I already had a code-based representation of my site map as a file which I used to help with the navigational components of the site. All I needed to do was to write a script to create a new 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               _redirects
             </code>
@@ -3370,13 +3370,13 @@ exports[`should match snapshot 1`] = `
             file which included all of the site pages as instructions to redirect to
              
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               index.html 200
             </code>
             , with a catch-all at the bottom to 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               404
             </code>
@@ -3384,7 +3384,7 @@ exports[`should match snapshot 1`] = `
             everything else. The final output would look something like this:
           </p>
           <div
-            class="sc-fKgJPI fHubgp"
+            class="sc-bCwfaz fFvniv"
           >
             <pre
               style="color: rgb(248, 248, 242); background: rgb(40, 42, 54); text-shadow: 0 1px rgba(0, 0, 0, 0.3); font-family: inherit; text-align: left; white-space: pre; word-spacing: normal; word-break: normal; word-wrap: normal; line-height: 1.5; tab-size: 4; hyphens: none; padding: 1em; margin: .5em 0px; overflow: auto; border-radius: 0.3em;"
@@ -3409,53 +3409,53 @@ exports[`should match snapshot 1`] = `
             </pre>
           </div>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             The reason that the 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               404
             </code>
              rule also redirects to the
              
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               /index.html
             </code>
              file is so that the routing for my 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               404
             </code>
              page can be handled by the router for the site.
           </p>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             All I needed to do now was to ensure that this file was generated every time that the site was deployed, which could be achieved by making it a part of the build process — to happen after the build had completed — and to place the file into the 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               build
             </code>
              folder to be published. Doing this in an 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               npm
             </code>
              based project is easy - I just added a 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               postbuild
             </code>
              script to 
             <code
-              class="sc-kfYoZR ldJYzE"
+              class="sc-fKgJPI hdYfBm"
             >
               package.json
             </code>
@@ -3463,31 +3463,31 @@ exports[`should match snapshot 1`] = `
           </p>
         </section>
         <section
-          class="sc-hBMUJo mTCpl"
+          class="sc-fnVZcZ dEjgST"
           id="testing"
         >
           <h2
-            class="sc-ksluID bOubR"
+            class="sc-hBMUJo gDEpSe"
           >
             Testing
           </h2>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             Some of the other things that I said I would look into last time revolve around testing - both device and browser testing as well as unit testing. I'm going to make them the primary focus of my next update, because this one is probably already a bit too long and I want to start afresh with my documentation on the testing approach. I've got a few ideas and have been pointed to a few tools, so the next update will give them a spin.
           </p>
         </section>
         <section
-          class="sc-hBMUJo mTCpl"
+          class="sc-fnVZcZ dEjgST"
           id="next-steps"
         >
           <h2
-            class="sc-ksluID bOubR"
+            class="sc-hBMUJo gDEpSe"
           >
             Next steps
           </h2>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I think that's enough for this update, time to publish. Next steps would be:
           </p>
@@ -3503,23 +3503,23 @@ exports[`should match snapshot 1`] = `
             </li>
           </ul>
           <p
-            class="sc-fnVZcZ bWseFA"
+            class="sc-fFSPTT fsRIWy"
           >
             I hope to get a test approach defined and make automated testing a part of my build & publish process. I'll also look into manual browser testing and visual regression testing tools to see what I can benefit from.
           </p>
         </section>
       </article>
       <footer
-        class="sc-fujyAs sc-iqAclL eoquod"
+        class="sc-dlnjwi sc-bqGGPW cRJpdP"
       >
         <span
-          class="sc-pNWdM PnHWI"
+          class="sc-hKFxyN daezOO"
         >
           © 
-          2021
+          2022
            
           <a
-            class="sc-iwajpm fEDrup"
+            class="sc-gtsrHT kcixAX"
             href="/"
           >
             Kevin Paxton

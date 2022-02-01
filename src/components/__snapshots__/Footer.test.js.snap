@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<footer
+  class="sc-gtsrHT"
+>
+  This is some footer content
+  <span
+    class="sc-dlnjwi ikYcTC"
+  >
+    © 
+    2022
+     
+    <a
+      class="sc-bdnxRM cOktSi"
+      href="/"
+    >
+      Kevin Paxton
+    </a>
+  </span>
+</footer>
+`;

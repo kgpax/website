@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import dayjs from 'dayjs';
-import { Link } from '.';
+import Link from './Link';
 
 const StyledFooter = styled.footer``;
 

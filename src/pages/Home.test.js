@@ -1,6 +1,8 @@
-import { performSnapshotTest } from '../../test/utils';
+import { render } from '../../test/utils';
 import Home from './Home';
 
-test.only('should match snapshot', () => {
-  performSnapshotTest(<Home />);
+const page = () => render(<Home />);
+
+test('should match snapshot', () => {
+  expect(page().element).toMatchSnapshot();
 });

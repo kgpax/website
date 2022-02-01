@@ -1,9 +1,9 @@
 /* istanbul ignore file */
-export { default as Page } from './Page';
 export { default as Header } from './Header';
 export { default as Footer } from './Footer';
 export { default as PrevNextNav } from './PrevNextNav';
 export { default as Title } from './Title';
+export { default as Page } from './Page';
 export { default as Section } from './Section';
 export { default as Content } from './Content';
 export { default as Segment } from './Segment';

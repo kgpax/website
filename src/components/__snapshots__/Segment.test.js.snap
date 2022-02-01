@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`with heading should match snapshot 1`] = `
+<section
+  class="sc-gtsrHT huoUyU"
+  id="my-heading"
+>
+  <h2
+    class="sc-bdnxRM cKHSXO"
+  >
+    My heading
+  </h2>
+  This is some content
+</section>
+`;
+
+exports[`without heading should match snapshot 1`] = `
+<section
+  class="sc-gtsrHT huoUyU"
+>
+  This is some content
+</section>
+`;

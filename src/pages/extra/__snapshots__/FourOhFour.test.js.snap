@@ -83,7 +83,7 @@ exports[`should match snapshot 1`] = `
     class="sc-jSFjdj iqrXij"
   >
     <section
-      class="sc-bqGGPW cMYPGv sc-iJCRrE bvUleU"
+      class="sc-ksluID bEKbIL sc-iJCRrE bvUleU"
     >
       <h2
         class="sc-giAqHp dkzsZm"
@@ -91,12 +91,12 @@ exports[`should match snapshot 1`] = `
         404
       </h2>
       <h2
-        class="sc-ksluID bOubR"
+        class="sc-hBMUJo gDEpSe"
       >
         This page does not exist
       </h2>
       <a
-        class="sc-iwajpm fEDrup"
+        class="sc-iCoGMd dhezmS"
         href="/"
       >
         ↑ Come on, let's get you home...

@@ -1,6 +1,8 @@
-import { performSnapshotTest } from '../../../test/utils';
+import { render } from '../../../test/utils';
 import FourOhFour from './FourOhFour';
 
+const page = () => render(<FourOhFour />);
+
 test('should match snapshot', () => {
-  performSnapshotTest(<FourOhFour />);
+  expect(page().element).toMatchSnapshot();
 });

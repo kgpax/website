@@ -1,6 +1,8 @@
-import { performSnapshotTest } from '../../test/utils';
+import { render } from '../../test/utils';
 import SiteBuild002 from './SiteBuild002';
 
+const page = () => render(<SiteBuild002 />);
+
 test('should match snapshot', () => {
-  performSnapshotTest(<SiteBuild002 />);
+  expect(page().element).toMatchSnapshot();
 });
