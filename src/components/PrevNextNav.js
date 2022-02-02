@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from '.';
+import { Link } from '@components';
 
 const StyledPrevNextNav = styled.nav`
   & ul {

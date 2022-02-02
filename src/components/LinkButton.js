@@ -1,6 +1,5 @@
 import Button from './Button';
-import { Link } from 'wouter';
 
-const LinkButton = (props) => <Button as={Link} {...props} />;
+const LinkButton = (props) => <Button {...props} />;
 
 export default LinkButton;

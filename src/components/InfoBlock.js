@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { Image, Paragraph } from '.';
+import Image from '@components/Image';
+import Paragraph from '@components/Paragraph';
 
 const StyledInfoBlock = styled(Paragraph)`
   display: flex;

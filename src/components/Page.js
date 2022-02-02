@@ -1,12 +1,18 @@
+import Head from 'next/head';
 import styled from 'styled-components';
 import dayjs from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';
-import { usePageTitle, useScrollToTop } from '../hooks';
-import { Title, Date, Section, Link, PrevNextNav } from '.';
-import Background from './Background';
-import Header from './Header';
-import Content from './Content';
-import Footer from './Footer';
+import {
+  Background,
+  Header,
+  Content,
+  Title,
+  Date,
+  Section,
+  Link,
+  PrevNextNav,
+  Footer,
+} from '@components';
 
 dayjs.extend(advancedFormat);
 
@@ -31,10 +37,11 @@ const BottomFooter = styled(Footer)`
   color: rgba(0, 0, 0, 0.5);
 `;
 
-const Page = ({ title, date, prev, next, children }) => {
-  usePageTitle(title);
-  useScrollToTop();
-  return (
+const Page = ({ title, date, prev, next, children }) => (
+  <>
+    <Head>
+      <title>kevinpaxton.com{(title && ` - ${title}`) || ''}</title>
+    </Head>
     <Background>
       <Section>
         <TopHeader>
@@ -53,7 +60,7 @@ const Page = ({ title, date, prev, next, children }) => {
         </BottomFooter>
       </Section>
     </Background>
-  );
-};
+  </>
+);
 
 export default Page;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { Image } from '.';
+import { Image } from '@components';
 
 const Container = styled.div`
   max-width: 80%;

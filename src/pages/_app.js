@@ -1,9 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import Head from 'next/head';
 import { createGlobalStyle } from 'styled-components';
-import Theme from './components/Theme';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Theme from '@components/Theme';
 
 const GlobalStyles = createGlobalStyle`
   *, *::before, *::after {
@@ -18,7 +16,6 @@ const GlobalStyles = createGlobalStyle`
   }
   html, body, #root {
     height: 100%;
-    /* min-height: 100%; */
   }
   body {
     margin: 0;
@@ -54,17 +51,30 @@ const GlobalStyles = createGlobalStyle`
   }
 `;
 
-ReactDOM.render(
+const Application = ({ Component, pageProps }) => (
   <React.StrictMode>
+    <Head>
+      <meta charSet="utf-8" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover"
+      />
+      <meta name="theme-color" content="#000000" />
+      <meta name="description" content="Personal website of Kevin Paxton" />
+      <link rel="manifest" href="/manifest.json" />
+      <link rel="shortcut icon" href="/favico/favico.svg" />
+      <link rel="alternate icon" href="/favico/favicon.ico" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Recursive:wght@300;400;700&family=Shanti&family=Cousine&display=swap"
+        rel="stylesheet"
+      />
+    </Head>
     <Theme>
       <GlobalStyles />
-      <App />
+      <Component {...pageProps} />;
     </Theme>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+export default Application;
