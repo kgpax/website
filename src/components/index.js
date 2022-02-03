@@ -22,3 +22,4 @@ export { default as PrevNextNav } from './PrevNextNav';
 export { default as Section } from './Section';
 export { default as Segment } from './Segment';
 export { default as Title } from './Title';
+export { default as Waves } from './Waves';

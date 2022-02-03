@@ -1,5 +1,5 @@
-import { render } from '../../test/utils';
-import Code from './Code';
+import { render } from '@test/utils';
+import Code from '@components/Code';
 
 const component = (props = {}) => render(<Code {...props}>const x = 1;</Code>);
 

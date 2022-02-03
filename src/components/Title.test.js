@@ -1,5 +1,5 @@
-import { render } from '../../test/utils';
-import Title from './Title';
+import { render } from '@test/utils';
+import Title from '@components/Title';
 
 const component = (props = {}) =>
   render(<Title {...props}>This is a title</Title>);

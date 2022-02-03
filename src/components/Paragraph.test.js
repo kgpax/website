@@ -1,5 +1,5 @@
-import { render } from '../../test/utils';
-import Paragraph from './Paragraph';
+import { render } from '@test/utils';
+import Paragraph from '@components/Paragraph';
 
 const component = (props = {}) =>
   render(<Paragraph {...props}>This is some content</Paragraph>);

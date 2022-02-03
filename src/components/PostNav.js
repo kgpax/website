@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import dayjs from 'dayjs';
-import { buildOrderedNavigation } from '@/site';
+import { buildOrderedNavigation } from '@utils/site';
 import { Link } from '@components';
 
 const StyledPostNav = styled.nav``;

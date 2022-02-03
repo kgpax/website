@@ -1,5 +1,5 @@
-import { render } from '../../test/utils';
-import Content from './Content';
+import { render } from '@test/utils';
+import Content from '@components/Content';
 
 const component = (props = {}) =>
   render(<Content {...props}>This is some content</Content>);

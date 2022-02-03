@@ -1,6 +1,7 @@
+import { useState } from 'react';
 import styled from 'styled-components';
-import { pickColorPair } from '../utils/colors';
-import Waves from './Waves';
+import Waves from '@components/Waves';
+import { useTheme } from '@hooks';
 
 const Container = styled.div`
   position: relative;
@@ -24,7 +25,8 @@ const Children = styled.div`
 `;
 
 const Background = ({ children, ...props }) => {
-  const [color1, color2] = pickColorPair();
+  const { colorPair } = useTheme();
+  const [color1, color2] = colorPair;
   return (
     <Container bg1={color1} bg2={color2} {...props}>
       <StyledWaves color={color2} />

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<header
+  class="Header__StyledHeader-sc-1rwprh6-0"
+>
+  This is some content
+</header>
+`;

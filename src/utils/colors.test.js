@@ -1,6 +1,6 @@
-import { pickColorPair } from './colors';
+import { pickColorPair } from '@utils/colors';
 
-jest.unmock('./colors');
+jest.unmock('@utils/colors');
 
 describe('pickColorPair', () => {
   test('should return array', () => {

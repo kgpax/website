@@ -1,11 +1,11 @@
-import { render } from '../../test/utils';
-import ExternalLink from './ExternalLink';
+import { render } from '@test/utils';
+import ExternalLink from '@components/ExternalLink';
 
 const component = (props = {}) =>
   render(
     <ExternalLink href="https://kevinpaxton.com" {...props}>
       This is an external link
-    </ExternalLink>
+    </ExternalLink>,
   );
 
 test('should match snapshot', () => {

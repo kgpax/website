@@ -1,5 +1,5 @@
-import { render } from '../../test/utils';
-import Footer from './Footer';
+import { render } from '@test/utils';
+import Footer from '@components/Footer';
 
 const component = (props = {}) =>
   render(<Footer {...props}>This is some footer content</Footer>);

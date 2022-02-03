@@ -18,6 +18,7 @@ space.xl = space[4];
 const theme = {
   font,
   space,
+  color: {},
 };
 
 export default theme;

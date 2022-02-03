@@ -1,11 +1,11 @@
-import { render } from '../../test/utils';
-import LinkButton from './LinkButton';
+import { render } from '@test/utils';
+import LinkButton from '@components/LinkButton';
 
 const component = (props = {}) =>
   render(
     <LinkButton href="https://kevinpaxton.com" {...props}>
       This is a link which looks like a button
-    </LinkButton>
+    </LinkButton>,
   );
 
 test('should match snapshot', () => {

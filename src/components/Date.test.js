@@ -1,5 +1,5 @@
-import { render } from '../../test/utils';
-import Date from './Date';
+import { render } from '@test/utils';
+import Date from '@components/Date';
 
 const component = (props = {}) =>
   render(<Date {...props}>27th August 2021</Date>);

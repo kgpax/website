@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from '@components';
+import { getPage } from '@utils/site';
 
 const StyledPrevNextNav = styled.nav`
   & ul {
@@ -20,23 +21,27 @@ const StyledPrevNextNav = styled.nav`
 
 const PrevNextNav = ({ prev, next, props }) => {
   if (!prev && !next) return null;
+  const prevPage = getPage(prev);
+  const nextPage = getPage(next);
   return (
     <StyledPrevNextNav {...props}>
       <ul>
-        {prev &&
-          prev().map((page) => (
-            <li key="prev">
-              &larr;{' '}
-              <Link href={page.path}>{page.shortTitle || page.title}</Link>
-            </li>
-          ))}
-        {next &&
-          next().map((page) => (
-            <li key="next">
-              <Link href={page.path}>{page.shortTitle || page.title}</Link>{' '}
-              &rarr;
-            </li>
-          ))}
+        {prevPage && (
+          <li key="prev">
+            &larr;{' '}
+            <Link href={prevPage.path}>
+              {prevPage.shortTitle || prevPage.title}
+            </Link>
+          </li>
+        )}
+        {nextPage && (
+          <li key="next">
+            <Link href={nextPage.path}>
+              {nextPage.shortTitle || nextPage.title}
+            </Link>{' '}
+            &rarr;
+          </li>
+        )}
       </ul>
     </StyledPrevNextNav>
   );

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<a
+  class="ExternalLink__StyledExternalLink-sc-1q75d6m-0 fOGRdU"
+  href="https://kevinpaxton.com"
+  rel="nofollow noopener noreferrer"
+  target="_blank"
+>
+  This is an external link
+</a>
+`;

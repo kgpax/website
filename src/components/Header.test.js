@@ -1,5 +1,5 @@
-import { render } from '../../test/utils';
-import Header from './Header';
+import { render } from '@test/utils';
+import Header from '@components/Header';
 
 const component = (props = {}) =>
   render(<Header {...props}>This is some content</Header>);

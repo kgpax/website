@@ -1,5 +1,5 @@
-import { render } from '../../test/utils';
-import Segment from './Segment';
+import { render } from '@test/utils';
+import Segment from '@components/Segment';
 
 const component = (props = {}) =>
   render(<Segment {...props}>This is some content</Segment>);
