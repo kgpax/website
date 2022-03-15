@@ -87,12 +87,12 @@ export default useScrollToTop;`}
       />
       <Paragraph>
         Finally, I had noticed some things in the content of my{' '}
-        <L href="/site-build-001">first post</L> which in hindsight I wasn't
-        happy about. I'd used the phrase "I toyed with..." three separate times,
-        which made me wish I had proof-read it sooner and been a bit more varied
-        with my language. However, that made me decide to set myself a rule for
-        this website: that I will not go back and change any posts I have
-        published, except to correct any glaring typos or broken links. The
+        <L href="/blog/site-build-001">first post</L> which in hindsight I
+        wasn't happy about. I'd used the phrase "I toyed with..." three separate
+        times, which made me wish I had proof-read it sooner and been a bit more
+        varied with my language. However, that made me decide to set myself a
+        rule for this website: that I will not go back and change any posts I
+        have published, except to correct any glaring typos or broken links. The
         content can stay with all its warts, hairs and careless grammar, and we
         will see if my copywriting improves over time.
       </Paragraph>

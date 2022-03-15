@@ -25,7 +25,7 @@ const Application = ({ Component, pageProps, serverProps }) => {
 export default Application;
 
 if (typeof window === 'undefined') {
-  Application.getInitialProps = (context) => {
+  Application.getInitialProps = () => {
     return {
       serverProps: { colorPair: pickColorPair() },
     };

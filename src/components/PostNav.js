@@ -1,23 +1,50 @@
 import styled from 'styled-components';
 import dayjs from 'dayjs';
-import { buildOrderedNavigation } from '@utils/site';
+import { getBlogPosts } from '@utils/site';
 import { Link } from '@components';
 
-const StyledPostNav = styled.nav``;
+const StyledPostNav = styled.nav`
+  & > ul {
+    margin: 0;
+    padding: 0;
+  }
+`;
 
-const PostNav = (props) => {
-  const nav = buildOrderedNavigation();
+const Post = styled.li`
+  list-style-type: none;
+  padding: ${({ theme }) => theme.space.lg};
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 1rem;
+  transition: transform 0.05s ease-in;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+`;
+
+const PostTitle = styled.span`
+  font-weight: bold;
+  display: block;
+`;
+const PostDate = styled.span`
+  display: block;
+  font-size: ${({ theme }) => theme.fontSize.sm};
+`;
+
+const PostNav = props => {
+  const nav = getBlogPosts();
   return (
     <StyledPostNav {...props}>
       <ul>
-        {nav.map((x) => {
+        {nav.map(x => {
           const date = !!x.date ? dayjs(x.date).format('Do MMM YYYY') : 'TBC';
           return (
-            <li key={x.path}>
-              <Link href={x.path}>
-                <strong>{date}</strong> &rarr; {x.title}
+            <Post key={x.path}>
+              <Link href={x.path} underline="none">
+                <PostTitle>{x.title}</PostTitle>
+                <PostDate>{date}</PostDate>
               </Link>
-            </li>
+            </Post>
           );
         })}
       </ul>

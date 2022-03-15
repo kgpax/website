@@ -6,9 +6,9 @@ const GlobalStyles = createGlobalStyle`
   }
   html {
     height: 100%;
-    font-size: 10px;
-    @media only screen and (max-width: 768px) {
-      font-size: 8px;
+    font-size: 8px;
+    @media only screen and (min-width: 768px) {
+      font-size: 10px;
     }
   }
   html, body, #__next {

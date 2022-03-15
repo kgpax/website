@@ -42,6 +42,20 @@ const SubTitle = styled.h2`
   font-weight: 400;
 `;
 
+const HomeLayout = styled(Content)`
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  @media only screen and (min-width: 768px) {
+    flex-direction: row;
+    max-width: 100rem;
+  }
+`;
+
+const HomeLayoutSection = styled.section`
+  flex: 1;
+`;
+
 const Home = () => (
   <Background>
     <Container py={4}>
@@ -51,24 +65,34 @@ const Home = () => (
       </StyledTitle>
       <SubTitle>my little bit of the internet</SubTitle>
       <Content mt={4}>
-        <InfoBlock iconComponent={<WavingHand animate />} iconAlt="Waving hand">
+        <InfoBlock
+          mt={4}
+          iconComponent={<WavingHand animate />}
+          iconAlt="Waving hand"
+        >
           Hello, I'm <EL href="https://twitter.com/kevinpaxton82">Kevin</EL>.
           After working in software engineering and web development for near-on
           20 years, I've come to the conclusion that it's time I had a website.
         </InfoBlock>
-        <Paragraph>
-          In an attempt to get the creative juices flowing with what to put on
-          this part of the cloud, I figured that I'd document the process of
-          getting this site up and built to a level I'm happy with, which will
-          be all its own challenge, but more on that later.
-        </Paragraph>
-        <Paragraph>
-          This will be a huge brain dump of the technical and creative thought
-          process, and will arrive in stages alongside the general updates to
-          the site.
-        </Paragraph>
-        <PostNav />
       </Content>
+      <HomeLayout mt={4}>
+        <HomeLayoutSection>
+          <Paragraph>
+            In an attempt to get the creative juices flowing with what to put on
+            this part of the cloud, I figured that I'd document the process of
+            getting this site up and built to a level I'm happy with, which will
+            be all its own challenge, but more on that later.
+          </Paragraph>
+          <Paragraph>
+            This will be a huge brain dump of the technical and creative thought
+            process, and will arrive in stages alongside the general updates to
+            the site.
+          </Paragraph>
+        </HomeLayoutSection>
+        <HomeLayoutSection>
+          <PostNav />
+        </HomeLayoutSection>
+      </HomeLayout>
       <Footer />
     </Container>
   </Background>

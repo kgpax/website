@@ -11,7 +11,7 @@ import {
 } from '@components';
 import { getPageProps } from '@utils/site';
 
-const SiteBuild002 = props => (
+const SiteBuild003 = props => (
   <Page {...props}>
     <Segment heading="Background and motion">
       <Paragraph>
@@ -277,8 +277,8 @@ const Background = () => (
       </Paragraph>
       <Paragraph>
         My ambition from the{' '}
-        <L href="/site-build-002#next-steps">last update</L> was to "Focus on
-        the page backgrounds and try to make them purr", and whilst it's
+        <L href="/blog/site-build-002#next-steps">last update</L> was to "Focus
+        on the page backgrounds and try to make them purr", and whilst it's
         probably quite subjective whether there is any "purring" going on there,
         I'm pretty happy with the result and it matches the vision I had. As
         always though, there's room for improvement so this might not be the end
@@ -395,4 +395,4 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default SiteBuild002;
+export default SiteBuild003;

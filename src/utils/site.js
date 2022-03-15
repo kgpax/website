@@ -5,7 +5,7 @@ const nav = [];
 export const getPage = path => (path && nav.find(x => x.path === path)) || null;
 
 nav.push({
-  type: 'post',
+  type: 'blogpost',
   path: '/blog/site-build-001',
   title: 'Building the site : part one',
   shortTitle: 'Part one',
@@ -14,7 +14,7 @@ nav.push({
   next: '/blog/site-build-002',
 });
 nav.push({
-  type: 'post',
+  type: 'blogpost',
   path: '/blog/site-build-002',
   title: 'Building the site : part two',
   shortTitle: 'Part two',
@@ -23,17 +23,26 @@ nav.push({
   next: '/blog/site-build-003',
 });
 nav.push({
-  type: 'post',
+  type: 'blogpost',
   path: '/blog/site-build-003',
   title: 'Building the site : part three',
   shortTitle: 'Part three',
   date: '2021-05-22',
   prev: '/blog/site-build-002',
+  next: '/blog/site-build-004',
+});
+nav.push({
+  type: 'blogpost',
+  path: '/blog/site-build-004',
+  title: 'Building the site : part four',
+  shortTitle: 'Part four',
+  date: null,
+  prev: '/blog/site-build-003',
   next: null,
 });
 
-export const buildOrderedNavigation = () => {
-  const posts = nav.filter(x => x.type === 'post');
+export const getBlogPosts = () => {
+  const posts = nav.filter(x => x.type === 'blogpost');
   const sortedPosts = posts.sort((a, b) => {
     const dateA = dayjs(a.date || undefined);
     const dateB = dayjs(b.date || undefined);
