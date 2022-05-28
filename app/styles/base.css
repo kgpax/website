@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  @apply box-border;
+}
+
+html {
+  @apply text-base md:text-xl;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  @apply font-title text-4xl leading-loose font-extrabold;
+}
+
+h2 {
+  @apply font-cursive font-bold text-4xl leading-none text-center;
+  @apply mt-10 mb-6;
+}
+
+p,
+div,
+span,
+li {
+  @apply m-0;
+  @apply leading-[1.9em];
+}
+
+p {
+  @apply text-black text-opacity-90;
+}
+
+a {
+  @apply inline-block;
+  @apply text-inherit font-bold text-black;
+  @apply underline underline-offset-[1px];
+  @apply transition-colors;
+}
+
+p + * {
+  @apply mt-6;
+}
+
+ul {
+  @apply my-4 pl-8;
+}
+
+li {
+  @apply mb-4;
+  @apply list-[square];
+}

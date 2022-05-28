@@ -1,0 +1,64 @@
+---
+meta:
+  title: 'Building the site : part one'
+  date: '2020-05-14'
+---
+
+import { InfoBlock } from '~/components'
+
+## Motivation
+
+I'd been toying with the idea of having my own website for a while. I'm pretty sure I made it a new years resolution for 2021, although when the lockdown kicked in and home-schooling (a.k.a parenting-from-work) became a thing, I'd lost any appetite I had for giving myself extra responsibility.
+
+I wasn't sure what I would put on a site... in fact at the time of writing this I'm still not sure. I'm a bit of an odd person &mdash; some would say stop the sentence there &mdash; in that I'm confident and have a lot of self-belief whilst simultaneously being quite shy, humble and self-effacing about putting myself or the work I produce out there in such a public space; I'm not entirely sure [why this is](https://en.wikipedia.org/wiki/Impostor_syndrome), but putting this website out there is a way to try and fight those demons. I'd been given suggestions about making a blog, or a portfolio site, or even just having a space to do some side projects and little fun hacks; all of which are good ideas, and all of which might make their way into it at some point.
+
+I figured that for my opening gambit, I could write about my experience of putting this site together, and share my thought processes and decisions along the way.
+
+<InfoBlock
+  icon="speech.svg"
+  iconAlt="Speech bubble, hinting at lots of talking"
+>
+  **Pro tip:** I can ramble. If you're more a TL;DR person, this might not be
+  your bag, but if you fancy embarking on my voyage of discovery, then strap in.
+</InfoBlock>
+
+## Picking the tech stack
+
+I'm a full stack developer by trade, or at least historically I am. My passion is for front-end development and my current go-to front-end library is [React](https://reactjs.org/). Despite my current job being in a front-end team, I haven't actually gotten the opportunity to do a great deal of front-end work and keep up with modern front-end trends as much as I'd like. I toyed with the idea of using this website as an opportunity to skill up on [NextJS](https://nextjs.org/) for universal rendering, or even go down the static site generator route with [Gatsby](https://www.gatsbyjs.com/) or [Eleventy](https://www.11ty.dev/) or perhaps one of the many others options which I'm not really caught up with because I've been criminally out of touch with front-end tech stacks.
+
+In the end, I've opted to reduce the number of learning curves and just go the way of using `create-react-app`. It's a comfort zone and one which allows me to focus on the early build out of the site without getting bamboozled and ultimately disincentivised right at the start. Heck, check out the [source code at the time of this version](https://github.com/kgpax/website/tree/sitebuild-001) and you'll see that I'm currently building these pages using components rather than using markdown which builds to HTML. I think that's old-school now, right?
+
+I'd toyed with the idea of using [Svelte](https://svelte.dev/) instead of React because I like the idea of compiling away the framework and having plain-ol` javascript without all of the extra weight; however, my ultimate aim would be to not be so dependant on javascript at all an instead look to have the content as static as possible for better performance and SEO; all things which I have not had much in the way of personal experience in. As such, I'll probably go down the route of static site generators and migrate all of this code over as part of a learning process.
+
+## The design
+
+I'm quite a visually driven person. I like to think I have a good eye for design, but that doesn't necessarily translate to being _good at_ design.
+
+I've opted to start fairly minimalist, whilst putting at least some thought into colour, typography and spacing. I plan to scour the web for inspiration on how I can enhance the aesthetics of this website, and use it as an opportunity to flex some of those UI and UX muscles which have been wasting away for too long.
+
+## My first go-live
+
+I purchased the `kevinpaxton.com` domain years ago, around the time that Google launched its `.dev` top level domains. I didn't have a concrete plan at the time, I just wanted to see if the domain was available for my name and get it whilst I could.
+
+Since then, it has just sat there, squatting; I've renewed it twice
+since then and only remembered I had it when I got the renewal emails.
+In fact, it's been so long out of my mind that when I deployed the
+first version of this site, [I got the domain wrong](https://github.com/kgpax/website/commit/f855e83657d20770641fb00cea30c795e8693eb8), thinking I'd purchased `kevinpaxton.dev` instead of securing the `.com` domain.
+
+I was recommended using [Netlify](https://app.netlify.com/) as a quick and easy way to host my site by a [friend of mine](https://twitter.com/CarolSaysThings) and sure enough the process was really streamlined and really quite cool. I loved how once it got your permission to go to town on your repo, it just set everything up for you. I'm familiar with pipelines and whatnot integrating with GitHub, but I was still pleasantly surprised at how hands-off the process was and how when it was completed, it Just Works&trade;. I had to do some Google-Fu to get my Google domain pointing to my Netlify app, but that's mainly because I didn't RTFM and tried to go it alone with my painfully limited DNS knowledge, but in the end - here we are.
+
+A start has been made. Now I've got to keep it up.
+
+## Next steps
+
+I'm going to try and make this a regular section to my updates, where I list bits I want to go after next. I won't hold myself to getting everything done, but it will serve as an interesting retrospective for my journey.
+
+Here's what I hope to put up next time:
+
+- Put some motion on the landing page - I love a bit of subtle animation, me
+- Work on the page backgrounds - change those straight lines to curves?
+- Favicon and early browser and device testing
+
+Stretch goals:
+
+- Get some illustrations and imagery in place - this is far too text heavy, I want to fix that

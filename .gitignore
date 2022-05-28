@@ -1,6 +1,8 @@
-/node_modules
-/coverage
-/build
+node_modules
+/.cache
+/netlify/functions/server/index.js
+/public/build
+/.netlify
 
 .DS_Store
 .env.local
