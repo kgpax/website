@@ -1,32 +1,31 @@
+import { LoaderFunction } from '@remix-run/node'
 import {
   Links,
-  LinksFunction,
   LiveReload,
-  LoaderFunction,
   Meta,
   Outlet,
   Scripts,
   ScrollRestoration,
   useLoaderData,
-} from 'remix'
+} from '@remix-run/react'
 import { pickColorPair } from '~/utils/colors'
 import WebsiteContextProvider, {
   WebsiteContextData,
 } from './context/WebsiteContext'
 
-type LoaderData = {
+type SiteData = {
   initialColors: [string, string]
   copyrightYear: number
 }
 
-export const loader: LoaderFunction = async (): Promise<LoaderData> => {
+export const loader: LoaderFunction = async (): Promise<SiteData> => {
   return {
     initialColors: pickColorPair(),
     copyrightYear: new Date().getFullYear(),
   }
 }
 
-export const links: LinksFunction = () => [
+export const links = () => [
   {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=Clicker+Script&family=Recursive:wght@300;400;700&family=Shanti&family=Cousine&display=block',
@@ -35,7 +34,7 @@ export const links: LinksFunction = () => [
 ]
 
 export default function App() {
-  const { initialColors, copyrightYear } = useLoaderData<LoaderData>()
+  const { initialColors, copyrightYear } = useLoaderData<SiteData>()
 
   const websiteContext: WebsiteContextData = {
     colors: initialColors,
@@ -48,7 +47,6 @@ export default function App() {
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <Meta />
         <link rel="manifest" href="/manifest.json" />
         <link rel="shortcut icon" href="/favico/favico.svg" />
         <link rel="alternate icon" href="/favico/favicon.ico" />

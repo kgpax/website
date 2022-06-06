@@ -1,11 +1,19 @@
-import { BlogMetadata } from '~/types/blog'
+import { BlogMetadataAndPrevNext } from '~/types/blog'
 import Date from './Date'
 import Link from './Link'
 import Page from './Page'
+import PrevNextNav from './PrevNextNav'
 
-export type BlogPageProps = React.HTMLAttributes<HTMLElement> & BlogMetadata
+export type BlogPageProps = React.HTMLAttributes<HTMLElement> &
+  BlogMetadataAndPrevNext
 
-export default function BlogPage({ title, date, children }: BlogPageProps) {
+export default function BlogPage({
+  title,
+  date,
+  prev,
+  next,
+  children,
+}: BlogPageProps) {
   return (
     <Page className="max-w-xl">
       <header className="text-center">
@@ -18,10 +26,11 @@ export default function BlogPage({ title, date, children }: BlogPageProps) {
             kevinpaxton.com
           </Link>
         </div>
-        <h1>{title}</h1>
-        <Date>{date}</Date>
+        <h1 className="font-sans">{title}</h1>
+        <Date className="opacity-70">{date}</Date>
       </header>
       <div className="blog-post">{children}</div>
+      <PrevNextNav prev={prev} next={next} />
     </Page>
   )
 }
