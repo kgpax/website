@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`should match snapshot 1`] = `
-<article
-  class="Content__StyledContent-sc-18ob92m-0 lodTZg"
->
-  This is some content
-</article>
-`;

@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`should match snapshot 1`] = `
-<time
-  class="Date__StyledDate-sc-mc7f4f-0 lnxnLg"
->
-  27th August 2021
-</time>
-`;
