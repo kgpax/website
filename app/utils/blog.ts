@@ -1,9 +1,5 @@
 import parseFrontMatter from 'front-matter'
-import {
-  BlogMetadata,
-  BlogMetadataAndCode,
-  BlogMetadataAndUrl,
-} from '~/types/blog'
+import { BlogInfo, BlogMetadata, BlogMetadataAndUrl } from '~/types/blog'
 import fs from '~/utils/fs.server'
 import { bundleMDX } from '~/utils/mdx.server'
 import process from '~/utils/process.server'
@@ -11,9 +7,7 @@ import process from '~/utils/process.server'
 const blogContentPath = (filename: string = '') =>
   `${process.cwd()}/app/content/blog/${filename}`
 
-export async function getPost(
-  slug: string,
-): Promise<BlogMetadataAndCode | null> {
+export async function getPost(slug: string): Promise<BlogInfo | null> {
   const source = await fs
     .readFile(blogContentPath(`${slug}.mdx`), 'utf-8')
     .catch(() => null)
@@ -36,6 +30,7 @@ export async function getPost(
 
   return {
     code: post.code,
+    url: `/blog/${slug}`,
     ...(post.frontmatter as BlogMetadata),
   }
 }
@@ -49,11 +44,13 @@ export async function getPosts(): Promise<BlogMetadataAndUrl[]> {
     postsPath.map(async entry => {
       const file = await fs.readFile(blogContentPath(entry.name))
       const { attributes } = parseFrontMatter<BlogMetadata>(file.toString())
+
       return {
         url: `/blog/${entry.name.replace(/\.mdx/, '')}`,
         ...attributes,
-      }
+      } as BlogMetadataAndUrl
     }),
   )
+
   return posts
 }

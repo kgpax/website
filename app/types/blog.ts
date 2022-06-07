@@ -18,3 +18,5 @@ export type BlogMetadataAndPrevNext = Omit<BlogMetadata, 'prev' | 'next'> & {
   prev?: BlogMetadataAndUrl
   next?: BlogMetadataAndUrl
 }
+
+export type BlogInfo = BlogMetadata & BlogMetadataAndUrl & BlogMetadataAndCode

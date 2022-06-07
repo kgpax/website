@@ -6,7 +6,4 @@ module.exports = {
   server: './server.js',
   ignoredRouteFiles: ['.*'],
   serverDependenciesToBundle: ['@mdx-js/react'],
-  mdx: () => {
-    return {}
-  },
 }
