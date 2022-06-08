@@ -16,6 +16,6 @@ export default function Date({ children, ...props }: DateProps) {
       {formattedDate}
     </time>
   ) : (
-    <>Publish date TBC</>
+    <span {...props}>Publish date TBC</span>
   )
 }

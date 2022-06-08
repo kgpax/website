@@ -14,7 +14,7 @@ export default function BlogPage({
   children,
 }: BlogPageProps) {
   return (
-    <Page className="max-w-xl">
+    <Page className="max-w-lg md:max-w-xl">
       <header className="text-center">
         <div className="font-title text-sm">
           <span className="pr-1 opacity-50">&uarr;</span>

@@ -13,7 +13,7 @@ export default function Page({ className, children }: PageProps) {
 
   return (
     <div
-      className="relative overflow-hidden min-h-screen p-8"
+      className="relative overflow-hidden min-h-screen min-w-[390px] p-8"
       style={{
         background: `linear-gradient(180deg, ${color1} calc(50% + ${halfWavesHeight}px), ${color2} calc(50% + ${halfWavesHeight}px))`,
       }}

@@ -517,11 +517,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
 .-mt-4 {
   margin-top: -1rem;
 }
@@ -544,6 +539,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-0 {
   margin-top: 0px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .block {
@@ -570,28 +569,40 @@ Ensure the default browser behavior of the `hidden` attribute.
   min-height: 100vh;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-full {
   width: 100%;
 }
 
-.max-w-xl {
-  max-width: 36rem;
+.min-w-\[32rem\] {
+  min-width: 32rem;
 }
 
-.max-w-\[80\%\] {
-  max-width: 80%;
+.min-w-\[24rem\] {
+  min-width: 24rem;
+}
+
+.min-w-\[20rem\] {
+  min-width: 20rem;
+}
+
+.min-w-\[10rem\] {
+  min-width: 10rem;
+}
+
+.min-w-\[40rem\] {
+  min-width: 40rem;
+}
+
+.min-w-\[390px\] {
+  min-width: 390px;
 }
 
 .max-w-lg {
   max-width: 32rem;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
+.max-w-\[80\%\] {
+  max-width: 80%;
 }
 
 .flex-auto {
@@ -604,6 +615,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-\[2\] {
+  flex: 2;
+}
+
+.flex-\[1\] {
+  flex: 1;
 }
 
 .translate-y-1 {
@@ -644,6 +663,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .overflow-hidden {
@@ -772,12 +795,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .text-title {
-  font-size: 6rem;
+  font-size: clamp(2rem, 10vw, 6rem);
   line-height: 1;
 }
 
 .text-subtitle {
-  font-size: 5rem;
+  font-size: clamp(2rem, 8vw, 5rem);
   line-height: 1;
 }
 
@@ -878,6 +901,7 @@ p, div, span, li {
 p {
   color: rgb(0 0 0 / var(--tw-text-opacity));
   --tw-text-opacity: 0.9;
+  text-align: justify;
 }
 
 p + * {
@@ -1005,6 +1029,10 @@ li {
 }
 
 @media (min-width: 768px) {
+  .md\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
   .md\:mb-4 {
     margin-bottom: 1rem;
   }
@@ -1015,6 +1043,22 @@ li {
 
   .md\:max-w-xl {
     max-width: 36rem;
+  }
+
+  .md\:max-w-5xl {
+    max-width: 64rem;
+  }
+
+  .md\:max-w-full {
+    max-width: 100%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:gap-10 {
+    gap: 2.5rem;
   }
 
   .md\:px-10 {

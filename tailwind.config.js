@@ -25,8 +25,8 @@ module.exports = {
         code: ['Cousine', 'Courier New', 'Courier', 'monospace'],
       },
       fontSize: {
-        'title': ['6rem', '1'],
-        'subtitle': ['5rem', '1'],
+        'title': ['clamp(2rem, 10vw, 6rem)', '1'],
+        'subtitle': ['clamp(2rem, 8vw, 5rem)', '1'],
         'xs': ['0.75rem', '1.4em'],
         'sm': ['0.875rem', '1.65em'],
         'base': ['1rem', '1.9em'],
