@@ -1,0 +1,42 @@
+export const meta = {
+  id: '73045173-a4df-4458-be32-bdb614826c4a',
+  title: 'Rewriting in NextJS',
+}
+
+import { CodeBlock, Emoji, ImageBlock, InfoBlock } from '~/components'
+import BlogPage from '~/components/BlogPage'
+export default ({ children }) => <BlogPage {...meta}>{children}</BlogPage>
+
+## What year is it?
+
+Well then... seems that some time back in May 2021, I set out to further enhance the development experience of this site by focussing on getting some testing strategies and tools in place, and sharing my journey and my findings.
+
+That didn't happen. <Emoji alt="thumbs down">👎</Emoji>
+
+Instead, we find ourselves here; over a year later with no further progress made, but with a new promise made to myself to pour some love and effort back into building out and populating this site.
+
+A lot can happen in 12 months; for instance &mdash; [I've got a new job](https://formidable.com/about/kevin-paxton/), working with the amazing folk at [Formidable](https://formidable.com). It's a fantastic company and moving there honestly ranks as one of the best choices I've made. It has given me the opportunity to focus again web application development, and less on back-end infrastructure, and to work alongside crazy smart people, building interesting new features and learning lots of new things.
+
+Well... they're new to me anyway, which is an ideal segue into what this entry is all about.
+
+## What have I been doing?
+
+There has been no particular reason why I've had such a long absence from updating the site, but I've had no particular motivation to do so either.
+
+Until now! <Emoji alt="thumbs up">👍</Emoji>
+
+Recall that I said in my [first post](/blog/site-build-001#picking-the-tech-stack) that I'd considered using this website build as an opportunity to look into NextJS, Gastby or Eleventy... well my first project in my new job has me working on a NextJS application, and now that I've got some real world exposure to it, it really seems like a great opportunity for me to take that next step. Pun 100% intended.
+
+So, this post is going to cover the journey of migrating a Creat React App website to NextJS, via a couple of diversions, along with my learnings of these techologies so far.
+
+## Why NextJS
+
+It almost wasn't.
+
+Actually, it was &mdash; then it wasn't &mdash; and then it was again. More on that later.
+
+The reason I settled on NextJS is that it is still considered one of the best React frameworks for universal rendering; [for now, at least](https://www.solidjs.com/). This means that pages and components can render both on the client _and_ on the server.
+
+So what? Well, have you noticed how quick these pages load? That's because it's all there in the HTML coming straight from the server; maybe even cached in a CDN or in your local browser. Go ahead and view the source and try to find some of the content. You wouldn't have been able to do that in the old Create React App site, because the server just gave you a blank page, and then javascript ran on the client to populate the content.
+
+With SSR, or Server Side Rendering, there is no run-time javascript responsible for generating the pages that you see as you navigate, but javascript is used to enrich pages one they have been served.

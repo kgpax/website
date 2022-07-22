@@ -1,3 +1,4 @@
+export { default as BlogList } from './BlogList'
 export { default as BlogPage } from './BlogPage'
 export { default as Code } from './Code'
 export { default as CodeBlock } from './CodeBlock'

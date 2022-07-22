@@ -1,11 +1,11 @@
-import { Date, Image, InfoBlock, Link, Page } from '~/components'
+import { BlogList, Image, InfoBlock, Link, Page } from '~/components'
 import useWebsiteContext from '~/hooks/useWebsiteContext'
 import { WavingHand } from '~/icons'
 
 const timeWorkingInSoftware = new global.Date().getFullYear() - 2004
 
 export default function Index() {
-  const { posts } = useWebsiteContext()
+  const { entries } = useWebsiteContext()
   return (
     <Page>
       <header className="flex-none text-center md:mb-20">
@@ -49,18 +49,7 @@ export default function Index() {
           </p>
         </div>
         <div className="flex-[1]">
-          <ul className="m-0 p-0">
-            {posts.map(({ title, date, fullPath: url }) => (
-              <li key={url} className="list-none">
-                <Link className="block no-underline" href={url}>
-                  <InfoBlock className="w-full transition-transform ease-in-out hover:scale-105">
-                    <div>{title}</div>
-                    <Date className="opacity-70 text-xs">{date}</Date>
-                  </InfoBlock>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <BlogList entries={entries} />
         </div>
       </main>
     </Page>
