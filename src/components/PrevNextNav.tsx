@@ -1,22 +1,19 @@
-import useWebsiteContext from '~/hooks/useWebsiteContext'
-import { BlogPrevNext } from '~/types/blog'
+import { BlogPostEntry } from '~/types/blog'
 import { tw } from '~/utils/tailwind'
 import Link from './Link'
 
-type PrevNextNavProps = React.HTMLAttributes<HTMLElement> & BlogPrevNext
+type PrevNextNavProps = React.HTMLAttributes<HTMLElement> & {
+  prev?: BlogPostEntry | null
+  next?: BlogPostEntry | null
+}
 
 export default function PrevNextNav({
-  prev,
-  next,
+  prev = null,
+  next = null,
   className,
   ...props
 }: PrevNextNavProps) {
-  const { posts } = useWebsiteContext()
-
   if (!prev && !next) return null
-
-  const prevPage = prev ? posts.find(x => x.fullPath.endsWith(prev)) : undefined
-  const nextPage = next ? posts.find(x => x.fullPath.endsWith(next)) : undefined
 
   const linkClasses =
     'list-none m-0 p-0 opacity-50 hover:opacity-100 transition-opacity'
@@ -24,21 +21,21 @@ export default function PrevNextNav({
     <nav className={tw('mt-12', className)} {...props}>
       <ul className="flex flex-row justify-center gap-4 m-0 p-0">
         <li key="prev" className={tw(linkClasses, 'flex-1 text-right')}>
-          {prevPage && (
+          {prev && (
             <>
               &larr;{' '}
-              <Link href={prevPage.fullPath} className="font-normal">
-                {prevPage.shortTitle || prevPage.title}
+              <Link href={prev.slug} className="font-normal">
+                {prev.shortTitle || prev.title}
               </Link>
             </>
           )}
         </li>
         <li className={tw(linkClasses, 'flex-none')}>|</li>
         <li key="next" className={tw(linkClasses, 'flex-1 text-left')}>
-          {nextPage && (
+          {next && (
             <>
-              <Link href={nextPage.fullPath} className="font-normal">
-                {nextPage.shortTitle || nextPage.title}
+              <Link href={next.slug} className="font-normal">
+                {next.shortTitle || next.title}
               </Link>{' '}
               &rarr;
             </>

@@ -1,17 +1,28 @@
-export type BlogDetails = {
+export type EntryMetaData = {
+  id: string
   title: string
   shortTitle?: string
-  date: string
+  description?: string
+  date?: string
+  isPublished: boolean
 }
 
-export type BlogPrevNext = {
-  prev?: string
-  next?: string
-}
-
-export type BlogMetadata = BlogDetails & BlogPrevNext
-
-export type BlogMetadataAndUrl = BlogMetadata & {
+export type PathData = {
+  filePath: string
+  fileName: string
+  series: string
   slug: string
-  fullPath: string
 }
+
+export type BlogData = EntryMetaData & PathData
+
+export type BlogPostEntry = BlogData & {
+  type: 'post'
+}
+
+export type BlogSeriesEntry = BlogData & {
+  type: 'series'
+  posts: BlogPostEntry[]
+}
+
+export type BlogEntry = BlogPostEntry | BlogSeriesEntry

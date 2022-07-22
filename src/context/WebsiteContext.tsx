@@ -1,22 +1,22 @@
 import { createContext } from 'react'
-import { BlogMetadataAndUrl } from '~/types/blog'
+import { BlogEntry, BlogPostEntry, BlogSeriesEntry } from '~/types/blog'
 import { pickColorPair } from '~/utils/colors'
-
-type WebsiteContextProviderProps = React.HTMLAttributes<HTMLBaseElement> & {
-  value: WebsiteContextData
-}
 
 export type WebsiteContextData = {
   colors: [string, string]
   copyrightYear: number
-  posts: BlogMetadataAndUrl[]
+  entries: BlogEntry[]
+  posts: BlogPostEntry[]
+  series: BlogSeriesEntry[]
 }
 
 export function getInitialWebsiteContext(): WebsiteContextData {
   return {
     colors: pickColorPair(),
     copyrightYear: new Date().getFullYear(),
+    entries: [],
     posts: [],
+    series: [],
   }
 }
 

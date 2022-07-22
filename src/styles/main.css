@@ -33,7 +33,7 @@ p + * {
 
 a {
   @apply inline-block;
-  @apply text-inherit font-bold text-black;
+  @apply text-inherit text-black;
   @apply underline underline-offset-[1px];
   @apply transition-colors;
 }

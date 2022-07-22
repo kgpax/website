@@ -3,14 +3,11 @@
     "remix.env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "**/*.mdx",
     "test/setupTests.js"
   ],
   "compilerOptions": {
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-      "ES2019"
-    ],
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
     "isolatedModules": true,
     "esModuleInterop": true,
     "jsx": "preserve",
@@ -21,9 +18,7 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": [
-        "./src/*"
-      ]
+      "~/*": ["./src/*"]
     },
     "noEmit": true,
     "allowJs": true,
@@ -31,7 +26,5 @@
     "skipLibCheck": true,
     "incremental": true
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

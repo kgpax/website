@@ -3,7 +3,7 @@ import App, { AppContext, AppProps } from 'next/app'
 import Head from 'next/head'
 import React, { useRef } from 'react'
 import { WebsiteContext, WebsiteContextData } from '~/context/WebsiteContext'
-import { getPosts } from '~/utils/blog'
+
 import { pickColorPair } from '~/utils/colors'
 import { components } from '~/utils/mdx'
 
@@ -35,14 +35,19 @@ if (typeof window === 'undefined') {
     const appProps = await App.getInitialProps(appContext)
     const colors = pickColorPair()
     const copyrightYear = new Date().getFullYear()
-    const posts = await getPosts()
+    const { getBlogEntries } = await import('~/utils/blog.server')
+    const entries = await getBlogEntries()
 
     return {
       ...appProps,
       websiteContext: {
         colors,
         copyrightYear,
-        posts,
+        entries,
+        posts: entries.flatMap(x =>
+          x.type === 'post' ? x : x.type === 'series' ? x.posts : [],
+        ),
+        series: entries.filter(x => x.type === 'series'),
       },
     }
   }
